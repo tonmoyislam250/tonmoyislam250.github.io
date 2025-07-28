@@ -1,0 +1,27 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+ width:98%;
+    height:98%;
+
+}
+
+#mainDiv {height: 390px; width: 769px; position:absolute;}
+#button1 div{font-size: 12px !important;height: auto;margin-top: -24px !important;padding-left: 1px !important;}
+#button0 div{font-size: 12px !important;height: auto;margin-top: -24px !important;padding-left: 1px !important;}
+#drop0 img#tick0,#drop1 img#tick1,#drop2 img#tick2,#drop3 img#tick3,#drop4 img#tick4,#drop5 img#tick5,#drop6 img#tick6,
+#drop7 img#tick7,#drop8 img#tick8,#drop9 img#tick9,#drop10 img#tick10,#drop11 img#tick11,#drop12 img#tick12,#drop13 img#tick13,
+#drop14 img#tick14,#drop15 img#tick15,#drop16 img#tick16,#drop17 img#tick17,#drop18 img#tick18,#drop19 img#tick19,#drop20 img#tick20,#drop21 img#tick21,#drop22 img#tick22,#drop23 img#tick23,#drop24 img#tick24,#drop25 img#tick25,#drop26 img#tick26
+{position:absolute !important;left:-17px!important;width:14px;height:14px;border:0 !important;}
+#ID_FEEDBACK #ID_s1Title{top:4px !important;color:#442557 !important;font-size:11px !important; font-weight:bold !important;}
+#ID_FEEDBACK #ID_s1BodyText{text-align:left !important;font-size:11px !important;padding:0 0 0 3px;line-height:16px;left:5px !important;top:38px !important;width:189px !important;}
+#ID_FEEDBACK{z-index:10000;}
+#textID_i_DS,#textID_e_DS,#textID_c_DS,#textID_f_DS,#textID_h_DS,#textID_g_DS,#textID_b_DS,#textID_d_DS,#textID_a_DS {color:#393536 !important;}

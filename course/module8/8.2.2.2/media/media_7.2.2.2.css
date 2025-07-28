@@ -1,0 +1,111 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:100%;
+	height:100%;
+}
+
+/*Starts Global Css Reset*/
+body { margin:0px; padding:0px;}
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, 
+form, fieldset, input, p, blockquote, table, th, td, embed, object, {
+	padding: 0px;
+	margin: 0px; 
+	}
+img,em,ol,ul,li,form,label,span,table,caption,tbody,tfoot,font,h1,h2,h3,h4,h5,h6,p,a,dl,dt,dd {
+vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+        }
+body {
+	font-size: 100%;
+	}
+html {
+	font-size: 1em;
+	}
+a img, :link img, :visited img {
+	border: 0;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+fieldset, img, abbr {
+	border: 0;
+	}
+address, caption, cite, code, dfn, em, 
+h1, h2, h3, h4, h5, h6, strong, th, var {
+	font-weight: normal;
+	font-style: normal;
+	}
+ol,ul {
+	list-style: none;
+	}
+caption, th {
+	text-align: left;
+	}
+h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
+	font-size: 1.0em;
+	}
+q:before, q:after {
+	content: '';
+	}
+a, ins {
+	text-decoration: none;
+	}
+
+	
+/*End Global Css Reset*/
+#commonImageText {z-index:11;}
+#imgId0 img{width:10px;height:20px;}
+#imgId1 img{width:9px;height:108px;}
+#imgId2 img{width:38px;height:53px;}
+#imgId3 img{width:144px;height:21px;z-index:0;}
+
+.slide1{height:122px;}
+.slide1 div{padding:10px 0px}
+div.ex{padding: 0 0 28px 0;}
+div.ex span{float: left; margin: 0;  width:25px;text-align:left;font-weight:bold}
+div.line1{clear:both;padding:0;margin:0;}
+div.row3 span{float: left; margin: 0; width:50px;text-align:left;font-weight:bold}
+
+div.zeros span{float: left;margin: 0;padding: 0; width:47px;text-align:left;font-weight:bold;}
+
+
+div.line{clear:both;padding:0;margin:0;}
+
+.slide2{height:76px;font-weight:bold;text-align:left;padding:0 0 0 10px}
+.slide2 div{padding:5px 0px 10px 0}
+.slide2 div.ex1{float:left;width:100%;}
+.slide2 div.zeros1{float:left;width:100%;}
+.slide2 div.zeros1 span{margin: 0; padding: 2px 11px; text-align: center; }
+.slide2 div.ex1 span{margin: 0; padding: 2px 20px; text-align: center; }
+.slide2 div.zeros_2 span{float: left;margin: 0;padding-top: 5px; width:47px;text-align:center;font-weight:bold;}
+/* Slide two */
+.slideTable{float:left;padding:0;margin:0;width:99%;}
+.slideTable div.row1{float:left;padding:4px 2px;width:99.2%;border-bottom:1px solid #98D3D1}
+.slideTable div.row2{float:left;padding:4px 2px;width:99.2%;border-bottom:1px solid #98D3D1 }
+.slideTable div.row1 span.col1{float:left;width:36px;}
+.slideTable div.row1 span.col2{float:left;width:16px;}
+.slideTable div.row2 span.col1{float:left;width:36px;}
+.slideTable div.row2 span.col2{float:left;width:16px;}
+
+
+@media only screen and (device-width: 768px) {
+div.zeros1_2{letter-spacing:normal;}
+}

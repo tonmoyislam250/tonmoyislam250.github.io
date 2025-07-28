@@ -1,0 +1,15 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_OSInum01,#ID_OSInum02,#ID_OSInum03,#ID_OSInum04,#ID_OSInum05,#ID_OSInum06,#ID_OSInum07 {color:#00918E !important;}

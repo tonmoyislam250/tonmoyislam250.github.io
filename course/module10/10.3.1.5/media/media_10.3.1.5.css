@@ -1,0 +1,192 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden; 
+}
+
+#mainDiv
+{
+    width:460px;
+    height:400px;
+    position:absolute; 
+}
+
+#main_wrapper{width:450px;height:360px;position:absolute;}
+#main_container{width:440px !important;height:340px !important;}
+
+#imgBackground{
+    height: 208.2px;
+    /*left: 60px;*/
+    left: 0px;
+    position: absolute;
+    top: 110px;
+    width: 363px;
+    z-index:25;
+}
+
+#imgComputer{
+    height: 52.9px;
+    left: 0;
+    position: absolute;
+    top: 261px;
+    width: 63.85px;
+    z-index: 35;
+}
+
+#ID_inst{
+    height: 17px;
+    left: 10px;
+    position: absolute;
+    top: 325px;
+    width: 450px;
+    font-size:10px; 
+}
+
+#bubble1{
+    background-color: #FDE6D4;
+    border: 3px solid #F68026;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 4px #888888;
+    color: #393536;
+    font-size: 11px;
+    height: 26px;
+    left: 85px;
+    margin: 1em 0 3em;
+    padding: 5px;
+    position: absolute;
+    top: 90px;
+    width: 104.95px;
+    z-index:35;
+}
+#bubble1::after {
+    border-color: #F68026 transparent;
+    border-style: solid;
+    border-width: 0 20px 11px 0;
+    content: "";
+    display: block;
+    left: 117px;
+    position: absolute;
+    top: 18px;
+}
+
+#bubble2{
+    background-color: #FEED95;
+    border: 3px solid #A3913B;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 4px #888888;
+    color: #393536;
+    font-size: 11px;
+    height: 26px;
+    left: 85px;
+    margin: 1em 0 3em;
+    padding: 5px;
+    position: absolute;
+    top: 140px;
+    width: 104.95px;
+    z-index:35;
+}
+#bubble2::after {
+    border-color: #A3913B transparent;
+    border-style: solid;
+    border-width: 0 20px 11px 0;
+    content: "";
+    display: block;
+    left: 117px;
+    position: absolute;
+    top: 18px;
+}
+
+#bubble3{
+    background-color: #E0D5E6;
+    border: 3px solid #652C8A;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 4px #888888;
+    color: #393536;
+    font-size: 11px;
+    height: 26px;
+    left: 85px;
+    margin: 1em 0 3em;
+    padding: 5px;
+    position: absolute;
+    top: 189px;
+    width: 104.95px;
+    z-index:35;
+}
+#bubble3::after {
+    border-color: #652C8A transparent;
+    border-style: solid;
+    border-width: 0 20px 11px 0;
+    content: "";
+    display: block;
+    left: 117px;
+    position: absolute;
+    top: 18px;
+}
+
+#ID_txt01,#ID_txt02,#ID_txt03,#ID_txt04,#ID_txt05,#ID_txt06{ 
+	font-size: 11px;
+	border: 2px solid #4E4C4D;
+	padding: 5px 15px;
+
+}
+
+#ID_txt01,#ID_txt03,#ID_txt05{ 
+	width: 108px;
+	text-align: center; 
+	float: left;
+
+}
+
+#ID_txt02,#ID_txt04,#ID_txt06{ 
+	/*width: 66px;
+	text-align: center; 
+    background-color: #E9E7E8;
+	float: right;*/
+
+    background-color: #E9E7E8;
+    float: right;
+    left: -10px;
+    position: relative;
+    text-align: center;
+    width: 66px;
+}
+
+#ID_txt01{ 
+    background-color: #FACCA8;
+}
+#ID_txt03{ 
+    background-color: #FEED95;
+}
+#ID_txt05{ 
+    background-color: #C1ABD1;
+}
+#ID_txt10{ 
+    font-size: 11px;
+    left: 98px;
+    position: absolute;
+    text-align: center;
+    top: 278px;
+    width: 66px;
+    z-index: 26;
+}
+
+#txt1,#txt2,#txt3{
+	position: absolute;
+	left: -196px;
+    top: 265px; 
+	width: 249px;
+	height: 30px;
+	float: left;
+	clip:rect(0px, 280px, 32px, 245px);
+	z-index:30;
+}                                           

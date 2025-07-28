@@ -1,0 +1,23 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+p, table {margin:0; padding:0; color:#393536 !important;}
+#staticTxt1 table {line-height:13.75px;}
+#staticTxt3 table {line-height:13.35px;}
+#staticTxt1 table, #staticTxt2_1, #staticTxt2_2, #staticTxt3 {font-family:"Courier New" !important;}
+td.leftfloat{ text-align:left !important;} 
+#ID_txt01 {border:2px solid #F68026; background:#FDE6D4; border-radius:5px; padding:5px;}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#staticTxt1 table {line-height:1.3em;margin-top:1px; padding-bottom:2px;}
+	}

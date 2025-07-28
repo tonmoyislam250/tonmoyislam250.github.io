@@ -1,0 +1,20 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#staticTxt{font-family:Arial;}
+#staticTxt1{font-family:Arial;}
+
+ @media only screen and (device-width: 768px) {
+#staticTxt1{font-family:Arial;margin-left:2px;}
+}

@@ -1,0 +1,86 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	min-height: 390px;
+	min-width:470px;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#letters{font-family:Arial;}
+/*#ID_table{width:446px;border:2px solid #918F90;border-bottom:none;font-size:11px;margin:0 0 0 0px;padding:0;}
+#ID_table table{width:100%;}
+#ID_table table tr td{border-bottom:2px solid #918F90;padding:2px 4px}
+#ID_table table tr td.colOne{width:30px}
+#ID_table table tr td.colTwo{padding-left:10px}*/
+table.table1{width:455px;font-family:"Courier New" !important; font-size:11px; font-weight:normal;letter-spacing: -0.5px; }
+div.col1{width:40px;text-align:center}
+div.col2{width:250px;text-align:left;padding:0 0 0 19px}
+div.col3{width:136px;text-align:left;padding:0 0 0 1px}
+#staticTxt1{font-weight:bold;}
+
+
+/*Starts Global Css Reset*/
+body { margin:0px; padding:0px;}
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, 
+form, fieldset, input, p, blockquote, table, th, td, embed, object, {
+	padding: 0px;
+	margin: 0px; 
+	}
+img,em,ol,ul,li,form,lable,span,table,caption,tbody,tfoot,font,h1,h2,h3,h4,h5,h6,p,a,dl,dt,dd {
+vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+        }
+body {
+	font-size: 100%;
+	}
+html {
+	font-size: 1em;
+	}
+a img, :link img, :visited img {
+	border: 0;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+fieldset, img, abbr {
+	border: 0;
+	}
+address, caption, cite, code, dfn, em, 
+h1, h2, h3, h4, h5, h6, strong, th, var {
+	font-weight: normal;
+	font-style: normal;
+	}
+ol,ul {
+	list-style: none;
+	}
+caption, th {
+	text-align: left;
+	}
+h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
+	font-size: 1.0em;
+	}
+q:before, q:after {
+	content: '';
+	}
+a, ins {
+	text-decoration: none;
+	}
+
+	
+/*End Global Css Reset*/

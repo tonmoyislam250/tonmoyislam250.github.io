@@ -1,0 +1,18 @@
+<textcomponents>
+<component id="ID_tx01">
+   <text><![CDATA[This packet is destined for a host on the 172.16.5.0 network.]]></text>
+   </component>
+<component id="ID_tx02">
+   <text><![CDATA[<b>Student LAN</b>]]></text>
+   </component>
+<component id="ID_tx03">
+   <text><![CDATA[<b>Faculty LAN</b>]]></text>
+   </component>
+<component id="ID_tx04">
+   <text><![CDATA[<b>Admin LAN</b>]]></text>
+   </component>
+<component id="ID_tx05">
+   <text><![CDATA[This packet is destined for a device on my local network.]]></text>
+   </component>
+
+</textcomponents>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>4.2.5.1 Making the Connection</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+    	myLayout = $('body').layout({
+          west__size:300,
+          stateManagement__enabled: true,
+          maskContents: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+	  stateManagement__cookie__expires: 1,
+	  stateManagement__cookie__path: "/"
+        });
+
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Network Media</h1>
+        <h2>Selecting the Appropriate Media</h2>
+      </div>
+      <div id="content">
+          <p>Using the proper media is an important part of network communications. Without the proper physical connection, either wired or wireless, communications between any two devices will not occur.</p>
+          <p></p>
+          <p>In most home and small office networks our network connections include:</p>
+          <p>
+            <ul>
+              <li>
+                <b>LAN connections</b>: End-user and intermediary devices that are connected within the local network.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>WAN connections</b>: The connection between our local network and our ISP’s network.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>LAN Connections</b>
+          </p>
+          <p></p>
+          <p>End-devices can connect to the LAN using either a wired connection or using wireless transmissions. Notice in the figure that the computers and network printers are connected to the Ethernet switches using a straight-through Ethernet cable. The Ethernet switch may be embedded within the router or be a separate device.</p>
+          <p></p>
+          <p>Category 5 Ethernet cables are used when the end-device’s NIC card and the switch port can operate at a bandwidth up to 100 Mbps. For gigabit and higher bandwidths, Category 6 cables should be used. Category 6 cables also support the lesser bandwidths as well.</p>
+          <p></p>
+          <p>An Ethernet cross-over cable is used when needing to connect two Ethernet switches. Adding additional switches is useful to extend the number of devices in the LAN. </p>
+          <p></p>
+          <p>
+            <b>Note</b>: Some switches have a Medium Dependent Interface (MDI or MDI-X) port which allows a straight-though cable to be used when connecting to another switch.</p>
+          <p></p>
+          <p>Devices can also be connected using wireless communications. It is important that the device’s WLAN NIC uses a WLAN standard that is compatible with the wireless access point. For example, an 802.11ac wireless access point will support Wi-Fi clients using 802.11a, b, g or n. </p>
+          <p></p>
+          <p>
+            <b>WAN Connections</b>
+          </p>
+          <p></p>
+          <p>To connect the LAN to the provider’s network the router must be connected to a DSL or cable modem. A straight-through Ethernet cable is used for the connection. </p>
+          <p></p>
+          <p>The DSL or cable modem needs to have a connection to the service provider. For DSL this is typically done using an RJ-11 connector and an ordinary 6 wire telephone cable. Cable modems are usually connected to the cable provider using a coaxial cable.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: Some home routers include an embedded DSL or cable modem.</p>
+          <p></p>
+          <p>Using the proper cables or wireless standard to make the connections is an essential first step in establishing network connectivity.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic" longdesc="media_4.2.5.1_longdesc.txt"></iframe>
+  </body>
+</html>

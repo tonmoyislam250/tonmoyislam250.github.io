@@ -1,0 +1,50 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	min-height: 390px;
+	min-width:470px;
+}
+#flashContent {
+	width:100%;
+	height:100%;
+}
+#ID_txt01,#ID_txt05 { border:1px solid #393536; background-color:#d3d1d2; padding-bottom: 18px;padding-top: 18px;} 
+#ID_txt01 {border-left:1px solid #393536 !important; padding-left: 3px;}
+#ID_txt02 {border:1px solid #393536 !important;}
+#ID_txt02{ border:1px solid #393536; background-color:#d3d1d2; border-left:none; border-right:none; padding-bottom: 18px;padding-top: 18px;}
+
+#ID_txt03 { border:1px solid #393536; background-color:#d3d1d2; padding-bottom: 11px;padding-top: 11px; padding-left:6px; padding-right:6px;} 
+#ID_txt04 { border:1px solid #393536; background-color:#d3d1d2; padding-bottom: 11px;padding-top: 11px; padding-left:1px; padding-right:1px;}   
+
+#ID_txt11 {border:1px solid #393536; background-color:#d3d1d2; padding-bottom: 2px;padding-top: 5px;}
+#ID_txt12,#ID_txt13,#ID_txt14,#ID_txt15 {border:1px solid #393536; background-color:#d3d1d2; padding-bottom: 2px;padding-top: 5px;}
+#ID_txt14 {border:1px solid #393536; background-color:#F68026; padding-bottom: 2px;padding-top: 5px; color:#FFF !important;}
+
+#ID_txt11b,#ID_txt12b,#ID_txt14b,#ID_txt15b {border:1px solid #393536; background-color:#d3d1d2; padding-bottom: 2px;padding-top: 5px;}
+
+#ID_txt13b {border:1px solid #393536; background-color:#F68026; padding-bottom: 2px;padding-top: 5px; color:#FFF !important}
+
+#ID_txt11a,#ID_txt12a,#ID_txt14a,#ID_txt15a {border:1px solid #393536; background-color:#d3d1d2; padding-bottom: 2px;padding-top: 5px;}
+
+#ID_txt13a {border:1px solid #393536; background-color:#F68026; padding-bottom: 2px;padding-top: 5px; color:#FFF !important}
+
+#ID_txt18 {border:3px solid #67bdbc; background-color:#cce9e7; border-radius: 2px 2px 2px 2px; padding-left: 3px; box-shadow: 2px 2px 2px #666666;}
+#ID_txt19 {border:3px solid #67bdbc; background-color:#cce9e7; border-radius: 2px 2px 2px 2px; padding-left: 3px; box-shadow: 2px 2px 2px #666666;}
+
+#ID_s1_bubble01.arrow:before
+{
+       content: ' ';
+       position: fixed;
+       width: 0;
+       height: 0;
+       left: 30px;
+       top: -11px;
+       border-color: #67bdbc transparent transparent #67bdbc;
+       border-right:15px solid #67bdbc;
+       border-top:26px solid transparent;
+}

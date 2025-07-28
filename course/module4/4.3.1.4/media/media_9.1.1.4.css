@@ -1,0 +1,144 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden !important;
+}
+#mainDiv {
+width:470px;	
+height:400px;
+left:0;
+position:absolute;
+top:0;
+}
+#maincontainer
+{
+width:460px;
+height:390px;
+position:absolute;
+top:0px;
+left:0px;
+}
+#imagecontainer
+{
+width:327px;
+height:300px;
+position:absolute;
+left:75px;
+top:35px;
+background:url(9_1_1_4.jpg) top center no-repeat;	
+}
+#layertext
+{
+background: none repeat scroll 0 0 #FDE6D4;
+border: 2px solid #F68026;
+border-radius: 5px 5px 5px 5px;
+font-size: 11px;
+height: 39px;
+left: 183px;
+padding: 5px;
+position: absolute;
+text-align: left;
+top: 172px;
+width:181px;
+}
+#serialtext
+{
+font-size: 11px;
+height: 17px;
+left: 123px;
+position: absolute;
+top: 37px;
+width: 145px;	
+}
+#ethertext
+{
+font-size: 11px;
+height: 17px;
+left: -60px;
+position: absolute;
+top: 117px;
+width: 145px;	
+}
+
+#anim3box
+{
+height: 21px;
+left: -72px;
+position: absolute;
+top: 236px;
+width: 235px;
+}
+#animbox1
+{
+width:75px;
+height:18px;
+position:absolute;
+top:0px;
+left:0px;
+border:2px solid #393536;
+background:#dbecda;
+font-size:11px;
+text-align:center;
+padding-top:3px;
+}
+#animbox2
+{
+width:75px;
+height:18px;
+position:absolute;
+top:0px;
+left:78px;
+border:2px solid #393536;
+background:#facca8;
+font-size:11px;
+text-align:center;
+padding-top:3px;
+}
+#animbox3
+{
+width:75px;
+height:18px;
+position:absolute;
+top:0px;
+left:156px;
+border:2px solid #393536;
+background:#dbecda;
+font-size:11px;
+text-align:center;
+padding-top:3px;
+}
+#animbox4
+{
+background: none repeat scroll 0 0 #FFF3B9;
+border: 2px solid #393536;
+font-size: 11px;
+height: 18px;
+left: 13px;
+padding-top:3px;
+position: absolute;
+text-align: center;
+top: 0;
+width: 72px;	
+}
+#animbox5
+{
+background: none repeat scroll 0 0 #FFF3B9;
+border: 2px solid #393536;
+font-size: 11px;
+height: 18px;
+left: 155px;
+padding-top:3px;
+position: absolute;
+text-align: center;
+top: 0;
+width: 65px;
+}

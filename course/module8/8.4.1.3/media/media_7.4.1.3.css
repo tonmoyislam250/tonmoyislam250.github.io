@@ -1,0 +1,27 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+.ipaddress{font-family:Courier New;float:left;padding:0;margin:0}
+.tab1_1{font-family:arial;height:38px;float:left;#DBECDA;width:246px;border:1px solid #000;border-bottom:0;}
+.tab3_3{font-family:arial;height:38px;float:left;#DBECDA;width:71px;border:1px solid #000;border-bottom:0;}
+.tab1{font-family:arial;height:38px;float:left;#DBECDA;width:243px;}
+.tab2{border:2px solid #393536;height:44px;float:left;background-color:#DBECDA;width:243px;margin-top:2px;}
+.tab3{font-family:arial;height:38px;float:left;#DBECDA;width:69px;}
+.tab4{border:2px solid #393536;height:44px;float:left;background-color:#DBECDA;width:69px;margin-top:2px;}
+.ipaddress span.col1{font-size:11px;padding:16px 5px;text-align:center;width:60px;float:left;font-weight:bold;}
+.ipaddress span.col2{font-size:11px;padding:16px 5px;text-align:center;width:5px;float:left;font-weight:bold;}
+
+
+#ID_txt01,#ID_txt02{background-color:#fff;z-index:1;padding:0 10px}
+

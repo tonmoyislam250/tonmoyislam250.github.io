@@ -1,0 +1,21 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_s2_bodytext {line-height:13px;}
+/*#mainDiv{width:440px; height:230px;position:absolute; top:0px; left:0px;}*/
+#mainDiv{width:440px; height:230px;position:absolute; top:0px; transform:none !important;}
+
+li{margin-bottom:3px;}
+
+#ID_s1_txt09,#ID_s1_txt10{line-height:9px !important; }

@@ -1,0 +1,16 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:98%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#ID_txt20 { font-family:"Courier New", Courier, monospace; line-height: 16px;}
+table tr td strong{font-size:11.4px !important}

@@ -1,0 +1,284 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden !important;
+}
+#mainDiv
+{
+width:470px;
+height:400px;
+position:absolute;
+top:0px;
+left:0px;
+}
+#maincontainer
+{
+width:470px;
+height:400px;
+position:absolute;
+top:0px;
+lefgt:0px;
+}
+#imagecontainer
+{
+background:url(7_3_2_3.png) top center no-repeat;
+width:431px;
+height:280px;
+position:absolute;
+top:50px;
+left:28px;	
+}
+#envelope
+{
+width:30px;
+height:19px;
+position:absolute;
+top:213px;
+left:14px;		
+}
+
+#envelope2,#envelope8
+{
+width:30px;
+height:19px;
+position:absolute;
+top:165px;
+left:80px;		
+}
+#envelope3,#envelope7
+{
+width:30px;
+height:19px;
+position:absolute;
+top:81px;
+left:195px;		
+}
+#envelope4,#envelope6
+{
+width:30px;
+height:19px;
+position:absolute;
+top:163px;
+left:311px;		
+}
+#envelope5
+{
+width:30px;
+height:19px;
+position:absolute;
+top:215px;
+left:247px;		
+}
+
+#topblur
+{
+width:211px;
+height:23px;
+position:absolute;
+top:-7px;
+left:95px;
+}
+#bottomblur
+{
+width:211px;
+height:23px;
+position:absolute;
+top:17px;
+left:95px;
+}
+#dvSliderContainer{width:450px !important;bottom: 7px!important;}
+#slider{width:246px !important;}
+
+#title{line-height:5px !important;}
+
+#title font b {font-size:14px !important;font-weight:bold;}
+
+#text1{height:18px;
+    left: 101px;
+    position: absolute;
+    top: 1px;
+    width: 86px;
+	text-align:center;
+	font-size:11px;
+	padding:6px 0 0 0px;
+	}
+	
+	#text2{height:18px;
+    left: 188px;
+    position: absolute;
+    top: 1px;
+    width: 125px;
+	text-align:center;
+	font-size:11px;
+	padding:6px 0 0 0px;
+	}
+	
+	#text3{height:18px;
+    left: 101px;
+    position: absolute;
+    top: 26px;
+    width: 86px;
+	text-align:center;
+	font-size:11px;
+	padding:6px 0 0 0px;
+	}
+	#text4{height:18px;
+    left: 188px;
+    position: absolute;
+    top: 26px;
+    width: 125px;
+	text-align:center;
+	font-size:11px;
+	padding:6px 0 0 0px;
+	}
+	#text5
+	{
+	width:74.30px;
+	height:30.40px;
+	position:absolute;
+	top:55px;
+	left:100px;	
+	text-align:center;
+	font-size:11px;
+	}
+	#text6
+	{
+	width:74.30px;
+	height:30.40px;
+	position:absolute;
+	top:55px;
+	left:240px;	
+	text-align:center;
+	font-size:11px;
+	}
+	#text6
+	{
+	width:74.30px;
+	height:30.40px;
+	position:absolute;
+	top:55px;
+	left:240px;	
+	text-align:center;
+	font-size:11px;
+	}
+	#text7
+	{
+	font-size: 11px;
+    height: 17px;
+    left: 168px;
+    position: absolute;
+    text-align: center;
+    top: 93px;
+    width: 17px;
+	z-index: -1;
+	}
+	#text8
+	{
+	font-size: 11px;
+    height: 17px;
+    left: 233px;
+    position: absolute;
+    text-align: center;
+    top: 93px;
+    width: 17px;
+	z-index: -1;
+	}
+	
+	#text9
+	{
+	background: none repeat scroll 0 0 #FDE6D4;
+    border: 2px solid #F68026;
+    border-radius: 5px 5px 5px 5px;
+    height: 15px;
+    left: -24px;
+    padding: 5px;
+    position: absolute;
+    top: 168.35px;
+    width: 73px;
+	text-align: center;
+	font-size: 11px;
+	padding-top:6px;
+	z-index:-1
+	}
+	
+	#text10
+	{
+	font-size: 11px;
+    height: 30.4px;
+    left: -7px;
+    position: absolute;
+    text-align: center;
+    top: 245px;
+    width: 74.3px;	
+	}
+	
+	#text11
+	{
+	font-size: 11px;
+    height: 30.4px;
+    left: 58px;
+    position: absolute;
+    text-align: center;
+    top: 273px;
+    width: 74.3px;	
+	}
+	
+	#text12
+	{
+	font-size: 11px;
+    height: 30.4px;
+    left: 117px;
+    position: absolute;
+    text-align: center;
+    top: 246px;
+    width: 74.3px;
+	}
+	
+	#text13{font-size: 11px;
+    height: 30.4px;
+    left: 225px;
+    position: absolute;
+    text-align: center;
+    top: 248px;
+    width: 74.3px;}
+	
+	#text14{font-size: 11px;
+    height: 30.4px;
+    left: 288px;
+    position: absolute;
+    text-align: center;
+    top: 273px;
+    width: 74.3px;}
+	
+	#text15{font-size: 11px;
+    height: 30.4px;
+    left: 352px;
+    position: absolute;
+    text-align: center;
+    top: 247px;
+    width: 74.3px;}
+	#text16
+	{
+	background: none repeat scroll 0 0 #e0d5e6;
+    border: 2px solid #652c8a;
+    border-radius: 5px 5px 5px 5px;
+    height: 15px;
+    left: 205px;
+    padding: 5px;
+    position: absolute;
+    top: 168.35px;
+    width: 73px;
+	text-align: center;
+	font-size: 11px;
+	padding-top:6px;
+	z-index:-1
+	}

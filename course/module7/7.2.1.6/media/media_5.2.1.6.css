@@ -1,0 +1,39 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#imgId0{
+	height: 221px;
+    overflow: auto;
+    width: 453px;	
+	border-left:1px solid #d0d0d0; 
+	top:-5px !important;
+	}	
+
+#imgId0>img {
+    height: 720px;
+    width: 574px;
+}
+
+span{font-size:11px; margin:0px 0px 0px 5px;}
+li{margin-left:2em !important; font-size:11px !important; padding-left:3px;}
+#ID_title_txt b {font-size: 11px;}
+textformat {position: relative;top: -8px;}
+.textboxheader{color:#3E254D;}
+#divSpacing{padding-bottom:10px;}
+ #hackSpan{margin-top:-3px;}
+
+ @media only screen and (device-width: 768px) {
+ li{margin-left:.6em !important;}
+ #hackSpan{margin-top:-8px}
+}

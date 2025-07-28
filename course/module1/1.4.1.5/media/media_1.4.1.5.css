@@ -1,0 +1,181 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#mainDiv
+{
+width:400px;
+height:390px;
+position:absolute;
+top:0px;
+}
+#textbox{
+	left: 62px;
+    position: absolute;
+    top: 123px;
+	display:none;
+	z-index:1;
+	box-shadow:0 5px 7px #ccc;
+	}
+	
+#ID_txt01{left:132px;top:41.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;color:#393536}
+#ID_txt02{left:243px;top:115.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;color:#393536}
+#ID_txt03{left:224px;top:242.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;color:#393536}
+#ID_txt04{left:128px;top:318.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;color:#393536}
+#ID_txt05{left:16px;top:236.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;color:#393536}
+#ID_txt06{left:0px;top:118.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;color:#393536}
+#ID_txt07{left:94px;top:183.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;color:#393536}		
+#ID_btn01_header{left:26px;top:125.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;z-index:1;color:#442557;display:none}
+#ID_btn01_body{color: #393536;
+    font-size: 11px;
+    height: 17px;
+    left: 70px;
+    position: absolute;
+    text-align: left;
+    top: 156.6px;
+    width: 248px;
+    z-index: 1;display:none}
+#ID_btn02_header{left:26px;top:125.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;z-index:1;color:#442557;display:none}
+#ID_btn02_body{color: #393536;
+    font-size: 11px;
+    height: 17px;
+    left: 70px;
+    position: absolute;
+    text-align: left;
+    top: 156.6px;
+    width: 248px;
+    z-index: 1;;display:none}
+#ID_btn03_header{left:26px;top:125.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;z-index:1;color:#442557;display:none}
+#ID_btn03_body{color: #393536;
+    font-size: 11px;
+    height: 17px;
+    left: 70px;
+    position: absolute;
+    text-align: left;
+    top: 156.6px;
+    width: 248px;
+    z-index: 1;display:none}
+#ID_btn04_header{left:26px;top:125.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;z-index:1;color:#442557;display:none}
+#ID_btn04_body{color: #393536;
+    font-size: 11px;
+    height: 17px;
+    left: 70px;
+    position: absolute;
+    text-align: left;
+    top: 156.6px;
+    width: 248px;
+    z-index: 1;display:none}
+#ID_btn05_header{left:26px;top:125.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;z-index:1;color:#442557;display:none}
+#ID_btn05_body{color: #393536;
+    font-size: 11px;
+    height: 17px;
+    left: 70px;
+    position: absolute;
+    text-align: left;
+    top: 156.6px;
+    width: 248px;
+    z-index: 1;display:none}
+#ID_btn06_header{left:26px;top:125.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;z-index:1;color:#442557;display:none}
+#ID_btn06_body{color: #393536;
+    font-size: 11px;
+    height: 17px;
+    left: 70px;
+    position: absolute;
+    text-align: left;
+    top: 156.6px;
+    width: 256px;
+    z-index: 1;display:none}
+#ID_btn07_header{left:26px;top:125.6px;width:152px;height:17px;font-size:11px;text-Align:center;position:absolute;z-index:1;color:#442557;display:none}
+#ID_btn07_body{color: #393536;
+    font-size: 11px;
+    height: 17px;
+    left: 70px;
+    position: absolute;
+    text-align: left;
+    top: 156.6px;
+    width: 248px;
+    z-index: 1;display:none}
+	
+#closeBtn{
+	left:309px;
+	top:123px;
+	position:absolute;
+	z-index:1;
+	display:none;
+	}
+#btn1glow{
+	height: 120px;
+    left: 123px;
+    position: absolute;
+    top: -3px;
+    width: 167px;
+	display:none;
+	}
+#btn2glow{
+	height: 120px;
+    left: 236px;
+    position: absolute;
+    top: 72px;
+    width: 165px;
+	display:none;
+	}
+#btn3glow{
+	height: 120px;
+    left: 217px;
+    position: absolute;
+    top: 188px;
+    width: 165px;
+	display:none;
+	}
+#btn4glow{
+	height: 120px;
+    left: 121px;
+    position: absolute;
+    top: 272px;
+    width: 165px;
+	display:none;
+	}
+#btn5glow{
+	height: 120px;
+    left: 10px;
+    position: absolute;
+    top: 192px;
+    width: 165px;
+	display:none;
+	}
+#btn6glow{
+	height: 120px;
+    left: 0px;
+    position: absolute;
+    top: 72px;
+    width: 165px;
+	display:none;
+	}
+#btn7glow{
+	height: 120px;
+    left: 89px;
+    position: absolute;
+    top: 127px;
+    width: 165px;
+	display:none;
+	}
+
+ @media only screen and (device-width: 768px) {
+ #mainDiv
+{
+width:410px;
+height:390px;
+position:absolute;
+top:0px;
+
+}
+}

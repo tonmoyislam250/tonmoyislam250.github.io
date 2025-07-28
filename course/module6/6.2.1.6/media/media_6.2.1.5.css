@@ -1,0 +1,20 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#ID_txt20 { background-image:url(6_4_2_1.png); background-repeat:no-repeat; width:409.15px !important; height:230px; background-attachment:scroll !important; line-height: 12px;}
+
+body #ID_txt20{ font-family:"Courier New" !important;}
+body #ID_txt20 table { letter-spacing:-1px;}
+#ID_txt05 { font-family:"Courier New" !important; font-size:10px; letter-spacing:-1px;}
+#ID_txt06 { font-family:"Courier New" !important; font-size:10px; letter-spacing:-1px;}

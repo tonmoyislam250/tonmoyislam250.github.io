@@ -1,0 +1,43 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+    width:98%;
+    height:98%;
+    overflow:hidden;
+}
+
+#htmlMedia{
+    position:relative;
+    overflow:hidden !important
+}
+
+#staticTxt{font-family:Courier New;line-height:13.5px;font-size:12px;}
+#staticTxt1{font-family:Courier New;line-height:13.5px;font-size:12px;}
+#staticTxt2{font-family:Courier New;line-height:13.5px;font-size:12px;}
+#staticTxt3{font-family:Courier New;line-height:13.5px;font-size:12px;}
+
+#ID_txt01{
+	background-color:#FDE6D4;
+	border:#F68026 solid 2px;
+	border-radius:5px;
+	padding:5px;
+	}
+	
+	#ID_txt02{
+	background-color:#FDE6D4;
+	border:#F68026 solid 2px;
+	border-radius:5px;
+	padding:5px;}
+	
+	#ID_txt03{
+	background-color:#FDE6D4;
+	border:#F68026 solid 2px;
+	border-radius:5px;
+	padding:5px;}

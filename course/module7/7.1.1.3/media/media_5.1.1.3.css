@@ -1,0 +1,34 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#ID_txt09, #ID_txt10, #ID_txt11 {
+	border:2px solid #F68026;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+	background:#FDE6D4;
+	padding:5px;
+}
+
+#ID_txt01{
+
+    background:#ffffff;
+	height:43px;
+	padding:5px 1px 5px 8px;
+	border:2px solid #D3D1D2;
+	border-radius:5px;
+
+}

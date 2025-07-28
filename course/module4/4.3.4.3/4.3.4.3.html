@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>4.3.4.3 Layer 2 Address</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+    	myLayout = $('body').layout({
+          west__size:300,
+          stateManagement__enabled: true,
+          maskContents: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane"
+        });
+
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+    	var date = new Date();
+     	var minutes = 10;
+     	date.setTime(date.getTime() + (minutes * 60 * 1000));
+     	$.cookie("ui_pane", "foo", { expires: date });
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Media Access Control</h1>
+        <h2>Data Link Frame</h2>
+      </div>
+      <div id="content">
+          <p>The data link layer provides addressing that is used in transporting a frame across a shared local media. Device addresses at this layer are referred to as physical addresses. Data link layer addressing is contained within the frame header and specifies the frame destination node on the local network. The frame header may also contain the source address of the frame. </p>
+          <p></p>
+          <p>Physical addresses are not hierarchical in nature. That means that the physical address does not indicate on what network the device is located, but rather is a unique address among all devices, everywhere. If the device is moved to another network or subnet, it will still function with the same Layer 2 physical address.</p>
+          <p></p>
+          <p>By having an address that is device specific and non-hierarchical, the address cannot be used to locate a device. There are simply too many devices connected to the Internet! The address, however, can be used to locate a device within a limited area, with a limited number of devices to choose from. For this reason, the data link layer address is only used for local delivery. Addresses at this layer have no meaning beyond the local network. </p>
+          <p></p>
+          <p>If the data packet must pass onto another network segment, the intermediate device - a router - must accept the frame, de-encapsulate the frame, examine the hierarchical Layer 3 address to determine where to locate the destination device, and then create a new frame for the packet, and send it onto the new segment toward its final destination. The new frame will use source and destination physical addressing as necessary to transport the packet across the new media.</p>
+          <p></p>
+          <p>The figure highlights Layer 2 address requirements in multi-access and point-to-point topologies.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic" longdesc="media_4.3.4.3_longdesc.txt"></iframe>
+  </body>
+</html>

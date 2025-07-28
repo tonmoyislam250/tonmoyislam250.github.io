@@ -1,0 +1,23 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+
+body #staticTable{ font-family:"Courier New" !important;overflow::none;}
+body #staticTable table {letter-spacing: -1.8px;line-height: 14px;}
+.liner_1 { line-height:27px;}
+.liner_2{margin-left:-3px}
+.moveTd{margin-right:17px;}
+body #staticTable1{ font-family:"Courier New" !important;overflow::none;}
+#outputOmitted{font-family:"Arial" !important;padding-top:2px;}

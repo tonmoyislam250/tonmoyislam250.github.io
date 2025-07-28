@@ -1,0 +1,11 @@
+<textcomponents>
+<component id="ID_tx01">
+   <text><![CDATA[<b>Student LAN</b>]]></text>
+   </component>
+<component id="ID_tx02">
+   <text><![CDATA[<b>Faculty LAN</b>]]></text>
+   </component>
+<component id="ID_tx03">
+   <text><![CDATA[<b>Admin LAN</b>]]></text>
+   </component>
+</textcomponents>

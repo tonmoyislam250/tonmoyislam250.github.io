@@ -1,0 +1,29 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+    margin:0;
+    height:100%;
+}
+#flashContent {
+    width:98%;
+    height:98%;
+    overflow: hidden !important;
+}
+
+#ID_osi_header font b{
+    font-size:12px !important;
+    text-align:left;
+}
+
+#ID_txt02 font b{
+    font-size:12px !important;
+    text-align:left;
+}
+
+#ID_tcpip_header font b{
+    font-size:12px !important;
+    text-align:left;
+}

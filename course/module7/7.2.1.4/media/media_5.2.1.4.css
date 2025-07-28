@@ -1,0 +1,37 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden;
+}
+
+#imgId0{
+	height: 221px;
+    overflow: auto;
+    width: 453px;	
+	border-left:1px solid #d0d0d0; 
+}	
+
+#imgId0 img {height: 591px;width: 670px;}
+font {font-size:11px !important;}	
+.ulclass{}
+li{margin-left:1.5em;}
+#ID_title_txt b { font-size:11px; color:#ffffff;}
+#ID_body_txt span ul { margin:0px !important; padding:0px !important;}
+#ID_title_txt b{color:#3E254D;}
+.textboxheader{color:#3E254D;}
+/*@media only screen and (device-width:786px){
+	li{margin-left:-0.5em; border:1px solid red;}
+	}*/
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	li{margin-left:1.5em;}
+}

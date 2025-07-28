@@ -1,0 +1,28 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#imgId0{
+	height: 228px;
+    overflow: auto;
+    width: 430px;	
+	border-left:1px solid #d0d0d0; 
+}
+.ulclass{border:0px;padding:0px;margin:0 0 0 -30px;}
+ul li{margin-left:.2em;}
+
+li {
+    margin-left:1.2em !important;
+}
+@media only screen and (device-width: 768px) {
+  li{margin-left:.15em !important;}
+}

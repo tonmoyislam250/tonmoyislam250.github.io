@@ -1,0 +1,316 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	overflow:hidden;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	/*border:1px solid #F00;*/
+}
+
+#mainDiv { position:absolute; left: 0; top:0px; width:780px; height:400px;}
+/*#main_div { width:100%;}*/
+#content { width:37%; margin:0 auto;}
+body { font-family: Arial, Helvetica, sans-serif; font-size:11px}
+
+
+
+#pc1{
+	position:absolute;
+	left: 304px;
+	display:none;
+	top: 121px;}
+	
+		#pc2{
+	position:absolute;
+	left: 304px;
+	display:none;
+	top: 253px;}
+	
+	#pc3{
+	position:absolute;
+	left: 438px;
+	display:none;
+	top: 282px;}
+	
+	#pc4{
+	position:absolute;
+	left: 582px;
+	display:none;
+	top: 253px;}
+	
+	#pc5{
+	position:absolute;
+	left: 582px;
+	top: 121px;
+	display:none;}
+	
+
+	
+	
+	#pc6{
+	position:absolute;
+	left: 441px;
+	top:80px;
+	display:none;}
+	
+	
+	
+	#pc1_glow{
+	position:absolute;
+	left: 304px;
+	display:none;
+	top: 121px;}
+	
+		#pc2_glow{
+	position:absolute;
+	left: 304px;
+	display:none;
+	top: 253px;}
+	
+	#pc3_glow{
+	position:absolute;
+	left: 438px;
+	display:none;
+	top: 282px;}
+	
+	#pc4_glow{
+	position:absolute;
+	left: 582px;
+	display:none;
+	top: 253px;}
+	
+	#pc5_glow{
+	position:absolute;
+	left: 582px;
+	top: 121px;
+	display:none;}
+	
+
+	
+	
+	#pc6_glow{
+	position:absolute;
+	left: 441px;
+	top:80px;
+	display:none;}
+
+
+
+	#start{
+		cursor:pointer;
+	position:absolute;
+	display:block;
+	width:100px;
+	
+		height:23px;
+	
+		left: 510px;
+	
+		top: 374px;
+	text-align:center;
+	
+	border-radius:5px;
+	background-image:url('blue_button.jpg');}
+
+
+	#start span{
+		display:block;
+		padding:4px;
+		color:white;}
+
+
+	#start :hover{		
+border-radius:5px;
+border:#164F6A solid 0.03em;
+background-image:url('blue_button_hover.jpg');
+color: #067EB2;}
+
+#start span :hover{		
+border:none;
+}
+
+
+
+#stop{
+	cursor:pointer;
+	position:absolute;
+	display:block;
+	width:100px;
+	height:23px;
+	left: 510px;
+	top: 374px;
+	text-align:center;
+	
+	border-radius:5px;
+	background-image:url('blue_button.jpg');}
+
+
+	#stop span{
+		display:block;
+		padding:4px;
+		color:white;}
+
+
+	#stop :hover{		
+border-radius:5px;
+border:#164F6A solid 0.03em;
+background-image:url('blue_button_hover.jpg');
+color: #067EB2;}
+
+#stop span :hover{		
+border:none;
+}
+	
+
+#reset{
+	cursor:pointer;
+	position:absolute;
+	display:block;
+	width:100px;
+	height:23px;
+	left: 619px;
+	top: 374px;
+	text-align:center;
+	border-radius:5px;
+	background-image:url('blue_button.jpg');}
+
+
+	#reset span{
+		display:block;
+		padding:4px;
+		color:white;}
+
+
+	#reset :hover{
+border-radius:5px;
+border:#164F6A solid 0.03em;
+background-image:url('blue_button_hover.jpg');
+color: #067EB2;}
+
+#reset span :hover{		
+border:none;
+}
+
+	.computer{cursor:pointer;}
+	.computer_glow{cursor:pointer;}
+
+
+
+#destination{
+	position:absolute;
+	left: 248px;
+	width:150px;
+	font-size: 11px;
+	top: 26px;}
+	
+	#destinationtext{
+	position:absolute;
+	left:425px;
+	font-size:12px;
+	
+	font-weight: bold;
+	top:27px;}
+
+	#popup{
+		position:absolute;
+		left:390px;
+		top:150px;
+		}
+
+	.popups{
+		position:absolute;
+		width: 126px;
+		padding:4px;
+		left: 4px;
+		text-align: left;
+		top:10px;
+		display:block;}
+
+
+	.computer_glow img{
+		width:100%}
+
+
+	#ip1{
+		position:absolute;
+		left: 284px;
+		top: 176px;
+		color: black;
+		text-align: center;
+}
+
+	#ip2{
+		position:absolute;
+		left: 281px;
+		top: 308px;
+		text-align: center;
+}
+
+	#ip3{
+		position:absolute;
+		
+		left: 429px;
+		
+		top: 339px;}
+
+	#ip4{
+		position:absolute;
+		
+		left: 558px;
+		
+		top: 308px;
+		text-align: center;
+}
+
+	#ip5{
+		position:absolute;
+		left: 563px;
+		top: 176px;
+		text-align: center;
+}
+
+	#ip6{
+		position:absolute;
+		
+		left: 384px;
+		
+		top: 94px;}
+
+	#bg img{
+		width:90%;
+		margin-left: 67px;
+}
+
+	#wrapper{
+    position: relative;
+	
+    left: -16px;
+}
+
+	#destinationbg{
+    position: absolute;
+    width: 141px;
+    left: 396px;
+    display: block;
+    height: 30px;
+    background-color: #E9E7E8;
+    border: 2px black solid;
+    top: 16px;
+}
+	#countertext{
+		position:absolute; width:40px; top:30px; 
+		left: 625px; font-size:19px;
+		text-align: center;
+		display: block;
+}
+
+	#timeremaining{
+position:absolute; top:5px; 
+left: 601px; width:100px;  color:white; size:11px;}

@@ -1,0 +1,154 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#mainDiv { position:absolute; top:0px; width:780px; height:400px;/*border:1px solid red;*/}
+/*#mainDiv div { border:1px solid red;}*/
+
+#main_div { width:100%;}
+#content { width:37%; margin:0 auto;}
+body { font-family:Arial, Helvetica, sans-serif; font-size:11px}
+#title b { text-align:left; font-size:11px; font-weight:bold; /*padding-left:20px;*/}
+#title {padding-left:20px;}
+#sub_title {padding-bottom: 25px;
+    padding-left: 5px;
+    padding-top: 11px;
+	padding-right:52px;
+    text-align: left;}
+#val1,#val2,#val3,#val4,#val5,#val6,#val7,#val8 { text-align:center; border: 1px solid #E9E7E8; font-weight:bold;}
+
+.bg_none { background-color:transparent;}
+#title_bg { background-image:url(orange_bg.jpg); background-repeat:repeat-x; text-align:center;border-radius: 5px 5px 0 0; margin-left: -2px;}
+#show { color:#FFF; font-weight:bold;}
+#val1,#val2,#val3,#val4,#val5,#val6,#val7,#val8 { text-align:center;background-color:#66c0e5;}
+.input_bg { background-color:#d3d1d2; padding:3px; text-align:center;}
+.position_bg { background-color:#d3d1d2; padding:3px; text-align:center; font-size:11px;}
+.exponent_bg { background-color:#e9e7e8; padding:3px; text-align:center; font-size:11px;}
+#check, #reset, #new_nub { cursor:pointer;background-image:url(button_bg.jpg); background-repeat:repeat-x; text-align:center; font-size:11px; /*font-weight:bold;*/ color:#FFF; border-radius:4px; height: 27px;width: 108px; border:none; padding-bottom: 5px; font-weight:bold;}
+#check:hover, #reset:hover, #new_nub:hover {background-image:url(hover_bg.jpg); background-repeat:repeat-x; color:#3C668D;}
+#title_bg { background-image:url(orange_bg.jpg); background-repeat:repeat; text-align:center;border-radius: 5px 5px 0 0;}
+#title_bg #show {background: none repeat-y scroll 0 0 transparent;border: medium none;text-align: right;}
+#new_nub { margin-bottom:2px; margin-top:2px;}
+.arrow { text-align:center; background-image:url(arrow.png); background-repeat:no-repeat;}
+.align_right { text-align:right; padding-right:5px;}
+.align_center {text-align:center; height:23px;}
+.top_gap { padding-top:37px;}
+.shift_right { padding-right:0px; padding-left:9px;}
+
+
+/* Starts Css for popup*/
+#pannel {  background-color: #C1ABD1;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 6px #3F3F3F;
+    float: left;
+    left: 338px;
+    position: absolute;
+    top: 270px;
+    width: 342px;}
+	
+	
+#pannel_2 { background-color: #C1ABD1;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 6px #3F3F3F;
+    float: left;
+    left: 338px;
+    position: absolute;
+    top: 270px;
+    width: 342px;}
+.cross {width: 96%;
+border-bottom: 3px solid #3d244c;
+float: left;
+margin-left: 2%;
+}
+.cross a {border: 1px solid #3D244C;
+    float: right;
+    height: 12px;
+    margin-bottom: 1px;
+    margin-right: 4px;
+    margin-top: 4px;
+    width: 12px;}
+.cross img {
+    float: right;
+    margin-right: 1px;
+    margin-top: 1px;
+}
+.cross span {color: #3D244C;
+    display: block;
+    float: left;
+    margin-top: 2px;
+    width: 50%;}
+.result {background-color: #FFF; width: 96%; float: left; margin: 2%;}
+.result p { margin:0px; padding:2px; /*margin-bottom:20px;*/}
+
+
+
+
+.cross_2 {width: 96%;
+border-bottom: 3px solid #3d244c;
+float: left;
+margin-left: 2%;
+}
+.cross_2 a {border: 1px solid #3D244C;
+    float: right;
+    height: 12px;
+    margin-bottom: 1px;
+    margin-right: 4px;
+    margin-top: 4px;
+    width: 12px;}
+.cross_2 img {
+    float: right;
+    margin-right: 1px;
+    margin-top: 1px;
+}
+.cross_2 span {color: #3D244C;
+    display: block;
+    float: left;
+    margin-top: 2px;
+    width: 50%;}
+.result_2 {background-color: #FFF; width: 96%; float: left; margin: 2%;}
+.result_2 p { margin:0px; padding:2px; margin-bottom:20px;}
+
+
+
+table {/* border:1px solid #F00;*/}
+
+#pannel a { display:block !important}
+#pannel_2 a { display:block !important}
+#title_bg input {
+    text-align: center !important;
+    width: 15%;
+}
+/*table { border:1px solid #00F;}*/
+/*End Css for popup*/
+
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) {
+#pannel {  background-color: #C1ABD1;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 6px #3F3F3F;
+    float: left;
+    left: 338px;
+    position: absolute;
+    top: 280px;
+    width: 342px;}
+	
+	
+#pannel_2 { background-color: #C1ABD1;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 6px #3F3F3F;
+    float: left;
+    left: 338px;
+    position: absolute;
+    top: 280px;
+    width: 342px;}
+}

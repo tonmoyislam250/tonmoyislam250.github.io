@@ -1,0 +1,175 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+/*	border:1px solid #F00;*/
+	}
+	
+/*#flashContent div {border:1px solid #F00;}*/
+
+#mainDiv
+{
+width: 414px;
+height:400px;
+position:absolute;
+top:2px;	
+left: 31px;
+/*left: 190px !important;*/}
+
+#ID_s2_txt02{
+    background-color: #fde6d4;
+    border: 2px solid #f68026;
+    border-radius: 5px 5px 5px 5px;
+    padding: 6px;
+	
+}
+
+#main_wrapper{width: 412px;;height:400px;top:0px;}
+#main_container{background:url(3_3_1_2_A.png); top center no-repeat;width:404px!important;height:277px!important; position:absolute;top: 44px;}
+#envelop_Yellow{width:99px;height:63px;padding:0 0 0 0px; margin:0 0 0 110px;}
+#envelop_Brown{width:99px;height:63px;padding:0 0 0 0px; margin:197px 0 0 110px;}
+#circle{height:.9em;width: .9em;-webkit-border-radius: 5em;border-radius:10px;border: 0.2em solid #888943;background-color: #CACC7F;position:relative;}
+#stop{position:absolute;z-index:-1;left:0px;}
+/*#slider { right:9px !important;left: 1px;width: 416px;}
+.sbut,.play {left: 7px !important;}
+.resbut {left: 7px !important;}
+.pause {left: 7px !important;}*/
+#yellow_1 {
+    left: 94px;
+    position: absolute !important;
+    top: 21px;
+	z-index:1 !important;
+}
+#yellow_4 {
+    left: 94px;
+    position: absolute !important;
+    top: 46px;
+}
+#yellow_4_b {
+    left: 94px;
+    position: absolute !important;
+    top: 46px;
+}
+#yellow_4_c {
+    left: 94px;
+    position: absolute !important;
+    top: 46px;
+}
+#yellow_4_d {
+    left: 94px;
+    position: absolute !important;
+    top: 46px;
+}
+#brown_1 {
+    left: 94px;
+    position: absolute !important;
+    top: 237px;
+	z-index:1 !important;
+}
+
+#brown_4 {
+    left: 94px;
+    position: absolute !important;
+    top: 241px;
+}
+#brown_4_b {
+    left: 94px;
+    position: absolute !important;
+    top: 241px;
+}
+#brown_4_c {
+    left: 94px;
+    position: absolute !important;
+    top: 241px;
+}
+#brown_4_d {
+    left: 94px;
+    position: absolute !important;
+    top: 241px;
+}
+#dvSliderContainer { left:-12px; width: 408px !important;/* top:353px;*/}
+
+/*Second Animation Css*/
+
+#yell_1 {left: 63px;
+    position: absolute !important;
+    top: 51px;}
+#yell_2 {left: 63px;
+    position: absolute !important;
+    top: 51px;}
+#yell_3 {left: 63px;
+    position: absolute !important;
+    top: 51px;}
+#yell_4 {left: 63px;
+    position: absolute !important;
+    top: 51px;}
+#yell_5 {left: 63px;
+    position: absolute !important;
+    top: 51px;}
+#yell_6 {left: 63px;
+    position: absolute !important;
+    top: 51px;}
+	
+#bro_1 {left: 63px;
+    position: absolute !important;
+    top: 213px;
+}
+#bro_2 {left: 63px;
+    position: absolute !important;
+    top: 213px;
+}
+#bro_3 {left: 63px;
+    position: absolute !important;
+    top: 213px;
+}
+#bro_4 {left: 63px;
+    position: absolute !important;
+    top: 213px;
+}
+#bro_5 {left: 63px;
+    position: absolute !important;
+    top: 213px;
+}
+#bro_6 {left: 63px;
+    position: absolute !important;
+    top: 213px;
+}
+
+#slider {right: 12px !important;width: 214px !important;}
+/*#ID_s1_btn02 { left:3px !important; top:-1 !important;}
+#ID_s1_btn01 {left:2px !important; top:-1 !important;}*/
+#ID_s1_btn01 {height: 21px !important;
+    line-height: 18px; left: 1px !important;}
+#ID_s1_btn02 {height: 21px !important;
+    line-height: 18px; left: 1px !important;}
+#ID_s1_txt01 {font-size: 11px !important;
+    left: 198px;
+    position: absolute;
+    text-align: center;
+    top: 184px;
+    width:198px;}
+#ID_s1_txt02 {font-size: 11px !important;
+    left: 204px;
+    position: absolute;
+    text-align: center;
+    top: 31px;
+    width: 178px;}
+#ID_s1_txt03 {font-size: 11px !important;
+    left: 204px;
+    position: absolute;
+    text-align: center;
+    top: 31px;
+    width: 178px;}
+	
+#brown_1,#brown_4,#brown_4_b,#brown_4_c { display:none;}
+
+/*#ID_s1_btn01 { border:1px solid #F00;}
+#ID_s1_btn02 { border:1px solid #F00;}*/

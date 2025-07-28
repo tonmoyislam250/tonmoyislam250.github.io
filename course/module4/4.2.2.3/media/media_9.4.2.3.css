@@ -1,0 +1,21 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#mainDiv{width:440px; height:230px;position:absolute; top:0px; margin-left:25px !important; transform:none !important;}
+/*#mainDiv{width:400px; height:230px;position:absolute; }
+#mainDiv #videoDiv{width:400px; height:230px;position:absolute; left:30.155px !important; }*/
+
+/* This is for ipad hack*/
+@media only screen and (device-width: 768px) {
+#mainDiv #videoDiv{left:10.155px !important; }
+}

@@ -1,0 +1,42 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+.ID_s2_txt11 {
+   position: relative;
+		padding: 1px;
+		margin: 1em 0 3em;
+		background-color: #cce9e7;
+		-webkit-box-shadow: 2px 2px 4px #888;
+		-moz-box-shadow: 2px 2px 4px #888;
+		box-shadow: 2px 2px 4px #888;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border: 3px solid #67bdbc;
+		width:105.8px;
+		height:30px;
+		color:#393536;
+}
+
+.ID_s2_txt11:after {
+content: "";
+position: absolute;
+bottom: -26px;
+left: 44px;
+border-width: 23px 0 0 17px;
+border-style: solid;
+border-color: #67bdbc transparent;
+display: block;
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>4.1.2.5 Testing UTP Cables</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+    	myLayout = $('body').layout({
+          west__size:300,
+          stateManagement__enabled: true,
+          maskContents: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane"
+        });
+
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+    	var date = new Date();
+     	var minutes = 10;
+     	date.setTime(date.getTime() + (minutes * 60 * 1000));
+     	$.cookie("ui_pane", "foo", { expires: date });
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Network Media</h1>
+        <h2>UTP Cabling</h2>
+      </div>
+      <div id="content">
+          <p>After installation, a UTP cable tester should be used to test for the following parameters:</p>
+          <p>
+            <ul>
+              <li>Wire Map </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Cable Length</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Signal loss due to attenuation</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Crosstalk </li>
+            </ul>
+          </p>
+          <p></p>
+          <p>It is recommended to thoroughly check that all UTP installation requirements are met. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic" longdesc="media_4.1.2.5_longdesc.txt"></iframe>
+  </body>
+</html>

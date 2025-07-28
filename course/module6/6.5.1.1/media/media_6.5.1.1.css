@@ -1,0 +1,38 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#staticTxt{font-family:"Courier New";line-height:7.1px; overflow: hidden !important;}
+#marginLeft{margin-left:15px;}
+#marginLeft1{margin-left:20px;}
+#marginLeft2{margin-left:10px;}
+#marginLeft3{margin-left:10px;}
+#marginLeft4{margin-left:10px;}
+#marginLeft5{margin-left:10px;}
+#marginLeft6{margin-left:20px;}
+#marginLeft7{margin-left:10px;}
+#marginLeft8{margin-left:0px;}
+
+
+/*.mac-os #staticTxt {border:1px solid red;}*/
+
+/*<code>  //fix font size in print.css for MAC
+  if(navigator.userAgent.indexOf('Mac') < 0) {
+#staticTxt {border:1px solid red;}
+  </code>*/
+
+if(navigator.userAgent.indexOf('Mac') > 0) {
+#staticTxt {border:1px solid red;}
+}
+

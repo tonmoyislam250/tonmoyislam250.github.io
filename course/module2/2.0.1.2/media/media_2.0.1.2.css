@@ -1,0 +1,21 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_txt01 {color:#393536;}
+#ID_txt02, #ID_txt03, #ID_txt04, #ID_txt05, #ID_txt06, #ID_txt07 {border-radius:50% 50%; padding:15px 5px; font-weight:bold;}
+#ID_txt02 {background-color:#00918E;}
+#ID_txt03 {background-color:#98D3D1;}
+#ID_txt05 {background-color:#DAE17A;}
+#ID_txt07 {background-color:#A481B9;}
+#ID_txt04 {background-color:#B5D9B3;}
+#ID_txt06 {background-color:#90C68C;}

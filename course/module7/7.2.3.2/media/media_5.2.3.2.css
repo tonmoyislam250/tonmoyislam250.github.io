@@ -1,0 +1,37 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+
+
+#ID_txt03{border:2px solid #000102;
+border-radius:5px;
+padding:9px 0 63px 0px;
+background:#BDBBBC;
+}
+
+
+#ID_txt01{border:2px solid #F68026;
+border-radius:5px;
+padding:3px 9px 2px 15px;
+background:#FDE6D4;
+
+}
+
+#ID_txt10{
+line-height:12px;
+height:90px;
+	}
+
+

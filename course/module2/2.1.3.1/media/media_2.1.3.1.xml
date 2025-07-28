@@ -1,0 +1,70 @@
+﻿<textcomponents> 
+<component id="ID_title">
+	<text><![CDATA[<b>IOS Mode Hierarchical Structure</b>]]></text>
+</component>
+ 
+<!--
+
+<component id="ID_txt01">
+	<text><![CDATA[<b>IOS Mode Hierarchical Structure</b>]]></text>
+</component>
+<component id="ID_txt02">
+	<text><![CDATA[<b>User EXEC Command-Router ></b>]]></text>
+</component>
+<component id="ID_txt03">
+	<text><![CDATA[<b>ping<br>show (limited)<br>enable<br>etc...</b>]]></text>
+</component>
+<component id="ID_txt04">
+	<text><![CDATA[<b>Privileged EXEC Commands-Router #</b>]]></text>
+</component>
+<component id="ID_txt05">
+	<text><![CDATA[<b>all User EXEC Commands<br>debug commands<br>reload<br>configure<br>etc..</b>]]></text>
+</component> 
+<component id="ID_txt06">
+	<text><![CDATA[<b>Global Configuration Commands-Router(configure) #</b>]]></text>
+</component> 
+<component id="ID_txt07">
+	<text><![CDATA[<b>hostname<br>enable secret<br>ip route</b>]]></text>
+</component> 
+
+<component id="ID_txt08">
+	<text><![CDATA[<b>interface</b>]]></text>
+</component>
+<component id="ID_txt09">
+	<text><![CDATA[<b>ethernet<br>serial<br>bri<br>etc.</b>]]></text>
+</component> 
+<component id="ID_txt10">
+	<text><![CDATA[<b>router</b>]]></text>
+</component> 
+<component id="ID_txt11">
+	<text><![CDATA[<b>rip<br>ospf<br>eigrp</b>]]></text>
+</component> 
+
+<component id="ID_txt12">
+	<text><![CDATA[<b>Interface Commands-Router (config-if) #</b>]]></text>
+</component> 
+<component id="ID_txt13">
+	<text><![CDATA[<b>ip address<br>ipx network<br>encapsulation<br>shutdown/ no shutdown<br>etc..</b>]]></text>
+</component> 
+<component id="ID_txt14">
+	<text><![CDATA[<b>Routing Engine Commands-Router<br>(config-router) #</b>]]></text>
+</component> 
+<component id="ID_txt15">
+	<text><![CDATA[<b>network<br>version<br>auto summary<br>etc..</b>]]></text>
+</component> 
+<component id="ID_txt16">
+	<text><![CDATA[<b>Line Commands-Router (config-line #)</b>]]></text>
+</component> 
+<component id="ID_txt17">
+	<text><![CDATA[<b>password<br>login<br>modem commands<br>etc..</b>]]></text>
+</component>
+<component id="ID_txt18">
+	<text><![CDATA[<b>line</b>]]></text>
+</component> 
+<component id="ID_txt19">
+	<text><![CDATA[<b>vty<br>console<br>etc..</b>]]></text>
+</component> 
+
+-->
+
+</textcomponents>

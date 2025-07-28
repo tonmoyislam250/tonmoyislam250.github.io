@@ -1,0 +1,25 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+    margin:0;
+    height:100%;
+}
+#flashContent {
+    width:98%;
+    height:98%;
+    overflow:hidden;
+}
+
+
+#staticTxt{
+    padding:5px;
+	z-index:0;
+	font-family:Courier New;
+   }
+	
+
+#commonImageText{z-index:10}
+	

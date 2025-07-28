@@ -1,0 +1,43 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden !important;
+}
+#staticTxt,#staticTxt1,#staticTxt2,#staticTxt3,#staticTxt4,#staticTxt5,#staticTxt6,#staticTxt7{
+	font-family:"Courier New";
+	font-size:10.6px;
+}
+.tabletext{
+	font-size:10.6px;
+	font-family:"Courier New";
+	}
+.colortext{
+	color:#F68026;
+	font-weight:bold
+	;font-family:"Courier New";
+	font-weight:bold;
+	}
+
+#ID_s1_caption,#ID_s2_caption,#ID_s3_caption,#ID_s4_caption,#ID_s5_caption{
+	font-size:11px;
+	height:17px;
+	padding:5px;
+	text-align:center;
+	width:405px ! important;
+	background-color:#E0D5E6;
+	border-radius:5px;
+	line-height:18px;
+	margin-left:6px
+	}
+	
+table tr td {margin:0px;width:}

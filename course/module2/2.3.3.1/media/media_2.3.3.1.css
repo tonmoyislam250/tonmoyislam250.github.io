@@ -1,0 +1,54 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	min-height: 390px;
+	min-width:470px;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#ID_txt01,#ID_txt02{
+border:3px solid #F68026;
+border-radius:5px;
+background-color:#FDE6D4;
+color:#000000;
+min-height:20px;
+padding:4px;
+margin-left:5px;
+}
+
+#ID_txt03{
+background-color:#000;
+color:#fff;
+min-height:17px;
+padding:2px 0 0 4px;
+margin-left:5px;
+}
+
+#mainDiv {
+    height: 380px;
+    width: 416px;
+    position:absolute;
+    top:0px;
+}
+
+#deresp1 {
+    float: left;
+    font: 10px/15px Courier New !important;
+    width: 100%;
+	color:#000;
+}
+
+#fb font{font-family:arial !important;}
+#ec{padding-bottom:0px !important;width: 370px !important;}
+
+#val_2{display:none;}
+#ans_2{display:none;}
+

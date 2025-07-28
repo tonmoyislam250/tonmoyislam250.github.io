@@ -1,0 +1,165 @@
+//loadScript("../../../common/scripts/templates/slide/ImageSlideNew.js");
+loadScript("../../../common/scripts/swfobject.js", registerSWF);
+function registerSWF(){
+	swfobject.registerObject("flashobject", "9.0.0", "../../../common/libs/expressInstall.swf");
+}
+
+
+var STAGE_WIDTH = 470;
+var STAGE_HEIGHT = 400;
+
+function getData()
+{
+	var template_type = "IMAGE";
+	
+	var slide_images = [{name:"9.1.1.1.png",
+							x:1.9,
+							y:13.7, 
+							width:465.6, 
+							height:383.55,	
+							type:""}]
+					
+							
+	var slide_texts = [{compId:"ID_title",
+							x:20,
+							y:2, 
+							width:460,
+							height:17,
+							size:14,
+							textAlign:"center",
+							expand:"down"},
+	
+			{compId:"ID_OSInum01",
+							x:23,
+							y:334, 
+							width:18.95,
+							height:17,
+							size:16,
+							color:"#00918E",
+							textAlign:"left"},
+		{compId:"ID_OSInum02",
+							x:23,
+							y:298, 
+							width:18.95,
+							height:17,
+							size:16,
+							color:"#00918E",
+							textAlign:"left"},
+		{compId:"ID_OSInum03",
+							x:23,
+							y:260, 
+							width:18.95,
+							height:17,
+							size:16,
+							color:"#00918E",
+							textAlign:"left"},
+		{compId:"ID_OSInum04",
+							x:23,
+							y:224, 
+							width:18.95,
+							height:17,
+							size:16,
+							color:"#00918E",
+							textAlign:"left"},
+		{compId:"ID_OSInum05",
+							x:23,
+							y:187, 
+							width:18.95,
+							height:17,
+							size:16,
+							color:"#00918E",
+							textAlign:"left"},
+		{compId:"ID_OSInum06",
+							x:23,
+							y:150, 
+							width:18.95,
+							height:17,
+							size:16,
+							color:"#00918E",
+							textAlign:"left"},
+		{compId:"ID_OSInum07",
+							x:23,
+							y:114, 
+							width:18.95,
+							height:17,
+							size:16,
+							color:"#00918E",
+							textAlign:"left"},
+							
+		{compId:"ID_txt07",
+							x:28,
+							y:337+2, 
+							width:117,
+							height:17,
+							size:11,							
+							textAlign:"center"},
+		{compId:"ID_txt06",
+							x:28,
+							y:299+2, 
+							width:117,
+							height:17,
+							size:11,
+							
+							textAlign:"center"},
+		{compId:"ID_txt05",
+							x:28,
+							y:263+2, 
+							width:117,
+							height:17,
+							size:11,
+							
+							textAlign:"center"},
+		{compId:"ID_txt04",
+							x:28,
+							y:226+2, 
+							width:117,
+							height:17,
+							size:11,
+							
+							textAlign:"center"},
+		{compId:"ID_txt03",
+							x:28,
+							y:190+2, 
+							width:117,
+							height:17,
+							size:11,
+							
+							textAlign:"center"},
+		{compId:"ID_txt02",
+							x:28,
+							y:152+2, 
+							width:117,
+							height:17,
+							size:11,
+							
+							textAlign:"center"},
+		{compId:"ID_txt01",
+							x:28,
+							y:115+2, 
+							width:117,
+							height:17,
+							size:11,							
+							textAlign:"center"},
+	   {compId:"ID_txt08",
+							x:170,
+							y:294, 
+							width:205,
+							height:17,
+							size:11,							
+							textAlign:"left"},
+		{compId:"ID_txt09",
+							x:409,
+							y:289, 
+							width:50,
+							height:17,
+							size:11,							
+							textAlign:"left"}]						
+	var slide_object = {images:slide_images,
+						texts:slide_texts};
+						
+	return {templateType:template_type,
+			slideObject:slide_object};
+	
+}
+
+

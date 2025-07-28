@@ -1,0 +1,122 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+/*#flashContent { border:1px solid red;}
+#flashContent div { border:1px solid red;}*/
+#ID_pc1,#ID_pc2,#ID_pc3,#ID_pc4 { font-weight:bold;}
+
+/*Bubble CSS Starts*/
+.ID_s2_bubble02.left:after {
+    border-color: transparent #67BDBC;
+    border-width: 15px 30px 0 0;
+    bottom: auto;
+    left: -32px;
+    top: 6px;
+}
+.ID_s2_bubble02:after {
+    border-color: #67BDBC transparent;
+    border-style: solid;
+    border-width: 20px 0 0 20px;
+    bottom: -20px;
+    content: "";
+    display: block;
+    left: 50px;
+    position: absolute;
+    width: 0;
+}
+.ID_s2_bubble02.left {
+    background-color: #CCE9E7;
+    margin-left: 28px;
+}
+.ID_s2_bubble02 {
+    background-color: #CCE9E7;
+    border: 3px solid #67BDBC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 4px #888888;
+    color: #393536;
+    height: 25px;
+    margin: 1em 0 3em;
+    padding: 5px;
+    position: relative;
+    width: 110px;
+}
+
+
+.ID_bubble03.left:after {
+    border-color: transparent #67BDBC;
+    bottom: auto;
+    left: 77px;
+    top: 6px;
+}
+.ID_bubble03:after {
+    border-color: #67BDBC transparent;
+    border-style: solid;
+    border-width: 0 0 15px 26px;
+    bottom: -20px;
+    content: "";
+    display: block;
+    left: 50px;
+    position: absolute;
+    width: 0;
+}
+.ID_bubble03.left {
+    background-color: #CCE9E7;
+    margin-left: 28px;
+}
+.ID_bubble03 {
+    background-color: #CCE9E7;
+    border: 3px solid #67BDBC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 4px #888888;
+    color: #393536;
+    height: 14px;
+    margin: 1em 0 3em;
+    padding: 5px;
+    position: relative;
+    width: 66px;
+}
+
+.ID_bubble04.left:after {
+    border-color: transparent #67BDBC;
+    bottom: auto;
+    left: 127px;
+    top: 6px;
+}
+.ID_bubble04:after {
+    border-color: #67BDBC transparent;
+    border-style: solid;
+    border-width: 0 0 15px 26px;
+    bottom: -20px;
+    content: "";
+    display: block;
+    left: 50px;
+    position: absolute;
+    width: 0;
+}
+.ID_bubble04.left {
+    background-color: #CCE9E7;
+    margin-left: 28px;
+}
+.ID_bubble04 {
+    background-color: #CCE9E7;
+    border: 3px solid #67BDBC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 4px #888888;
+    color: #393536;
+    height: 27px;
+    margin: 1em 0 3em;
+    padding: 5px;
+    position: relative;
+    width: 115px;
+}
+/*Bubble CSS End/

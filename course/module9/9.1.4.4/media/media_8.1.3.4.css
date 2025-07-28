@@ -1,0 +1,61 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+
+#statictext2{font-family:Courier New;}
+#staticTxtaddress{font-family:Courier New;}
+div.ipAddress{ font-family: Courier New;}
+div.rows{padding:0;margin:0;}
+
+div.rows span.cols,div.rows span.col1,div.rows span.col2, div.rows span.col3, div.rows span.col4{float:left;padding:3px 1.5px;}
+div.rows span.col1{background-color:#DBECDA;color:#5FBC21;font-weight:bold;margin-right:2px;width:188px;}
+div.rows span.col2{background-color:#FDE6D4;color:#F68128 !important;font-weight:bold;margin-right:2px;}
+div.rows span.col3{background-color:#FDE6D4;color:#F68026;font-weight:bold;}
+div.rows span.col4{background-color:#fff; width:109px;margin-left:1px;}
+div.rows span.cols{background-color:#fff;}
+
+div.rows span.cols,div.rows span.cols1,div.rows span.cols2, div.rows span.cols3, div.rows span.cols4{float:left;padding:1px 1.5px;}
+div.rows span.cols1{background-color:#DBECDA;color:#5FBC21;font-weight:bold;margin-right:2px;width:188px;}
+div.rows span.cols2{background-color:#E0D5E6;color:#652C8A;font-weight:bold;margin-right:2px}
+div.rows span.cols3{background-color:#FDE6D4;color:#F68026;font-weight:bold;}
+div.rows span.cols4{background-color:#fff; width:109px;margin-left:0px;}
+div.rows span.cols{background-color:#fff;}
+
+
+#ID_s2_txt02{
+    border:2px solid #652C8A;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:2px 0 3px 3px;
+    background:#E0D5E6;
+}
+#ID_s2_txt03{
+    border:2px solid #F68026;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:2px 0 3px 3px;
+    background:#FDE6D4;
+}
+#borderdown{border-top:none ! important;color:#393536}
+@media only screen and (device-width: 768px) {
+#borderdown{width:38px ! important;margin-left:3px}
+#staticTxtaddress{width:406px !important;}
+div.rows span.cols{margin-left:5px;}
+}
+

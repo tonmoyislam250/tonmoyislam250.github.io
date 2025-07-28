@@ -1,0 +1,76 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#mainDiv{width:420px;height:400px;position:absolute;top:0px;left:0px;}
+#main_wrapper{width:420px;height:400px;position:absolute;top:0px;}
+#main_container{background:url(1_3_1_3.jpg) top left no-repeat;width:410px!important;height:169px!important;position: absolute;top:65px;}
+#envelop_Yellow{width:39px;height:25px;padding:0 0 0 0px; margin:0 0 0 72px;}
+#yellow_1{left: -25px;position: absolute;top: 69px;}
+#yellow_2{left:105px;position: absolute;top:-22px;}
+#yellow_3{left: -25px;position: absolute;top:8px;}
+#yellow_4{left:102px;position: absolute;top:44px;z-index:1}
+#arrow1{height:42px;left:127px;position: absolute;top:-40px;width:8px;}
+#arrow2{height: 33.45px;left:164px;position: absolute;top: -81px;width: 66.9px;z-index:0}
+#questionmark{position:absolute;left:142px;top:-118px;width:24.1px;height:31.9px;}
+#inetbox{width:100px;height:20px;text-align:center;font-size:11px;position:absolute;left:147px;top:45px;}
+#captiontext{text-align:left;font-size:11px;width:420px;height:20px;position:absolute;top:300px;left:0px;line-height:10px;}
+
+#ID_txt01{
+		border:2px solid #F68026;
+		border-radius:5px;
+		-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+		-webkit-border-radius:5px;
+		-khtml-border-radius:5px;
+		background:#FDE6D4;
+		padding:5px;
+		text-align: left;
+		width: 114px;	
+		font-size:11px;
+		top:108px;
+		left:-16px;	 
+}
+
+#ID_txt02{
+		border:2px solid #F68026;
+		border-radius:5px;
+		-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+		-webkit-border-radius:5px;
+		-khtml-border-radius:5px;
+		background:#FDE6D4;
+		left: 0px;
+		top:-23px;
+		width: 131px;
+		padding: 5px;
+		font-size:11px;
+		text-align:left;
+}
+
+
+#ID_txt03{
+		border:2px solid #F68026;
+		border-radius:5px;
+		-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+		-webkit-border-radius:5px;
+		-khtml-border-radius:5px;
+		padding: 5px;
+		background:#FDE6D4;
+		position:absolute;
+		width: 140px;
+		top:134px;
+		left:5px;
+		font-size:11px;
+		text-align:left;
+}
+

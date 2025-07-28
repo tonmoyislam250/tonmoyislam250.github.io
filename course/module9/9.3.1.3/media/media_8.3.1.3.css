@@ -1,0 +1,19 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_txt09{border:2px solid #F68026; background-color:#FDE6D4; padding:5px; border-radius:5px;z-index:1;}
+#ID_txt12{background:url(arrow.png) no-repeat left top; height:69px;   background-size:contain;}
+#ID_txt06 {color:#F68026 !important;}
+@media only screen and (device-width: 768px) {
+	#ID_txt12{left:8px !important;}
+	}

@@ -1,0 +1,49 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+    margin:0;
+    height:100%;
+
+}
+#flashContent {
+    width:98%;
+    height:98%;
+	z-index:1 !important;
+	position:absolute !important;
+}
+
+#mainDiv {
+    height: 388px;
+    width: 780px;
+    position:absolute;
+    top:5px;
+
+
+
+}
+#drop0 img#tick0,#drop1 img#tick1,#drop2 img#tick2,#drop3 img#tick3,#drop4 img#tick4,
+#drop5 img#tick5,#drop6 img#tick6,#drop7 img#tick7,#drop8 img#tick8,#drop9 img#tick9{position:absolute;left:-18px!important;width:14px;height:14px;border:0 !important;}
+
+#button1 div{font-size: 12px !important;height: auto;margin-top: -24px !important;padding-left: 2px !important;}
+#button0 div{font-size: 12px !important#drop0 img#tick0,#drop1 img#tick1,#drop2 img#tick2,#drop3 img#tick3,#drop4 img#tick4;height: auto;margin-top: -24px !important;padding-left: 2px !important;}
+#ID_FEEDBACK{cursor: pointer !important; z-index: 11120 !important;}
+#ID_FEEDBACK div {
+    font-size: 12px !important;
+    left:4px !important;
+    line-height: 16px;
+    padding: 0 0 0 3px;
+	
+    text-align: left !important;
+	cursor: pointer !important;
+    z-index: 11120 !important;
+	}
+#ID_s1Title{color:#442557 !important;}
+#ID_s1BodyText{color:#000 !important;}
+/* This is for ipad hack*/
+@media only screen and (device-width: 768px) {
+#button1 div{font-size: 12px !important;height: auto;margin-top: -24px !important;padding-left: 2px !important;}
+#button0 div{font-size: 12px !important;height: auto;margin-top: -24px !important;padding-left: 2px !important;}
+}

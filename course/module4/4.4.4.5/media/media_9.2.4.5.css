@@ -1,0 +1,31 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:100%;
+	height:100%;
+}
+
+#mainDiv{
+width:470px;
+height:400px;
+position:absolute;
+top:0px;
+left:0;
+
+}
+
+#main_wrapper{width:467px;height:380px;position:relative;left:5px;top:22px;}
+#main_container{background:url(9.2.4.5.png) top left no-repeat;position:absolute;top:0px;left:0px;width:460px !important;height:293px!important;z-index:0;}
+#ID_txt01{display:none;position:absolute;left:1.9px;top:22px;z-index:4;color:#fff;font-size:11px;width:99px;height:28px;background-color:#CB6D25;text-align:center;padding:2px 0}
+#ID_txt02{opacity:0;position:absolute;left:1.9px;top:163px;z-index:4;color:#fff;font-size:11px;width:99px;height:13px;background-color:#A2AA23;text-align:center;padding:3px 0}
+#ID_txt03{opacity:0;position:absolute;left:131px;top:63px;z-index:4;color:#fff;font-size:11px;width:99px;height:13px;background-color:#46A040;text-align:center;padding:3px 0}
+#ID_txt04{opacity:0;position:absolute;left:261.65px;top:115px;z-index:4;color:#fff;font-size:11px;width:99px;height:13px;background-color:#918F90;text-align:center;padding:3px 0}
+#ID_txt05{opacity:0;position:absolute;left:128px;top:241.35px;z-index:4;color:#fff;font-size:11px;width:99px;height:13px;background-color:#652C8A;text-align:center;padding:3px 0}

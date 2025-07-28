@@ -1,0 +1,142 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	
+}
+
+#title_bg {
+background-image:url(orange_bg.png);
+background-repeat:repeat;
+text-align:center;
+border-radius:5px 5px 0 0;
+margin-left: 230px;
+margin-top: 44px;
+width:460px;
+}
+#subtable{margin-left: 229px;
+margin-top: 0px;
+width:462px;
+border-color:#fff;
+}
+#subtable td{border:1px solid #ffffff;}
+#mainDiv { position:absolute; top:0px; width:700px; height:400px;text-align:center;margin-left:-20px;margin-top:0px;}
+
+#title{position:absolute;left:30px;top:0px;width:200px;height:17px;text-align:left;}
+#main_div { width:100%;}
+#content { width:37%; margin:0 auto;}
+body { font-family:Arial, Helvetica, sans-serif; font-size:11px}
+.subnetMaskBin{width:189px;height:15px;background-color:#66C0E5;font-weight:bold;font-size:11px;border-color:#fff;text-align:center;
+font-family:Arial;}
+.prefixNotation{width:65px;background-color:#66C0E5;color:#000;font-weight:bold;font-size:11px;border-color:#fff;text-align:center;
+font-family:Arial;}
+.subnetMaskDec{width:90px;background-color:#66C0E5;color:#000;font-weight:bold;font-size:11px;border-color:#fff;text-align:center;
+font-family:Arial;}
+table{}
+.button_add {
+	background:url(text_button_gradient.png) top center repeat-x;
+    border: none;          
+    cursor: pointer;      
+    height: 22px;          
+    color:#ffffff;
+	margin-top:20px;
+	vertical-align:top;
+	font-weight:bold;
+	border-radius:3px;
+	font-size:11px;
+	width:100px;
+	 padding: 0 5px 0 0; 
+}
+.button_add:hover {
+    background-image: url(text_button_gradient_selected.png); 
+    background-color: transparent; 
+   background-position: 0px 0px;  
+    border: 1px solid #e9e7e8;          
+    cursor: pointer;      
+    height: 22px;          
+    color:#006699;
+	margin-top:20px;
+	vertical-align:top;
+	font-weight:bold;
+	border-radius:3px;
+	font-size:11px;
+	width:100px;
+	 padding: 0 5px 0 0; 
+	 position:relative;
+}
+#pannel,#pannel2 {
+background-color:#C1ABD1;
+border-radius:5px 5px 5px 5px;
+box-shadow:3px 3px 6px #3F3F3F;
+float:left;
+left: 232px;
+position:absolute;
+top: 304px;
+width: 456px;
+}
+.cross,.cross_2 {
+width:96%;
+border-bottom:3px solid #3d244c;
+float:left;
+margin-left:2%;
+height:20px;
+}
+
+.cross a,.cross_2 a {
+border:1px solid #3D244C;
+float:right;
+height:12px;
+margin-bottom:1px;
+margin-right:4px;
+margin-top:4px;
+width:12px;
+}
+
+.cross img,.cross_2 img {
+float:right;
+margin-right:1px;
+margin-top:1px;
+
+}
+
+.cross span,.cross_2 span {
+	color: #3D244C;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 4px;
+	margin-left:2px;
+}
+
+.result,.result_2 {
+background-color:#FFF;
+width:96%;
+float:left;
+margin:2%;
+/*height:20px;*/
+}
+.result p,.result_2 p {float: left; margin: 0; padding: 2px; text-align:left;}
+#pannel a,#pannel2 a {
+display:block!important;
+}
+
+#ID_CORRECT_TITLE{position:absolute;top:3px;left:7px;}
+#ID_CORRECT_BODY{position:absolute;top:32px;left:11px;}
+#ID_INCORRECT_TITLE{position:absolute;top:3px;left:11px;}
+#ID_INCORRECT_BODY{position:absolute;top:32px;left:11px;}
+#subnetMaskBin1,#subnetMaskBin2,#subnetMaskBin3,#subnetMaskBin4,#subnetMaskBin5,.prefixNotation { border:1px solid #FFF;}
+.subnetMaskDec { border:1px solid #FFF;}
+
+@media only screen and (device-width: 768px) {
+  .subnetMaskBin{width:220px;}
+  .subnetMaskDec{width:100px;}
+}

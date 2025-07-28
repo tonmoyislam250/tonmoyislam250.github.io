@@ -1,0 +1,55 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden !important;
+}
+
+#mainDiv {
+    height: 388px;
+    width: 725px;
+    position:absolute;
+    top:0px;
+}
+
+#ID_FEEDBACK
+{
+width:225px !important;
+height:121px !important;
+position:absolute;
+top:85px !important;
+left:99px !important;	
+z-index: 999 !important
+}
+#ID_s1Title,#ID_s2Title
+{
+font-size: 12px !important;
+top:8px !important;	
+color:#472e55 !important; 
+}
+#ID_s1BodyText,#ID_s2BodyText
+{
+font-size: 11px !important;
+left: 6px !important;
+line-height: 13px !important;
+text-align: left !important;
+top: 37px !important;
+width: 190px !important;
+}
+#textID_s1_drag01,#textID_s1_drag02,#textID_s1_drag03,#textID_s1_drag04,#textID_s1_drag05{color:#454243 !important;}
+#tick0{left: 45px !important;
+      top: -18px !important;}
+	  
+	  
+#button0, #button1 { font-weight:normal !important;}
+#button0 div, #button1 div {padding-left:0px !important;}
+#contentDiv_s2 #tick3{left: 45px !important;
+    top: -18px !important;}

@@ -1,0 +1,52 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden;
+}
+#ID_s1_txt04,#ID_s2_txt04,#ID_s3_txt04,#ID_s4_txt04,#ID_s5_txt04
+{
+    background-color: #FFF;
+    border: 2px solid #D3D1D2;
+    border-radius: 5px 5px 5px 5px;
+    padding: 7px;
+	line-height:12px;
+}
+#ID_s1_txt05,#ID_s2_txt05,#ID_s3_txt05,#ID_s4_txt05,#ID_s5_txt05
+{
+    background-color: #FFF;
+    border: 2px solid #D3D1D2;
+    border-radius: 5px 5px 5px 5px;
+    padding:7px;
+	line-height:12px;
+}
+
+#ID_s1_txt06,#ID_s2_txt06,#ID_s3_txt06,#ID_s4_txt06,#ID_s4_txt08,#ID_s4_txt09,#ID_s5_txt06,#ID_s5_txt08,#ID_s5_txt09
+{
+    background-color: #FFF;
+    border: 2px solid #D3D1D2;
+    border-radius: 5px 5px 5px 5px;
+    padding:7px;
+	line-height:12px;
+}
+
+
+#ID_s2_txt07,#ID_s3_txt07,#ID_s4_txt07,#ID_s5_txt07{
+    background-color: #FFF;
+    border: 2px solid #F68026;
+    border-radius: 5px 5px 5px 5px;
+    padding:7px;
+	line-height:11px;
+	background:#FDE6D4;
+	padding:5px;
+	z-index:1;
+}
+.fontColor{color:#F68026;}

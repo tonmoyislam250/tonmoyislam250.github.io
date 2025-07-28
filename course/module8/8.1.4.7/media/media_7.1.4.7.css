@@ -1,0 +1,79 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	position:absolute !important;
+   z-index:1 !important;
+}
+
+#mainDiv {
+    height: 400px;
+    width: 780px;
+    position:absolute;
+    top:0px;
+	
+}
+#ID_RESET{margin-top:2px;}
+
+
+#ID_FEEDBACK{cursor: pointer !important; z-index: 11120 !important;}
+#ID_FEEDBACK div {
+    font-size: 11px !important;
+    left:4px !important;
+    line-height: 16px;
+    padding: 0 0 0 3px;
+	color:#000;
+    text-align: left !important;
+	width: 210px !important; cursor: pointer !important;
+    z-index: 11120 !important;
+	}
+
+	#textID_s3_drag01,#textID_s3_drag02,#textID_s3_drag03,#textID_s3_drag04,#textID_s3_drag05,#textID_s3_drag06,#textID_s3_drag07,#textID_s3_drag08,
+	#textID_s2_drag01,#textID_s2_drag02,#textID_s2_drag03,#textID_s2_drag04,#textID_s2_drag05,#textID_s2_drag06,#textID_s2_drag07,#textID_s2_drag08,
+	#textID_s1_drag01,#textID_s1_drag02,#textID_s1_drag03,#textID_s1_drag04,#textID_s1_drag05,#textID_s1_drag06,#textID_s1_drag07,#textID_s1_drag08
+	{color:#393536 !important;}
+
+	#button1 div :hover{color:#393536 ! important}
+	
+	#ID_s1Title{
+		color:#442557 !important;
+		font-weight: bold;
+	}
+
+	
+	
+	
+	
+	
+	
+#drop0 img#tick0, #drop1 img#tick1, #drop2 img#tick2, #drop3 img#tick3, #drop4 img#tick4 ,
+#drop5 img#tick5, #drop6 img#tick6, #drop7 img#tick7, #drop8 img#tick8, #drop9 img#tick9,
+#drop10 img#tick10, #drop11 img#tick11, #drop12 img#tick12, #drop13 img#tick13, #drop14 img#tick14, 
+#drop15 img#tick15, #drop16 img#tick16, #drop17 img#tick17 {
+    border: 0 none !important;
+    height: 14px;
+    left: -18px !important;
+    position: absolute;
+    width: 14px;
+}
+#button1 div {
+    font-size: 12px !important;
+    height: auto;
+    margin-top: -24px !important;
+    padding-left: 0px !important;
+}
+#button0 div {
+    font-size: 12px !important;
+    height: auto;
+    margin-top: -24px !important;
+    padding-left: 0px !important;
+}

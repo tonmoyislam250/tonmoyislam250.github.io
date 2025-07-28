@@ -1,0 +1,19 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#staticTitle { font-weight:bold;}
+
+#mainDiv{width:440px; height:230px;position:absolute; top:0px; transform:none !important;}
+.html5-popup-dialog p {display: none !important;}
+
+

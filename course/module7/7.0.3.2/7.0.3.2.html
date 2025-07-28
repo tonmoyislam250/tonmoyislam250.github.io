@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>7.0.3.2 Role of TCP</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+    	myLayout = $('body').layout({
+          west__size:300,
+          stateManagement__enabled: true,
+          maskContents: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+	  stateManagement__cookie__expires: 1,
+	  stateManagement__cookie__path: "/"
+        });
+
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Introduction</h1>
+        <h2>Introducing TCP and UDP</h2>
+      </div>
+      <div id="content">
+          <p>TCP incurs additional overhead to gain these functions. Each TCP segment has 20 bytes of overhead in the header encapsulating the application layer data, whereas each UDP segment only has 8 bytes of overhead. A few applications that use TCP are web browsers, email, and file transfers.</p>
+          <p></p>
+          <p>TCP is considered a stateful protocol. A stateful protocol is a protocol that keeps track of the state of the communications session. For example, when data is transmitted using TCP the sender expects the destination to acknowledge that it has received the data. TCP tracks which information it has sent and which information has been acknowledged. If the data is not acknowledged the sender will assume the data did not arrive and resends it. The stateful session begins with the session establishment and ends when the session is closed with session termination. It is important to recognize that maintaining this state information requires resources that are not necessary for a stateless protocol such as UDP.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic" longdesc="media_7.0.3.2_longdesc.txt"></iframe>
+  </body>
+</html>

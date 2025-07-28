@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>7.1.4.2 Applications that use UDP</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+    	myLayout = $('body').layout({
+          west__size:300,
+          stateManagement__enabled: true,
+          maskContents: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+	  stateManagement__cookie__expires: 1,
+	  stateManagement__cookie__path: "/"
+        });
+
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>TCP and UDP</h1>
+        <h2>TCP or UDP, that is the Question</h2>
+      </div>
+      <div id="content">
+          <p>There are three types of applications that are best suited of UDP:</p>
+          <p>
+            <ul>
+              <li>Applications that can tolerate some data loss but require little or no delay.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Applications with simple request and reply transactions.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Unidirectional communications where reliability is not required or can be handled by the application.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Many video and multimedia applications, such as VoIP and Internet Protocol Television (IPTV) use UDP. These applications can tolerate some data loss with little or no noticeable effect. The reliability mechanisms of TCP introduce some delay that may be noticeable in the quality of the sound or video being received. </p>
+          <p></p>
+          <p>Other types of application well suited for UDP are those that use simple request and reply transactions. This is where a host sends a request and may or may not receive a reply. These types of applications include:</p>
+          <p>
+            <ul>
+              <li>Dynamic Host Configuration Protocol (DHCP)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Domain Name System (DNS) - May also use TCP</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Simple Network Management Protocol (SNMP) - May also use TCP</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Trivial File Transfer Protocol (TFTP)</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Some applications handle reliability themselves. These applications do not need the services of TCP, and can better utilize UDP as the transport layer protocol. Trivial File Transfer Protocol (TFTP) is one example of this type of protocol. TFTP has its own mechanisms for flow control, error detection, acknowledgements, and error recovery. It does not need to rely on TCP for those services. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic" longdesc="media_7.1.4.2_longdesc.txt"></iframe>
+  </body>
+</html>

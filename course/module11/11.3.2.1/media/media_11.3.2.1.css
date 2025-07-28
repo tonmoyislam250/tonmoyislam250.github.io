@@ -1,0 +1,24 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+
+}
+#flashContent {
+	width:100%;
+	height:100%;
+}
+
+#ID_s1_txt07{border:2px solid #F68026;border-radius:5px;background-color:#FDE6D4;padding:3px 4px 1px;}
+#staticTxt07{background-color:#000;padding:1px 0}
+#staticTxt24{padding:0 0 0 4px}
+#ID_s1_txt01{border:2px solid #F68026;border-radius:5px;background-color:#FDE6D4;padding:3px 4px 1px;}
+#staticTxt01{background-color:#FFFF99;padding:1px 0}
+/*#test1{background-color:#ffff99 ! important;padding:3px 0px 0px ! important;display:block;width:185px ! important;color:#000 ! important}
+#test2{background-color:#000 ! important;padding:3px 0px 0px ! important;display:block;width:185px ! important;color:#fff ! important}*/
+#ID_s2_title01{color:#442557 ! important}

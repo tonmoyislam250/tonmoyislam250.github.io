@@ -1,0 +1,188 @@
+loadScript("../../../common/scripts/swfobject.js", registerSWF);
+//loadScript("../../../common/scripts/templates/slide/MultiBarSlide.js");
+
+function registerSWF(){
+	swfobject.registerObject("flashobject", "9.0.0", "../../../common/libs/expressInstall.swf");
+}
+
+
+var STAGE_WIDTH = 470;
+var STAGE_HEIGHT = 400;
+
+function getData()
+{
+	var template_type = "MULTI_BAR";
+	var commonTexts = [];
+	
+	var slide_1_type = "IMAGE";
+	var slide_1_images = [{name:"8.3.1.1.png",
+							x:61.3,
+							y:116.4, 
+							width:317.45,
+							height:181.35,
+							type:""},
+							{name:"8.3.1.1A.png",
+							x:4,
+							y:117.7, 
+							width:430,
+							height:29,
+							type:""}];								
+	var slide_1_texts = [{compId:"ID_s1_title",
+							x:0,
+							y:2, 
+							width:447,
+							height:17,
+							size:14,
+							textAlign:"center"},
+							{compId:"ID_s1_txt01",
+							x:147.85,
+							y:48.05, 
+							width:34.5,
+							height:17,
+							size:11,
+							textAlign:"left"},
+							{compId:"ID_s1_txt02",
+							x:294.9,
+							y:48.05, 
+							width:34.5,
+							height:17,
+							size:11,
+							textAlign:"left"},
+							{compId:"ID_s1_txt03",
+							x:13,
+							y:70.25, 
+							width:123,
+							height:16.5,
+							size:11,
+							textAlign:"center"},
+							{compId:"ID_s1_txt04",
+							x:157,
+							y:70.25, 
+							width:122,
+							height:17,
+							size:11,
+							color:"#F26200",
+							textAlign:"center"},
+							{compId:"ID_s1_txt05",
+							x:299,
+							y:70.25, 
+							width:121,
+							height:17,
+							size:11,
+							textAlign:"center"},
+							{compId:"ID_s1_txt06",
+							x:70.85,
+							y:139.05, 
+							width:40,
+							height:17,
+							size:11,
+							textAlign:"left"},
+							{compId:"ID_s1_txt07",
+							x:213.85,
+							y:139.05, 
+							width:40,
+							height:17,
+							size:11,
+							textAlign:"left"},
+							{compId:"ID_s1_txt08",
+							x:356.1,
+							y:139.05, 
+							width:122,
+							height:17,
+							size:11,
+							textAlign:"left"},
+							{compId:"ID_s1_txt09",
+							x:168.7,
+							y:350.85, 
+							width:104,
+							height:17,
+							size:11,
+							textAlign:"center"},
+							{compId:"staticTxt",
+							bodyText:'<div class="classname">0000<br/>0001<br/>0002<br/>0003<br/>0004<br/>0005<br/>0006<br/>0007<br/>0008<br/>0009<br/>000A<br/>&#8230;<br/>FFFE<br/>FFFF</div>',
+							x:70.2,
+							y:297.05, 
+							width:315.05,
+							height:217,
+							size:11,
+							color:"#F26200",
+							textAlign:"center"}];	
+	
+	var slide_graphics = [{	x:62,/* shapes for static text1 */
+							y:298.3, 
+							width:315.5,
+							height:45,							
+							stroke:"#deddde",
+							thickness:1,
+							corner:0}]
+	var slide_1_object = {templateType:slide_1_type,
+							x:0,
+							y:0,
+							images:slide_1_images,graphics:slide_graphics,
+							texts:slide_1_texts};
+							
+	var slide_2_type = "IMAGE";
+	var slide_2_images = [{name:"8.3.1.1B.png",
+							x:198.05,
+							y:91.95, 
+							width:169.8,
+							height:284.9,
+							type:""},
+							{name:"8.3.1.1C.png",
+							x:105.5,
+							y:54, 
+							width:215,
+							height:68,
+							type:""}]
+													
+	var slide_2_texts = [{compId:"ID_s2_title",
+							x:0,
+							y:2, 
+							width:447,
+							height:17,
+							size:14,
+							textAlign:"center"},
+							{compId:"ID_s2_txt01",
+							x:66.5,
+							y:96.5, 
+							width:86,
+							height:17,
+							size:11,
+							textAlign:"left"},
+							{compId:"ID_s2_txt02",
+							x:213.4,
+							y:299.95, 
+							width:150,
+							height:17,
+							size:11,
+							textAlign:"center"},
+		{compId:"staticTxt1",
+							bodyText:'<div>2001:0DB8:ACAD:<div class="orange">0000</div>::/64<br/>2001:0DB8:ACAD:<div class="orange">0001</div>::/64<br/>2001:0DB8:ACAD:<div class="orange">0002</div>::/64<br/>2001:0DB8:ACAD:<div class="orange">0003</div>::/64<br/>2001:0DB8:ACAD:<div class="orange">0004</div>::/64<br/>2001:0DB8:ACAD:<div class="orange">0005</div>::/64<br/>2001:0DB8:ACAD:<div class="orange">0006</div>::/64<br/>2001:0DB8:ACAD:<div class="orange">0007</div>::/64<br/>2001:0DB8:ACAD:<div class="orange">0008</div>::/64<br/>2001:0DB8:ACAD:<div class="orange">0009</div>::/64<br/>2001:0DB8:ACAD:<div class="orange">000A</div>::/64<br/>2001:0DB8:ACAD:<div class="orange">000B</div>::/64<br/>2001:0DB8:ACAD:<div class="orange">000C</div>::/64</div>',
+							x:133.8,
+							y:106.05, 
+							width:315.05,
+							height:217,
+							size:11,							
+							textAlign:"center"},
+							{compId:"staticTxt1",
+							bodyText:'<div>2001:0DB8:ACAD:<div class="orange">FFFF</div>::/64</div>',
+							x:133.8,
+							y:335.05, 
+							width:315.05,
+							height:217,
+							size:11,							
+							textAlign:"center"}	];							
+	var slide_2_object = {templateType:slide_2_type,
+							x:0,
+							y:0,
+							images:slide_2_images,
+							texts:slide_2_texts};
+							
+				
+	var slides = [slide_1_object,slide_2_object];
+						
+	return {templateType:template_type,
+			textObject:commonTexts,
+			slideObject:slides};
+	
+}

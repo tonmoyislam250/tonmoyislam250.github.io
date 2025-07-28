@@ -1,0 +1,93 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden !important;
+}
+
+#mainDiv
+{
+width: 414px;
+height:400px;
+position:absolute;
+left:0px;
+top:0px;
+}
+#dvSliderContainer{bottom:20px !important;right: 0px !important;width:412px;}
+#slider{right:7px;}
+#maincontainer{width:410px;height:auto;position:absolute;top:0px;left:0px;top:0px;left:0px;}
+#imagecontainer{
+background: url("3_1_1_7_B.png") no-repeat scroll center top transparent;
+height: 192px;
+left: 0px;
+position: absolute;
+top: 80px;
+width: 400px;
+}
+#sys1
+{
+height: 46px;
+left: 274px;
+position: absolute;
+top: -40px;
+width: 55px;	
+z-index:2;
+}
+#sys2
+{
+height: 46px;
+left: 333px;
+position: absolute;
+top: 23px;
+width: 55px;
+z-index:2;	
+}
+#sys3
+{
+height: 46px;
+left: 349px;
+position: absolute;
+top: 125px;
+width: 55px;	
+z-index:2;
+}
+#sys4
+{
+height: 46px;
+left: 279px;
+position: absolute;
+top: 187px;
+width: 55px;	
+z-index:2;
+}
+#envelope
+{
+height: 20px;
+left: 49px;
+position: absolute;
+top: 83px;
+width: 31px;
+opacity:0;
+}
+#envelope1,#envelope2,#envelope3,#envelope4
+{
+height: 20px;
+left: 201px;
+opacity: 1;
+position: absolute;
+top: 78px;
+width: 31px;
+opacity:0;
+z-index:2;
+}
+#ID_s1_btn01 { height:17px !important; top:-3px !important; padding-top:3px !important;}
+#ID_s1_btn02 { height:17px !important; top:-3px !important; padding-top:3px !important;}
+#ID_s1_btn03 { height:17px !important; top:-3px !important; padding-top:3px !important;}

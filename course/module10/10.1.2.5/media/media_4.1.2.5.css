@@ -1,0 +1,19 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	
+	}
+
+#ID_txt07 {color:#FFF !important;}
+#ID_txt08 {color:#FFF !important;}
+#ID_btn01 { left:2px !important; top:1px !important;}
+#ID_btn02 { left:2px !important; top:1px !important;}

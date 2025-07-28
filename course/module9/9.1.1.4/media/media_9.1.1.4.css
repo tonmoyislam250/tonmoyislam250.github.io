@@ -1,0 +1,24 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_tx01{
+	background:url(text_01.png) no-repeat left top;
+	background-size:contain;
+	padding:6px 0px 13px 29px;
+}
+
+#ID_tx05 {
+ background:url(text_02.png) no-repeat left top;
+	background-size:contain;
+	padding:29px 0px 10px 10px; 
+}

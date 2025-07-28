@@ -1,0 +1,36 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	}
+	
+body {font-family:"Courier New" !important;}
+#ID_txt01, ID_txt02, ID_txt03, ID_txt04, ID_txt05, ID_txt06, ID_txt07, ID_txt08, ID_txt09, ID_txt10, ID_txt11, ID_txt12, ID_txt13, ID_txt14, ID_txt15, ID_txt16, ID_txt17, ID_txt18, ID_txt19 { font-family:"Courier New", Courier, monospace !important;}
+#ID_txt03 {line-height:10px; overflow:hidden !important;}
+#ID_txt05 {line-height:8px; overflow:hidden !important; text-wrap:unrestricte !important;}
+#ID_txt08 {text-wrap:suppress !important;}
+#ID_txt07 {line-height:11px; overflow:hidden !important; height:37px !important;}
+#ID_txt13 {line-height:10px; overflow:hidden !important;}
+#ID_txt15 {line-height:10px; overflow:hidden !important;}
+#ID_txt17 {line-height:10px; overflow:hidden !important;}
+#ID_txt09 {line-height:10px; overflow:hidden !important;}
+#ID_txt11 {line-height:10px; overflow:hidden !important;}
+#ID_txt19 {line-height:11px; overflow:hidden !important;}
+
+#ID_txt14 {line-height:10px; overflow:hidden !important;}
+#ID_txt03, #ID_txt05, #ID_txt07, #ID_txt13, #ID_txt15, #ID_txt17, #ID_txt09, #ID_txt11, #ID_txt19 { color:#393536 !important; height:40px !important;}
+#ID_txt05 { color:#393536 !important; height:50px !important;}
+#ID_txt14 { color:#393536 !important; height:21px !important;}
+#ID_txt12 {line-height:10px; overflow:hidden !important;}
+#ID_txt14 {line-height:9px; overflow:hidden !important;}
+#ID_txt15 {line-height:8px; overflow:hidden !important;}
+#ID_title { font-weight:bold !important; font-family:Arial, Helvetica, sans-serif !important;}
+#ID_txt13 { height:42px !important; line-height:8px;}

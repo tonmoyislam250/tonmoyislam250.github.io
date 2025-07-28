@@ -1,0 +1,17 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_txt02 {color:#393536 !important;}
+#ID_bubble {color:#393536 !important;}
+#ID_txt03 {color:#393536 !important;}
+#ID_txt04 {color:#393536 !important;}

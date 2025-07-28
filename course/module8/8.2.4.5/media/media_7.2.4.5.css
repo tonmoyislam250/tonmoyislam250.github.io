@@ -1,0 +1,46 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+    width:98%;
+    height:98%;
+    overflow:hidden; 
+}
+#mainDiv {
+	height: 380px;
+	width: 390px;
+	position:absolute;
+	top:0px;  left: 0px; 
+}
+#ID_s1_txt08,#ID_s1_txt09,#ID_s1_txt10{
+	background-color: #fff !important;
+}
+
+div[id^=staticTxt]{
+	letter-spacing: 0.1px; 
+}
+
+.lblBorder{
+	border: 1px solid black;
+}
+
+table tr td span{background:#facca8;padding:1px;}
+
+#ID_s2_txt01{width:130px;height:29px;padding:5px;border:2px solid #f68026;background:#fde6d4;border-radius:5px;}
+
+#staticTxt_r21{height: 20px!important;}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+ 
+	div[id^=staticTxt]{
+		letter-spacing: -0.3px; 
+	}
+
+}

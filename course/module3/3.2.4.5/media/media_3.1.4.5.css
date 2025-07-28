@@ -1,0 +1,59 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden !important;
+}
+
+#mainDiv {
+    height: 400px;
+    width: 755px;	
+	position:absolute;
+	top:0px;
+	left:4px;
+
+}
+#textID_osi_txt07,#textID_osi_txt06,#textID_osi_txt05,#textID_osi_txt04,#textID_osi_txt03,#textID_osi_txt02,#textID_osi_txt01{top:-1px !important;}
+
+#text_body0,#text_body1,#text_body2,#text_body3,#text_body4,#text_body5,{color:#00918E !important;z-index:1!important;}
+
+#text_body6{color:#000000 !important;z-index:1!important;}
+
+
+#contentDiv_s1 #tick0,#contentDiv_s1 #tick1,#contentDiv_s1 #tick2,#contentDiv_s1 #tick3,#contentDiv_s1 #tick4,#contentDiv_s1 #tick5{top: 6px !important;left:-23px !important}
+
+#ID_FEEDBACK{z-index:100;left: 20px !important;}
+
+#ID_s1BodyText,#ID_s2BodyText{font-size:11px !important;padding:0 0 0 8px!important;margin:0px!important;width:150px!important;text-align:left!important;left:0px !important;top:28px !important;color:#000 ! important}
+
+#ID_s1Title,#ID_s2Title{font-size:11px !important;width:165px !important;text-align:left !important;padding:0 0 0 8px !important;left:0px !important;top:3px !important;color:#442557 ! important}
+
+#text_body19{font-size:11px!important;;text-align:left;}
+
+#text_body19 font {font-size:13px !important;text-align:left;}
+
+#text_body20 font {font-size:14px !important;text-align:left;}
+
+#contentDiv_s2 #text_body0,#contentDiv_s2 #text_body1,#contentDiv_s2 #text_body2,#contentDiv_s2 #text_body3,#contentDiv_s2 #text_body4{font-size:11px !important;color:#000000 !important}
+
+#contentDiv_s2 #text_body5{font-size:11px!important;;text-align:left;color:#000000 !important}
+#contentDiv_s2 #text_body5 font {font-size:13px !important;text-align:left;color:#000000 !important}
+
+#text_body6 font{font-size:14px !important;text-align:left;color:#000000 !important}
+
+#contentDiv_s2 #tick0,#contentDiv_s2 #tick1,#contentDiv_s2 #tick2,#contentDiv_s2 #tick3,#contentDiv_s2 #tick4,#contentDiv_s2 #tick5{top: 6px !important;left:-23px !important}
+#drag58,#drag59,#drag60,#drag61{z-index:0 !important}
+
+#textID_osi_txt07,#textID_osi_txt06,#textID_osi_txt05,#textID_osi_txt04,#textID_osi_txt03,#textID_osi_txt02,#textID_osi_txt01,#textID_app2_DS,#textID_net2_DS,#textID_int_DS,#textID_tra2_DS
+{color:#606062 !important;}
+
+#button0 div,#button1 div{margin-top:-23px !important;
+padding-left: 0 !important;}

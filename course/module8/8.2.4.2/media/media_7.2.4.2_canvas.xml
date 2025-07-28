@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+	<slide>
+		<element type="IMAGE" src="media_7.2.4.2.jpg" width="441.95" height="128" x="0" y="64"/>
+		<element type="TEXT" subType="TITLE" compId="ID_title"/>
+		<element type="TEXT" text="PC1" width="27" x="21.20" y="77.2" bold="1" color="#fff" align="center"/>
+		<element type="TEXT" text="PC2" width="25.65" x="21.20" y="148.3" bold="1" color="#fff" align="center" />
+		<element type="TEXT" text="R1" width="31.75" x="213.35" y="130.75" bold="1" color="#fff" align="center" />
+		<element type="TEXT" text="2001:0DB8:ACAD:1::/64" width="140.65" x="77.85" y="66.25"  align="center" bold="1" />
+		<element type="TEXT" text="2001:0DB8:ACAD:2::/64" width="143.15" x="70.85" y="180.25"  align="center"  bold="1"/>
+		<element type="TEXT" text=":10" width="22.55" x="53.2" y="77.4"  align="left" />
+		<element type="TEXT" text=":10" width="22.55" x="53.3" y="149.4"  align="left" />
+		<element type="TEXT" text="G0/0 :1" width="30.8" x="182.55" y="93.95"  align="right" />
+		<element type="TEXT" text=":1 G0/1" width="30.8" x="182.55" y="139.5"  align="right" />
+		<element type="TEXT" text=":1 S0/0/0" width="38.2" x="250.25" y="114.85"  align="left" />
+		<element type="TEXT" text="2001:0DB8:ACAD:3::/64" width="130.65" x="242.85" y="94.8"  align="center"  bold="1"/>
+	</slide>
+	<slide>
+		<element type="IMAGE" src="media_7.2.4.2.jpg" width="441.95" height="124" x="13.35" y="36"/>
+		<element type="TEXT" text="PC1" width="27" x="32.65" y="48.2" bold="1" color="#fff" align="center"/>
+		<element type="TEXT" text="PC2" width="25.65" x="33.2" y="118.3" bold="1" color="#fff" align="center" />
+		<element type="TEXT" text="R1" width="31.75" x="220.35" y="100.75" bold="1" color="#fff" align="center" />
+		<element type="TEXT" text="2001:0DB8:ACAD:1::/64" width="140.65" x="88.85" y="36.25"  align="center" bold="1"/>
+		<element type="TEXT" text="2001:0DB8:ACAD:2::/64" width="143.15" x="81.85" y="150.25"  align="center" bold="1"/>
+		<element type="TEXT" text=":10" width="22.55" x="68.2" y="47.4"  align="left" />
+		<element type="TEXT" text=":10" width="22.55" x="68.3" y="119.4"  align="left" />
+		<element type="TEXT" text="G0/0 :1" width="30.8" x="190.55" y="63.95"  align="right" />
+		<element type="TEXT" text=":1 G0/1" width="30.8" x="190.55" y="109.5"  align="right" />
+		<element type="TEXT" text=":1 S0/0/0" width="38.2" x="254.25" y="84.85"  align="left" />
+		<element type="TEXT" text="2001:0DB8:ACAD:3::/64" width="130.65" x="242.85" y="64.8"  align="center" bold="1"/>
+		<element type="ROUTER" textId="staticTxt" width="365.15" height="193.25" x="45.4" y="177.45"  align="left" />
+	</slide>
+	<slide>
+		<element type="IMAGE" src="7_2_4_2.jpg" width="349.95" height="288.55" x="46.35" y="59.35" subType="STD"/>
+	</slide>
+	<slide>
+		<element type="IMAGE" src="media_7.2.4.2.jpg" width="441.95" height="128" x="0" y="2"/>
+		<element type="TEXT" text="PC1" width="27" x="21.20" y="14.65" bold="1" color="#fff" align="center"/>
+		<element type="TEXT" text="PC2" width="25.65" x="21.20" y="86.75" bold="1" color="#fff" align="center" />
+		<element type="TEXT" text="R1" width="31.75" x="213.35" y="69.2" bold="1" color="#fff" align="center" />
+		<element type="TEXT" text="2001:0DB8:ACAD:1::/64" width="140.65" x="77.85" y="4.7"  align="center" bold="1" />
+		<element type="TEXT" text="2001:0DB8:ACAD:2::/64" width="143.15" x="70.85" y="118.7"  align="center"  bold="1"/>
+		<element type="TEXT" text=":10" width="22.55" x="53.2" y="15.85"  align="left" />
+		<element type="TEXT" text=":10" width="22.55" x="53.3" y="87.85"  align="left" />
+		<element type="TEXT" text="G0/0 :1" width="30.8" x="182.55" y="32.4"  align="right" />
+		<element type="TEXT" text=":1 G0/1" width="30.8" x="182.55" y="77.95"  align="right" />
+		<element type="TEXT" text=":1 S0/0/0" width="38.2" x="250.25" y="53.3"  align="left" />
+		<element type="TEXT" text="2001:0DB8:ACAD:3::/64" width="130.65" x="242.85" y="33.25"  align="center"  bold="1"/>
+		<element type="ACTIVITY" subType="SYNTAX" compId="ID_SC" x="10" y="135" width="420" height="267"/>
+	</slide>
+	<text id="staticTxt"><![CDATA[
+		R1(config)# <b>interface gigabitethernet 0/0</b><br/>
+		R1(config-if)# <b>ipv6 address <span style="color:#F26200;">2001:db8:acad:1::1/64</span></b><br/>
+		R1(config-if)# <b>no shutdown</b><br/>
+		R1(config-if)# <b>exit</b><br/>
+		R1(config)# <b>interface gigabitethernet 0/1</b><br/>     
+		R1(config-if)# <b>ipv6 address <span style="color:#F26200;">2001:db8:acad:2::1/64</span></b><br/>
+		R1(config-if)# <b>no shutdown</b><br/>
+		R1(config-if)# <b>exit</b><br/>
+		R1(config)# <b>interface serial 0/0/0</b><br/>            
+		R1(config-if)# <b>ipv6 address <span style="color:#F26200;">2001:db8:acad:3::1/64</span></b><br/>
+		R1(config-if)# <b>clock rate 56000</b><br/>
+		R1(config-if)# <b>no shutdown</b><br/>
+	]]></text>
+	</slide>
+</data>
+

@@ -1,0 +1,180 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_s1_bubble01,#ID_s1_bubble02
+{
+line-height:14px !important;	
+}
+#mainDiv
+{
+width:405px;
+height:390px;
+position:absolute;
+top:0px;
+left:0px;
+}
+#maincontainer,#maincontainer1
+{
+	width:400px;
+	height:380px;
+	position:absolute;
+	top:0px;
+	left:0px;	
+}
+
+#imagecontainer,#imagecontainer1
+{
+width:323px;
+height:63px;
+position:absolute;
+top:145px;
+left:15px;	
+background:url(9_2_2_4_B.jpg) top center no-repeat;
+}
+
+#dvSliderContainer
+{
+right:11px !important;
+}
+
+#text1,#text1_1
+{
+width:104px;
+height:auto;
+background:#FDE6D4;
+border:2px solid #F68026;
+border-radius:5px 5px 5px 5px;
+padding:5px;
+position:absolute;
+top:-20px;
+left:48px;
+font-size:10px;
+text-align:center;	
+}
+#arrow1
+{
+width:51px;
+height:13px;
+position:absolute;
+top:9px;
+left:194px;	
+}
+#arrow2
+{
+height:12px;
+left: 99px;
+position: absolute;
+top: 9px;
+width:146px;
+clip:rect(0px, 146px, 16px, 146px)
+}
+#arrow3
+{
+height: 13px;
+left:49px;
+position: absolute;
+top:9px;
+width: 51px;
+}
+#arrow4
+{
+height: 12px;
+left: 52px;
+position: absolute;
+top: 9px;
+width: 146px;
+clip: rect(0px, 0px, 16px, 0px);
+}
+#arrow5
+{
+width:51px;
+height:13px;
+position:absolute;
+top:35px;
+left:190px;	
+}
+#arrow6
+{
+height:12px;
+left:95px;
+position: absolute;
+top:35px;
+width:146px;
+clip:rect(0px, 146px, 16px, 146px)
+}
+#arrow7
+{
+height: 13px;
+left:49px;
+position: absolute;
+top:9px;
+width: 51px;	
+}
+#arrow8
+{
+height: 12px;
+left:52px;
+position: absolute;
+top:9px;
+width: 146px;
+clip: rect(0px, 0px, 16px, 0px);
+}
+
+#server,#server1
+{
+font-size: 10px;
+height: 17px;
+left: 1px;
+position: absolute;
+text-align: center;
+top: 63px;
+width: 39px;
+}
+#switch,#switch1
+{
+font-size: 10px;
+height: 17px;
+left:246px;
+position: absolute;
+text-align: center;
+top:48px;
+width:59px;
+}
+#text2
+{
+background: none repeat scroll 0 0 #FDE6D4;
+border: 2px solid #F68026;
+border-radius: 5px 5px 5px 5px;
+font-size: 10px;
+height: auto;
+left: 48px;
+padding: 5px;
+position: absolute;
+text-align: center;
+top: 60px;
+width: 104px;	
+}
+#text3
+{
+background: none repeat scroll 0 0 #FDE6D4;
+border: 2px solid #F68026;
+border-radius: 5px 5px 5px 5px;
+font-size: 10px;
+height: auto;
+left: 48px;
+padding: 5px;
+position: absolute;
+text-align: center;
+top: -25px;
+width: 104px;	
+}

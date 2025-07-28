@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>4.0.3.2 Bandwidth</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+    	myLayout = $('body').layout({
+          west__size:300,
+          stateManagement__enabled: true,
+          maskContents: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane"
+        });
+
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+    	var date = new Date();
+     	var minutes = 10;
+     	date.setTime(date.getTime() + (minutes * 60 * 1000));
+     	$.cookie("ui_pane", "foo", { expires: date });
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Physical Layer Protocols</h1>
+        <h2>Fundamental Principles of Layer 1</h2>
+      </div>
+      <div id="content">
+          <p>Different physical media support the transfer of bits at different speeds. Data transfer is usually discussed in terms of bandwidth and throughput.</p>
+          <p></p>
+          <p>Bandwidth is the capacity of a medium to carry data. Digital bandwidth measures the amount of information that can flow from one place to another in a given amount of time. Bandwidth is typically measured in kilobits per second (kbps) or megabits per second (Mbps). </p>
+          <p></p>
+          <p>The practical bandwidth of a network is determined by a combination of factors: </p>
+          <p>
+            <ul>
+              <li>The properties of the physical media </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>The technologies chosen for signaling and detecting network signals.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Physical media properties, current technologies, and the laws of physics all play a role in determining available bandwidth.</p>
+          <p></p>
+          <p>The table shows the commonly used units of measure for bandwidth.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic" longdesc="media_4.0.3.2_longdesc.txt"></iframe>
+  </body>
+</html>

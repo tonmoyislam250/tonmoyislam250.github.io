@@ -1,0 +1,34 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#DNSTitle,#BOOTPTitle,#DHCPTitle,#SMTPTitle,#POPTitle,#IMAPTitle,#FTPTitle,#TFTPTitle,#HTTPTitle{
+	color : #442557 !important;font-weight:bolder;
+	margin-top:2px;
+	margin-left:3px;
+	width:379px !important;
+}
+#dhcpBody,#bootpBody,#smtpBody,#popBody,#imapBody,#ftpBody,#tftpBody{
+margin-top:15px;
+margin-left:-8px;
+}
+#dnsBody{
+margin-left:0px;
+margin-top:13px;
+}
+#httpBody{
+margin-top:15px;
+margin-left:0px;	
+}
+li{margin-left:2em !important;}

@@ -1,0 +1,90 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+
+.ID_bubble01
+{
+	position: relative;
+	padding: 5px;
+	margin: 1em 0 3em;
+	background-color: #cce9e7;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border: 3px solid #67bdbc;
+	width:194px;
+	height:40px;
+	color:#393536;
+}
+
+.ID_bubble01::after
+{
+	content: "";
+	position: absolute;
+	bottom: -26px;
+	left: 99px;
+	border-width: 23px 17px 0 0px;
+	border-style: solid;
+	border-color: #67bdbc transparent;
+	display: block;
+
+	
+}
+
+.ID_bubble02
+{
+	position: relative;
+	padding: 5px;
+	margin: 1em 0 3em;
+	background-color: #cce9e7;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border: 3px solid #67bdbc;
+	width:180px;
+	height:44px;
+	color:#393536;
+}
+
+.ID_bubble02.left:after {
+    border-color: transparent #67bdbc;
+    border-width: 0px 31px 14px 0;
+    bottom: auto;
+    left: -33px;
+    top: 16px;
+}
+.ID_bubble02:after {
+    border-style: solid;
+    content: "";
+    position: absolute;
+	display:inline-block;
+  
+}
+.ID_bubble02.left {
+    background-color: #cce9e7;
+    margin-left: 37px;
+}
+
+#ID_txt08{background-color:#fff;
+display:inline;
+padding:0px;
+margin:10px 0 0 5px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>7.0.3.3 Introducing UDP</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+    	myLayout = $('body').layout({
+          west__size:300,
+          stateManagement__enabled: true,
+          maskContents: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+	  stateManagement__cookie__expires: 1,
+	  stateManagement__cookie__path: "/"
+        });
+
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Introduction</h1>
+        <h2>Introducing TCP and UDP</h2>
+      </div>
+      <div id="content">
+          <p>
+            <b>User Datagram Protocol (UDP)</b>
+          </p>
+          <p></p>
+          <p>UDP is considered a best effort transport protocol, described in RFC 768. UDP is a lightweight transport protocol that offers the same data segmentation and reassembly as TCP, but without TCP reliability and flow control. UDP is such a simple protocol it is usually described in terms of what it does not do compared to TCP. UDP is:</p>
+          <p>
+            <ul>
+              <li>Connectionless</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Unreliable delivery </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>No ordered data reconstruction</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>No flow control</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>Connectionless </b>
+          </p>
+          <p>UDP does not establish a connection between the hosts before data can be sent and received. </p>
+          <p></p>
+          <p>
+            <b>Unreliable Delivery</b>
+          </p>
+          <p>UDP does not provide services to ensure that the data will be delivered reliably. There are no processes within UDP to have the sender retransmit any data that is lost or is corrupted.</p>
+          <p></p>
+          <p>
+            <b>No Ordered Data Reconstruction</b>
+          </p>
+          <p>Occasionally data is received in a different order than it was sent. UDP does not provide any mechanism for reassembling the data in its original sequence. The data is simply delivered to the application in the order that it arrives.</p>
+          <p></p>
+          <p>
+            <b>No Flow Control</b>
+          </p>
+          <p>There are no mechanisms within UDP to control the amount of data transmitted by the source to avoid overwhelming the destination device. The source sends the data. If resources on the destination host become overtaxed, the destination host will mostly likely drop data sent until resources become available. Unlike TCP, with UDP there is no mechanism for automatic retransmission of dropped data.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic" longdesc="media_7.0.3.3_longdesc.txt"></iframe>
+  </body>
+</html>

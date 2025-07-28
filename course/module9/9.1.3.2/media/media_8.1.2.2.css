@@ -1,0 +1,42 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:100%;
+	height:100%;
+}
+
+.ipaddress{font-family:Courier New;float:left;padding:0;margin:0}
+.tab{background:url(bg.png) left top repeat-y;height:30px;float:left}
+.ipaddress span.col1,.ipaddress span.col2,.ipaddress span.col3,.ipaddress span.col4,.ipaddress span.col5,.ipaddress span.col6,.ipaddress span.col7,
+.ipaddress span.col4_4{font-size:11px;padding:8px;float:left}
+.ipaddress span.col1,.ipaddress span.col2,.ipaddress span.col3,.ipaddress span.col4{background-color:#DAE17A}
+.ipaddress span.col5, .ipaddress span.col6{background-color:#98D3D1;font-weight:bold;color:#F26200}
+.ipaddress span.col7{background-color:#fff;font-size:12px}
+span.colgap{height:63px;float:left;}
+span.col4_4{background-color:#DAE17A;color:#652C8A;font-weight:bold}
+.slide4{font-family:Courier New;}
+
+#staticTxt_s2{height: 242px!important;}
+#staticTxt_s3{height: 242px!important;}
+
+
+@media only screen and (device-width: 768px) {
+#staticTxtPC1{width:26px!important;left: 9px!important;top:0.5px !important;}/*margin-top:-2px; */
+#staticTxtPC2{width:26px!important;left: 9px!important;line-height:11px ;top:0.5px !important;}
+#staticTxtR1{margin-top:-2px;top:1px !important;}
+#staticTxtPC4-1{width:26px!important;left: 0px!important;margin-top:-1px;}
+#staticTxtPC4-2{width:26px!important;left: 1px!important;margin-top:-3px; top: 2px !important;}
+#staticTxtPC5-1{width:26px!important;left: 2px!important;margin-top:-2px;top: 0.5px !important;}
+/*#staticTxtPC5-2{width:26px!important;left: 9px!important;margin-top:-4px;top: 3px !important;}*/
+#staticTxtR5-1{margin-top:-2px;top:1px !important;}
+}
+ 
+ 

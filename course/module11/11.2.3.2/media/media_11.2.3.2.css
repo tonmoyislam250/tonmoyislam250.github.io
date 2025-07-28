@@ -1,0 +1,98 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+/*Bubble first Start*/
+.ID_s2_bubble01 {
+    background-color: #CCE9E7;
+    border: 3px solid #67BDBC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 4px #888888;
+    color: #393536;
+    height: 31px;
+    margin: 1em 0 3em;
+    position: relative;
+    width: 91px;
+}
+.ID_s2_bubble01:after {
+    border-color: #67BDBC transparent;
+    border-style: solid;
+    border-width: 23px 0 0 17px;
+    bottom: -25px;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+}
+/*Bubble First End*/
+
+/*Bubble Second Starts*/
+.ID_s2_bubble02 {
+    background-color: #CCE9E7;
+    border: 3px solid #67BDBC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 4px #888888;
+    color: #393536;
+    height: 31px;
+    margin: 1em 0 3em;
+    position: relative;
+    width: 147px;
+}
+.ID_s2_bubble02:after {
+     border-color: #67BDBC transparent;
+    border-style: solid;
+    border-width: 23px 0 0 17px;
+    bottom: -25px;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+}
+/*Bubble Second End*/
+
+
+/*Bubble third Starts*/
+.ID_s2_bubble03 {
+     background-color: #CCE9E7;
+    border: 3px solid #67BDBC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 4px #888888;
+    color: #393536;
+    height: 31px;
+    margin: 1em 0 3em;
+    position: relative;
+    width: 130px;
+}
+.ID_s2_bubble03.left:after {
+    border-color: transparent #67BDBC;
+    border-width: 0 0 15px 25px;
+    bottom: auto;
+    left: 133px;
+    top: 3px;
+}
+.ID_s2_bubble03:after {
+    border-color: #67BDBC transparent;
+    border-style: solid;
+    border-width: 20px 0 0 20px;
+    bottom: -20px;
+    content: "";
+    display: block;
+    left: 50px;
+    position: absolute;
+    width: 0;
+}
+.ID_s2_bubble02.left {
+    background-color: #CCE9E7;
+    margin-left: 28px;
+}
+/*Bubble third End*/

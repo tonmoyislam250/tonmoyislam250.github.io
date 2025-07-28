@@ -1,0 +1,244 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#DNSTitle, #BOOTPTitle, #DHCPTitle, #SMTPTitle, #POPTitle, #IMAPTitle, #FTPTitle, #TFTPTitle, #HTTPTitle, #Interface_Driver_title, #PPPTitle, #EthernetTitle, #ARPTitle, #BGPTitle, #EIGRPTitle, #OSPFTitle, #RIPTitle, #ICMPTitle, #NATTitle, #InternetProtocolTitle, #TCPTitle, #UDPTitle
+
+{color : #493157 !important; font-weight:bolder; }
+#ID_s3_title,#ID_s2_title{width:410px;font-size:14px;font-weight:bold;text-align:center; height:17px;}
+li{margin-left:2em !important;}
+
+/*SLIDE ONE aNIMATION */
+
+#mainDiv{width:410px;height:400px;position:absolute;top:0px;}
+#ID_s2_txt01,#ID_s2_txt02,#ID_s2_txt03,#ID_s2_txt04,#ID_s2_txt05,#ID_s2_txt06,#ID_s2_txt07,#ID_s2_txt08,#ID_s2_txt09,#ID_s2_txt10,#ID_s2_txt11,#ID_s2_txt12,
+#ID_s2_txt13,#ID_s2_txt14,#ID_s2_txt15,#ID_s2_txt16,#ID_s2_txt17,#ID_s2_txt18,#ID_s2_txt19,
+#ID_s2_txt26{width:72.7px;height:17px;text-align:center;font-size:11px;position:absolute;}
+#cloud{position:absolute;top:300px;left:160px;width:69px;height:42px;}
+#cloud1{position:absolute;top:300px;left:128px;width:69px;height:42px;}
+
+/*#main_container{background:url(3_1_2_3A.png) left top no-repeat;position:absolute;left:-9px;top:68px;width:410px;height:259px;}*/
+#main_container{position:absolute;width:410px;height:259px;}
+#ID_s2_txt01{left:16.3px;top:82.2px;}
+#ID_s2_txt02{left:73px;top:82.2px;}
+#ID_s2_txt03{left:115.05px;top:82.2px;}
+#ID_s2_txt04{left:158.95px;top:82.2px;}
+#ID_s2_txt05{left:206.95px;top:82.2px;}
+#ID_s2_txt06{left:206.95px;top:82.2px;}
+#ID_s2_txt07{left:206.95px;top:82.2px;}
+#ID_s2_txt08{ left: 196.95px;top: 145.2px;}
+#ID_s2_txt09{left: 189.95px;top: 166.5px;}
+#ID_s2_txt10{left: 199.95px;top: 188.2px;}
+#ID_s2_txt11{left:172.95px;top:208.7px;width:100px;}
+#ID_s2_txt12{left: 28.95px; top: 279.2px; width: 67px;}
+#ID_s2_txt13{left: -12px; position: absolute; text-align: center;top: 1px;}/*anim data */
+#ID_s2_txt14{left: 275.95px;top: 277.2px;}/*Webclient*/
+#ID_s2_txt15{left: 48.95px;width: 200px;top: 46px;font-size:12px;}/*Protocol Encapsulation Terms*/
+#ID_s2_txt16{ left:-15px;text-align: center;top: 1px;}/*anim http */
+#ID_s2_txt17{left:-13.05px;position: absolute; text-align: center;top: 1px;}/*anim tcp*/
+#ID_s2_txt18{left: -19.05px;top: 1px;}/*anim data */
+#ID_s2_txt19{left:-4.05px;top: 1px;}
+#ID_s2_txt26{left:232.95px;top:113.2px;width:30px;}
+#segment{position: absolute;top:0;left:0;}
+#data{ background-color: #fff3b9;  border: 1px solid #000000; height: 17px; left: 258px; position: absolute; top: 245.2px; width: 46.45px; z-index: 5;}
+#http{position:absolute;	border: 1px solid #000000;	background-color:#fff3b9;	height: 17px;	width: 46.45px; z-index:4; left: 257.95px; opacity: 0;top: 245.2px;}
+#tcp{position:absolute;	border: 1px solid #000000;background-color:#dbecda;height: 17px;width: 40px; left: 210.95px;top: 245.2px;opacity:0;z-index:3;}
+#ip{ background-color: #e0d5e6; border: 1px solid #000000;  height: 17px; left: 169.95px; opacity: 0; position: absolute; top: 245.2px; width: 32px; z-index: 2;}
+#ethernet{position:absolute;border: 1px solid #000000;background-color:#f9d1d2;	height: 17px;width:65px;left: 136.95px;top: 245.2px;opacity:0;z-index:1;}
+#ethernetempty{position:absolute;border: 1px solid #000000;background-color:#f9d1d2;height: 17px;width:20px; left: 282.95px; top: 245.2px;opacity:0;}
+#animPic{ left:1px;top:110px;position:absolute;opacity:0;z-index:7;}
+
+/*Anim purple boxes */
+#purplebox{ 
+	border: 2px solid #f26200;
+	-webkit-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	-moz-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	height: 60px;
+	left: 214px;
+	opacity: 0;
+	position: absolute;
+	top: 80px;
+	width: 47px;
+    }/*data*/
+#purplebox1{
+	border: 2px solid #f26200;
+	-webkit-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	-moz-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+    height: 84px;
+    left: 168px;
+    opacity: 0;
+    position: absolute;
+    top: 78px;
+    width: 95px;  }/*http*/
+#purplebox2{
+	border: 2px solid #f26200;
+	-webkit-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	-moz-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	 height: 103px;
+    left: 125px;
+    opacity: 0;
+    position: absolute;
+    top: 78px;
+    width: 135px;}/*tcp*/
+#purplebox3{
+	border: 2px solid #f26200;
+	-webkit-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	-moz-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	height: 124px;
+    left: 91px;
+    opacity: 0;
+    position: absolute;
+    top: 79px;
+    width: 171px;}/*ip*/
+#purplebox4{
+	border: 2px solid #f26200;
+	-webkit-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	-moz-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1); 
+    height: 147px;
+    left: 12px;
+    opacity: 0;
+    position: absolute;
+    top: 78px;
+    width: 269px;
+    }/*ehternet*/
+#binary{
+	width:252px;height:15px;
+	background:url(binary.png) left top no-repeat;position:absolute;
+	left:39px;top:317px;
+	opacity:0;z-index:0}
+
+
+
+/* THird slide */
+#main_container3{}
+/*#bgImg{position:absolute;left:91px;top:60px;width:298px;height:147px;}*/
+#bgImg{height: 162px;
+left: 53px;
+position: absolute;
+top: 61px;
+width: 319px;
+}
+#compImg{position:absolute;left:-9px;top:248px;width:357px;height:77px;}
+#textProtocols{position:absolute;top:0;}
+
+#ID_s3_txt01,#ID_s3_txt02,#ID_s3_txt03,#ID_s3_txt04,#ID_s3_txt05,#ID_s3_txt07,#ID_s3_txt08,#ID_s3_txt09,#ID_s3_txt10,#ID_s3_txt11,#ID_s3_txt12,#ID_s3_txt13,
+#ID_s3_txt14,#ID_s3_txt15,#ID_s3_txt16,#ID_s3_txt17,#ID_s3_txt18,#ID_s3_txt19,#ID_s3_txt31,#ID_s3_txt32,#ID_s3_txt33,#ID_s3_txt34,#ID_s3_txt35,#ID_s3_txt26
+{width:72.7px;height:17px;text-align:center;font-size:11px;position:absolute;}
+
+#ID_s3_txt01{left: 118.6px;top: 74.5px;}
+#ID_s3_txt02{left:168px;top: 74.5px;}
+#ID_s3_txt03{left: 204.2px;top: 74.5px;}
+#ID_s3_txt04{left: 243px;top: 74.5px;}
+#ID_s3_txt05{left: 284.95px;top: 74.5px;}
+#ID_s3_txt07{left: 290.5px;top: 106px;}
+#ID_s3_txt08{left: 275px;top: 138.2px;}
+#ID_s3_txt09{left: 267.95px;top: 158.2px;}
+#ID_s3_txt10{ left: 278.95px;top: 179.8px;}
+#ID_s3_txt11{left: 250.95px;top: 200.2px;width: 100px;}
+#ID_s3_txt12{left: 33px;top: 268.2px;width: 60px;}
+#ID_s3_txt14{left: 333.95px;top: 268.2px;}/*Webclient*/
+#ID_s3_txt15{left: 32.95px;width: 200px;top: 46px;}
+#ID_s3_txt16{left:136.95px; top: 42.2px; width: 200px;font-size:12px}/*Protocol Encapsulation Terms*/
+#ID_s3_txt17{left:-13.05px;position: absolute; text-align: center;top: 1px;}/*anim tcp*/
+#ID_s3_txt18{left: -19.05px;top: 1px;}/*anim data */
+#ID_s3_txt19{left:-4.05px;top: 1px;}
+#ID_s3_txt26{left:235.95px;top:113.2px;width:30px;}
+
+#binary3_3{width:252px;height:15px;background:url(binary.png) left top no-repeat;position:absolute;left:27px;top:314px;opacity:1;}
+#segment3{ left: -24px;position: absolute;top: 148px;opacity:0;}
+#data3{position:absolute;border: 1px solid #000000;background-color:#fff3b9;height: 17px;width: 46.45px;left: 261.95px;top:163.2px;z-index:5}
+#http3{position:absolute;border: 1px solid #000000;background-color:#fff3b9;height: 17px;width: 46.45px;left: 219.95px;top:163.2px;opacity:1;z-index:4}
+#tcp3{position:absolute;border: 1px solid #000000;background-color:#dbecda;height: 17px;width: 40px;left:178.95px;top:163.2px;opacity:1;z-index:3}
+#ip3{position:absolute;border: 1px solid #000000;background-color:#e0d5e6;height: 17px;width: 32px;left:145.95px;top:163.2px;opacity:1;z-index:2}
+#ethernet3{position:absolute;border: 1px solid #000000;background-color:#f9d1d2;height: 17px;width:65px;left:80.95px;top:163.2px;opacity:1;z-index:1}
+#ethernetempty3{position:absolute;border: 1px solid #000000;background-color:#f9d1d2;height: 17px;width:20px;left:308.95px;top:163.2px;opacity:1;z-index:1}
+
+#ID_s3_txt31{left: -12px; position: absolute; text-align: center;top: 1px;}/*anim data */
+#ID_s3_txt32{ left:-12px;text-align: center;top: 1px;}/*anim http */
+#ID_s3_txt33{left:-13.05px;position: absolute; text-align: center;top: 1px;}/*anim tcp*/
+#ID_s3_txt34{left: -19.05px;top: 1px;}/*anim data */
+#ID_s3_txt35{left:-4.05px;top: 1px;}
+
+/*Anim purple boxes */
+#purpleshadow{
+	border: 2px solid #f26200;
+	-webkit-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	-moz-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	 height: 60px;
+    left: 298px;
+    position: absolute;
+    top: 71px;
+    width: 42px;
+	opacity:0;}/*data*/
+	
+#purpleshadow1{
+	border: 2px solid #f26200;
+	-webkit-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	-moz-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	 height: 82px;
+    left: 260px;
+    position: absolute;
+    top: 71px;
+    width: 80px;
+	opacity:0;}/*http*/
+	
+#purpleshadow2{
+	border: 2px solid #f26200;
+	-webkit-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	-moz-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	 height: 101px;
+    left: 220px; 
+    position: absolute;
+    top: 71px;
+    width: 119px;
+	opacity:0;}/*tcp*/
+	
+#purpleshadow3{
+	border: 2px solid #f26200;
+	-webkit-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	-moz-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	height: 123px;
+    left: 190px;
+    position: absolute;
+    top: 71px;
+    width: 150px;
+    opacity:0;}/*ip*/
+	
+#purpleshadow4{
+	border: 2px solid #f26200;
+	-webkit-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	-moz-box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	box-shadow: 0px 0px 4px 4px rgba(242, 98, 0, 1);
+	height: 142px;
+    left: 120px;
+    opacity: 0;
+    position: absolute;
+    top: 71px;
+    width: 239px;}/*ehternet*/
+
+#compGra{position:absolute;opacity:0;z-index:0;left: 208px;top: 216px;}
+
+
+#ID_btn02 font,#ID_btn03 font,#ID_btn04 font,#ID_btn05 font,#ID_btn06 font,#ID_btn07 font,#ID_btn08 font,#ID_btn09 font,#ID_btn10 font,#ID_btn11 font,#ID_btn12 font,#ID_btn13 font,#ID_btn14 font,#ID_btn15 font,#ID_btn16 font,#ID_btn17 font,#ID_btn18 font,#ID_btn19 font,#ID_btn20 font,#ID_btn21 font,#ID_btn22 font{font-size:10px !important;}
+#ID_btn01 font{font-size:10px !important;}
+#ID_s1_txt02,#ID_s1_txt03,#ID_s1_txt05,#ID_s1_txt09{line-height:11px;}
+

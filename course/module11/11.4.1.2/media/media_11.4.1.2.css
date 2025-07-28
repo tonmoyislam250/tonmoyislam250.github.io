@@ -1,0 +1,15 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:98%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+table {border-collapse: collapse;border-spacing: 0; font-family:"Courier New" !important; font-size:11px; line-height:13.66px;}
+table tr td.innerHead {text-align:left !important; vertical-align:middle;}

@@ -1,0 +1,27 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden !important;
+}
+#staticTxt1,#staticTxt2,#staticTxt3,#staticTxt4,#staticTxt9,#staticTxt10{font-weight:bold;}
+#staticTxt13{font-weight:bold;}
+#pc1,#pc2,#pc3,#pc4{font-weight:bold;}
+@media only screen and (device-width: 768px) {
+#staticTxt3{margin-left:1px;margin-top:-2px;}
+#staticTxt4{margin-top:-2px;margin-left:1px;}
+#staticTxt1{margin-left:2px;margin-top:1px;}
+#staticTxt2{margin-top:0px;margin-left:2px;}
+#pc1{margin-left:1px;margin-top:1px;}
+#pc2{margin-top:-1px;margin-left:1px;}
+#pc3{margin-top:-2px;margin-left:1px;}
+#pc4{margin-top:-1px;margin-left:1px;}
+}

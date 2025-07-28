@@ -1,0 +1,78 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:100%;
+	height:100%;
+}
+
+#staticTxtBox1,#staticTxtBox2{  font-family: Courier New; letter-spacing:-0.4px;line-height:14.5px;}
+#staticTxtBox2{letter-spacing:-0.5px}
+
+
+@media only screen and (device-width: 768px) {
+#staticTxtR1{margin:-2px 0 0 0}
+#staticTxtR2{margin:-1px 0 0 0}
+#staticTxtPC1{margin:-1px 0 0 2px}
+#staticTxtPC2{margin:-1px 0 0 2px}
+#staticTxtPC3{margin:-1px 0 0 2px}
+#staticTxtPC4{margin:-1px 0 0 2px}
+
+
+#ID_s2_txt01,#ID_s2_txt02{margin-top:-5px}
+#ID_s2_txt03{margin-top:-7px}
+#ID_s2_txt04{margin-top:-8px}
+#ID_s2_txt05{margin-top:-7px}
+#ID_s2_txt06{margin-top:-9px}
+#ID_s2_txt07{margin-top:-11px}
+#ID_s2_txt08{margin-top:-10px}
+#ID_s2_txt09{margin-top:-13px}
+#ID_s2_txt10{margin-top:-13px}
+#ID_s2_txt11{margin-top:-14px}
+#ID_s2_txt12{margin-top:-14px}
+#ID_s2_txt13{margin-top:-14px}
+#ID_s2_txt14{margin-top:-15px}
+#ID_s2_txt15{margin-top:-17px}
+#ID_s2_txt16{margin-top:-19px}
+#ID_s2_txt17{margin-top:-10px}
+#ID_s2_txt18{margin-top:-10px}
+#ID_s2_txt19{margin-top:-13px}
+#ID_s2_txt20{margin-top:-13px}
+
+#ID_s3_txt01,#ID_s3_txt02{margin-top:-5px}
+#ID_s3_txt03{margin-top:-7px}
+#ID_s3_txt04{margin-top:-8px}
+#ID_s3_txt05{margin-top:-7px}
+#ID_s3_txt06{margin-top:-9px}
+#ID_s3_txt07{margin-top:-11px}
+#ID_s3_txt08{margin-top:-10px}
+#ID_s3_txt09{margin-top:-13px}
+#ID_s3_txt10{margin-top:-13px}
+#ID_s3_txt11{margin-top:-14px}
+#ID_s3_txt12{margin-top:-14px}
+#ID_s3_txt13{margin-top:-14px}
+#ID_s3_txt14{margin-top:-15px}
+#ID_s3_txt15{margin-top:-17px}
+#ID_s3_txt16{margin-top:-19px}
+#ID_s3_txt17{margin-top:-10px}
+#ID_s3_txt18{margin-top:-10px}
+#ID_s3_txt19{margin-top:-13px}
+#ID_s3_txt20{margin-top:-13px}
+
+
+}
+
+
+div.ipAddress{ font-family: Courier New;height:388.85px ! important;background:url(bg.jpg) left top repeat-y }
+div.table span.col1,div.table span.col2,div.table span.col3,div.table span.col4{float:left;width:32px;background-color:#E6EBA8;padding:4.5px 3px;text-align:center ! important}
+div.table span.col5,div.table span.col6{background-color:#CCE9E7;float:left;width:33px;padding:4.5px 3px;font-weight:bold;color:#F26200;text-align:center ! important}
+div.table span.col7{background-color:#fff;float:left;width:92px;padding:4.5px 1px 4.5px 4px;}
+div.table span.col4{color:#652C8A;font-weight:bold}
+div.clearfix{border-bottom:2px solid #000;clear:both;padding:2px 0}

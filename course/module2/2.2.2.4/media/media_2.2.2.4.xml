@@ -1,0 +1,32 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Configuring Password Encryption</b>]]></text>
+	</component>
+	<component id="ID_SC5" fontFace='Courier New' fontSize="10">
+		<text></text>		
+		<feedback id="fb"><![CDATA[<span><font size = '10' face="Arial"><span><b>***</b></span>You must enter the exact and full command. Commands that include a name or password are case-sensitive.<span><b>***</b></span></font></span>
+		]]></feedback>	
+				
+		<existingcommands><![CDATA[<font size = '10' face="Arial"><b>Enter the command to encrypt the plain text passwords.</b></font>]]></existingcommands>
+		
+		<command prompt="Switch(config)#" id="cmd1" node="start">
+		    <correctresponse id="cr1" ignoreCase = 'true'><![CDATA[service password-encryption]]></correctresponse>
+			
+		    <deviceresponse id="dr1"><![CDATA[<font size = '10' face="Arial"><b>Exit global configuration mode and view the running configuration.</b></font>]]></deviceresponse> 			
+		</command>
+		
+		<command prompt="Switch(config)#" id="cmd2">
+			<correctresponse id="cr2" ignoreCase = 'true'><![CDATA[exit]]></correctresponse>
+			 	<deviceresponse id="dr2"><![CDATA[<span></span>]]></deviceresponse>
+		</command>
+		
+		<command prompt="Switch#" id="cmd3" node="end">
+			<correctresponse id="cr3" ignoreCase = 'true'><![CDATA[show running-config]]></correctresponse>
+			
+			<deviceresponse id="dr3"><![CDATA[!<br>&lt;output omitted&gt;<br>!<br>line con 0<br> password 7 094F471A1A0A <br> login<br>!<br>line vty 0 4<br> password 7 03095A0F034F38435B49150A1819<br> login<br>!<br>!<br>end<br><br>Switch#
+]]></deviceresponse>
+		    <instruction id="last"><![CDATA[<font size = '10' face="Arial"><b>You successfully encrypted the plain text passwords.</b></font>]]></instruction>
+			</command>		
+		<command prompt="" />
+	</component>
+</textcomponents> 

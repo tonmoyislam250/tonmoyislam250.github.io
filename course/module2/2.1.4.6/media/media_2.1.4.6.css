@@ -1,0 +1,15 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#staticTxt_1,#staticTxt_2,#staticTxt_3,#staticTxt_4,#staticTxt_5,#staticTxt_6,#staticTxt_7{font-family:Courier New;}

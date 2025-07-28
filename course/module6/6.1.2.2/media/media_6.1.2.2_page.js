@@ -1,0 +1,176 @@
+loadScript("../../../common/scripts/swfobject.js", registerSWF);
+//loadScript("../../../common/scripts/templates/slide/MultiBarSlide.js");
+
+function registerSWF(){
+	swfobject.registerObject("flashobject", "9.0.0", "../../../common/libs/expressInstall.swf");
+}
+
+
+var STAGE_WIDTH = 470;
+var STAGE_HEIGHT = 400;
+
+function getData()
+{
+	var template_type = "MULTI_BAR";
+	var commonTexts = [{compId:"ID_s1_title",
+							x:15,
+							y:2, 
+							width:430,
+							height:17,
+							size:14,
+							textAlign:"center"},
+							{compId:"ID_s1_title_01",
+							x:9,
+							y:246.5, 
+							width:158,
+							height:17,
+							size:11,
+							textAlign:"center",
+							color:"#ffffff"},
+							{compId:"ID_s1_title_02",
+							x:244,
+							y:246.5, 
+							width:158,
+							height:17,
+							size:11,
+							textAlign:"center",
+							color:"#ffffff"},
+							{compId:"ID_s1_body01",
+							x:-20,
+							y:272.5, 
+							width:206,
+							height:17,
+							size:11,
+							textAlign:"left"},
+							{compId:"ID_s1_body02",
+							x:215,
+							y:278.5, 
+							width:206,
+							height:17,
+							size:11,
+							textAlign:"left"},];
+	var commonImages = [{name:"6_1_2_2a.png",
+							 x:-20,
+							 y:232.35, 
+							 width:250,
+							 height:115,
+							 type:""},
+							 {name:"6_1_2_2b.png",
+							 x:225.8,
+							 y:236.35, 
+							 width:250,
+							 height:86,
+							 type:""}];
+	var slide_1_type = "IMAGE";
+	var slide_1_images = [{name:"6_1_2_2.jpg",
+							 x:5,
+							 y:75.95, 
+							 width:437.75,
+							 height:73,
+							 type:""},
+							 ];								
+	var slide_1_texts = [{compId:"ID_s1_txt01",
+							x:2.6,
+							y:87.65, 
+							width:63.1,
+							height:17,
+							size:11,
+							textAlign:"center",
+							expand:"up"},
+							{compId:"ID_s1_txt02",
+							x:77.55,
+							y:75.95, 
+							width:63.1,
+							height:17,
+							size:11,
+							textAlign:"center",
+							expand:"up"},
+							{compId:"ID_s1_txt03",
+							x:296.95-7,
+							y:87.5, 
+							width:63.1,
+							height:17,
+							size:11,
+							textAlign:"center",
+							expand:"up"},
+							{compId:"ID_s1_txt04",
+							x:2,
+							y:162.75, 
+							width:143.25,
+							height:17,
+							size:11,
+							textAlign:"center",
+							expand:"up"},
+							
+							];							
+	var slide_1_object = {templateType:slide_1_type,
+							x:0,
+							y:0,
+							images:slide_1_images,
+							texts:slide_1_texts};
+							
+	var slide_2_type = "IMAGE";
+	var slide_2_images = [{name:"6_1_2_2.png",
+							 x:5,
+							 y:75.95, 
+							 width:434.55,
+							 height:99.95,
+							 type:""},
+							 ];								
+	var slide_2_texts = [{compId:"ID_s2_txt01",
+							x:49.7+12,
+							y:83.85+10,  
+							width:49.3,
+							height:17,
+							size:11,
+							textAlign:"center",
+							expand:"up"},
+							{compId:"ID_s2_txt02",
+							x:99+12,
+							y:83.85+10, 
+							width:51.15,
+							height:17,
+							size:11,
+							textAlign:"center",
+							expand:"up"},
+							{compId:"ID_s2_txt03",
+							x:280.2+11,
+								y:83.85+10,  
+							width:49.3,
+							height:17,
+							size:11,
+							textAlign:"center",
+							expand:"up"},
+							{compId:"ID_s2_txt04",
+							x:330+10,
+							y:83.85+10, 
+							width:49.95,
+							height:17,
+							size:11,
+							textAlign:"center",
+							expand:"up"},
+							{compId:"ID_s2_txt05",
+							x:37,
+							y:162.75, 
+							width:143.25,
+							height:17,
+							size:11,
+							textAlign:"left",
+							expand:"down"},
+							];							
+	var slide_2_object = {templateType:slide_2_type,
+							x:0,
+							y:0,
+							images:slide_2_images,
+							texts:slide_2_texts};
+							
+	
+							
+	var slides = [slide_1_object,slide_2_object];
+						
+	return {templateType:template_type,
+			textObject:commonTexts,
+			images:commonImages,
+			slideObject:slides};
+	
+}

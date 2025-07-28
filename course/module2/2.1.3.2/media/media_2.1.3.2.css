@@ -1,0 +1,20 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#txt01, #txt02, #txt03, #txt04 {line-height:13px;}
+.txt01{font-size:14px;margin-left:35px;}
+.txt01a{margin:-10px 0px 0px 35px ;display:block; }
+.txt01b{display:block;margin:-25px 0px 0px 30px;font-face:_typewriter;}
+p.txt011, p.txt01b {font-family:"Courier New";}
+#ID_txt04{padding-right:2px;}

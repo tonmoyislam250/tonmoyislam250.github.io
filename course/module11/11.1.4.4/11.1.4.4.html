@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>11.1.4.4 Enable SSH</title>
+    <!--  -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+    	myLayout = $('body').layout({
+          west__size:300,
+          stateManagement__enabled: true,
+          maskContents: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+	  stateManagement__cookie__expires: 1,
+	  stateManagement__cookie__path: "/"
+        });
+
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Keeping the Network Safe</h1>
+        <h2>Securing Devices</h2>
+      </div>
+      <div id="content">
+          <p>
+            <b>Remote access via SSH</b>
+          </p>
+          <p>The legacy protocol to manage devices remotely is telnet. Telnet is not secure. Data contained within a telnet packet is transmitted unencrypted. Using a tool like Wireshark, it is possible for someone to ‘sniff’ a telnet session and obtain password information. For this reason, it is highly recommended to enable SSH on devices for secure remote access and disable telnet access. It is possible to configure a Cisco device to support SSH using four steps.</p>
+          <p></p>
+          <p>
+            <b>Step 1.</b> Ensure that the router has a unique host name, and then configure the IP domain name of the network using the <b>ip domain-name </b><i>domain-name</i> command in global configuration mode.</p>
+          <p></p>
+          <p>
+            <b>Step 2.</b> One-way secret keys must be generated for a router to encrypt SSH traffic.  The key is what is actually used to encrypt and decrypt data. To create an encryption key, use the <b>crypto key generate rsa general-keys modulus </b><i>modulus-size</i> command in global configuration mode. The specific meaning of the various parts of this command are complex and out of scope for this course, but for now, just note that the modulus determines the size of the key and can be configured from 360 bits to 2048 bits. The larger the modulus, the more secure the key, but the longer it takes to encrypt and decrypt information. The minimum recommended modulus length is 1024 bits. </p>
+          <p></p>
+          <p>Router(config)#<b>crypto key generate rsa general-keys modulus 1024</b></p>
+          <p></p>
+          <p>
+            <b>Step 3.</b> Create a local database username entry using the <b>username </b><i>name</i><b> secret </b><i>secret</i> global configuration command.</p>
+          <p></p>
+          <p>
+            <b>Step 4.</b> Enable vty inbound SSH sessions using the line vty commands <b>login local</b> and <b>transport input ssh</b>.</p>
+          <p></p>
+          <p>The router SSH service can now be accessed using an SSH client software.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic" longdesc="media_11.1.4.4_longdesc.txt"></iframe>
+  </body>
+</html>

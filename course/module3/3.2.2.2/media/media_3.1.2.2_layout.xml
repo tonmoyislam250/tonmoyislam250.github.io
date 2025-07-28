@@ -1,0 +1,80 @@
+﻿<template>
+	<type>TIMELINE</type>
+	<timeline min="1965" max="2015" scale="10"> 
+		<event date="2011">
+			<titletext src="ID_title01"/>
+			<img x='55' y='15' height='228' width='243' src='3_1_2_2_H.jpg' rel="STD"/> 
+		</event> 
+		<event date="1995">
+			<titletext src="ID_title02"/>
+			<img x='45' y='12' height='250' width='265.8' src='3_1_2_2_H.jpg' rel="STD"/> 
+		</event>		
+		<event date="1993">
+			<titletext src="ID_title03"/>
+			<img x='13' y='10' height='253' width='330' src='3_1_2_2_B.jpg' rel="STD"/>
+			<!-- <bodytext src="ID_bodytext03" x='10' y='10' height='10' width='10'/>  -->
+		</event>			
+		<event date="1991">
+			<titletext src="ID_title04"/>
+			<img x='5' y='24' height='240' width='155' src='3_1_2_2_C1.jpg' rel="STD"/>
+			<img x='12' y='5' height='200' width='182' src='3_1_2_2_C2.jpg' rel="STD"/>
+		</event>		
+		<event date="1988">
+			<titletext src="ID_title05"/>
+			<img x='35' y='82' height='170' width='296' src='3_1_2_2_L.png' rel="None" />
+			<bodytext src="ID_txt_09_01" x='149' y='-20' height='10' width='50'/>
+			<bodytext src="ID_txt_09_02" x='0' y='-55' height='10' width='50'/>
+			<bodytext src="ID_txt_09_03" x='227' y='-172' height='10' width='10'/> 
+		</event>		
+		<event date="1986">
+			<titletext src="ID_title06"/>
+			<img x='121.3' y='92.5' height='63.85' width='121.2' src='cisco.png' rel="Null"/>
+		</event>		
+		<event date="1985">
+			<titletext src="ID_title07"/>
+			<img x='13' y='18' height='253' width='330' src='3_1_2_2_G.jpg' rel="STD"/>
+		</event>		
+		<event date="1984">
+			<titletext src="ID_title08"/>
+			<img x='3' y='115' height='66.75' width='343.35' src='3_1_2_2_M.png' rel="None" />
+			<bodytext src="ID_txt08_01" x='157' y='75' height='10' width='60'/>
+			<bodytext src="ID_txt08_02" x='286' y='105' height='10' width='60'/>
+			<bodytext src="ID_txt08_05" x='22' y='93' height='10' width='30'/> 
+			<bodytext src="ID_txt08_03" x='2' y='-55' height='10' width='10'/> 
+			<bodytext src="ID_txt08_04" x='217' y='-68' height='10' width='10'/> 
+		</event>		
+		<event date="1982">
+			<titletext src="ID_title09"/>
+			<img x='27' y='20' height='237.8' width='320.75' src='3_1_2_2_N.png' rel="None" />
+			<bodytext src="ID_txt09_01" x='172' y='17' height='10' width='60'/>
+			<bodytext src="ID_txt09_02" x='280' y='-144' height='10' width='60'/>
+			<bodytext src="ID_txt09_03" x='64' y='-155' height='10' width='30'/> 
+		</event>		
+		<event date="1981">
+			<titletext src="ID_title10"/>
+			<img x='8' y='17' height='256' width='338' src='3_1_2_2_I.jpg' rel="STD"/>
+		</event>		
+		<event date="1972" alt='1972_x1'>
+			<titletext src="ID_title11"/>
+			<img x='13' y='17' height='253' width='330' src='3_1_2_2_D.jpg' rel="STD"/>
+		</event>		
+		<event date="1972" alt='1972_x2'>
+			<titletext src="ID_title12"/>
+			<img x='13' y='17' height='253' width='330' src='3_1_2_2_E.jpg' rel="STD"/>
+		</event>		
+		<event date="1972" alt='1972_x3'> 
+			<titletext src="ID_title13"/>
+			<img x='6' y='17' height='259.75' width='283.35' src='3_1_2_2_O.png' rel="None"/>
+			<bodytext src="ID_txt13_01" x='283' y='-237' height='10' width='60'/>
+			<bodytext src="ID_txt13_02" x='29' y='-130' height='10' width='101'/>
+		</event>		
+		<event date="1970">
+			<titletext src="ID_title14"/>
+			<img x='9' y='10' height='253' width='338' src='3_1_2_2_F.jpg' rel="STD"/>
+		</event>		
+		<event date="1969">
+			<titletext src="ID_title15"/>
+			<img x='52' y='4.3' height='250' width='249.15' src='3_1_2_2_J.jpg' rel="STD"/> 
+		</event>		
+	</timeline>
+</template>

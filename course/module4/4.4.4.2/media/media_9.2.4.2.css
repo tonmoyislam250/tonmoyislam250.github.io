@@ -1,0 +1,83 @@
+
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:98%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+/*#ID_txt01 {
+	height:37px;
+	background-color:#33ABDF;
+	border:1px solid #000000;
+	border-left-width:1px;
+	border-bottom-width:1px;
+	padding-top:22px;
+	}
+
+#ID_txt02 {
+	height:37px;
+	background-color:#33ABDF;
+	border:1px solid #000000;
+	border-bottom-width:1px;
+	padding-top:22px;
+	
+	}
+	
+#ID_txt03 {
+	height:37px;
+	background-color:#33ABDF;
+	border:1px solid #000000;
+	border-bottom-width:1px;
+	padding-top:22px;
+	}
+	
+#ID_txt04 {
+	height:68px;
+	background-color:#DBECDA;
+	border:1px solid #000000;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	padding-top:50px;
+	}
+#ID_txt05 {
+	height:68px;
+	background-color:#DBECDA;
+	border:1px solid #000000;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-right:1px solid #000;
+	padding-top:50px;
+	}
+	
+#ID_txt06 {
+	height:67px;
+	background-color:#DBECDA;
+	border:1px solid #000000;
+	border-left-width:1px;
+	padding-top:50px;
+	}
+
+#ID_txt07 {
+	height:38px;
+	background-color:#DBECDA;
+	border:1px solid #000000;
+	border-left-width:1px;
+	border-top-width:1px;
+	padding-top:21px;
+	}*/
+
+#ID_titleTxt01,#ID_titleTxt02,#ID_titleTxt03{color:#442557 !important;}
+
+@media only screen and (device-width: 768px) {
+ #ID_txt03{padding-left:3px !important;}
+ #ID_txt02{padding-left:2px !important;}
+ #ID_txt01{padding-left:3px !important;}
+}

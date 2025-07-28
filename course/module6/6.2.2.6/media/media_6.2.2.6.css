@@ -1,0 +1,31 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+
+#staticTxt1,#staticTxt2,#staticTxt3,#staticTxt4 {z-index:10;height:226px;overflow: auto !important;width:415px !important;float:left;padding:0px 0 0 5px;font-family:"Courier New"}
+#staticTxt1 div,#staticTxt2 div,#staticTxt3 div,#staticTxt4 div{width:397px;font-family:"Courier New";padding:0 0 20px 0}
+#staticTxt1 ul,#staticTxt2 ul,#staticTxt3 ul,#staticTxt4 ul{padding:0;margin:5px 0 0 0;padding:0;}
+#staticTxt1 ul li,#staticTxt2 ul li,#staticTxt3 ul li,#staticTxt4 ul li{list-style:none;padding:0;margin:0 0 0 0px;line-height:11px;}
+#staticTxt1 ul li.step1,#staticTxt2 ul li.step1,#staticTxt3 ul li.step1,#staticTxt4 ul li.step1{padding:0 0 0 40px}
+#staticTxt1 ul li.step2,#staticTxt2 ul li.step2,#staticTxt3 ul li.step2,#staticTxt4 ul li.step2{padding:0 0 0 40px}
+#staticTxt1 ul li span,#staticTxt2 ul li span,#staticTxt3 ul li span,#staticTxt4 ul li span{padding:0 0 0 55px}
+#staticTxt1 ul li span.step3,#staticTxt2 ul li span.step3,#staticTxt3 ul li span.step3,#staticTxt4 ul li span.step3{padding:0 0 0 25px}
+#staticTxt1 ul li span.router1,#staticTxt2 ul li span.router1,#staticTxt3 ul li span.router1,#staticTxt4 ul li span.router1{padding:0 0 0 0px;margin:0 0 0 6px; position:absolute; line-height:12px}
+#staticTxt1 ul li span.router2,#staticTxt2 ul li span.router2,#staticTxt3 ul li span.router2,#staticTxt4 ul li span.router2{padding:0 0 0 0px;margin:-3px 0 0 46px; position:absolute; line-height:14px}
+#staticTxt1 ul li span.router3,#staticTxt2 ul li span.router3,#staticTxt3 ul li span.router3,#staticTxt4 ul li span.router3{padding:0 0 0 0px;margin:-2px 0 0 55px; position:absolute; line-height:11px}
+
+#staticTxt1 table,#staticTxt2 table,#staticTxt3 table,#staticTxt4 table{letter-spacing: -0.15px;line-height: 18px;}
+#staticTxt5,#staticTxt6,#staticTxt13,#staticTxt14{font-weight:bold !important; font-size: 10px !important;text-align:center;}
+

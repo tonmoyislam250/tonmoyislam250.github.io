@@ -1,0 +1,19 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden;
+}
+
+#staticTxt{font:normal 11px/16px Courier New;}
+#staticTxt1{font:normal 11px/16px Courier New;}
+#staticTxt2{font:normal 11px/16px Courier New;}

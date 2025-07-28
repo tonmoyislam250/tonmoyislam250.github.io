@@ -1,0 +1,130 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:98%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+.ID_bubble02 {
+		position: relative;
+		padding: 2px;
+		margin: 1em 0 3em;
+		background-color: #CCE9E7;
+		-webkit-box-shadow: 2px 2px 4px #888;
+		-moz-box-shadow: 2px 2px 4px #888;
+		box-shadow: 2px 2px 4px #888;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border: 3px solid #67BDBC;
+		width:87px;		
+		color:#393536;
+}
+
+.ID_bubble02:after {
+border-color: #67BDBC transparent;
+    border-style: solid;
+    border-width: 22px 0px 0 16px;/* right side for the arrow to be left here in this case it is 
+18px,10px is for the arrow to be left side */ 
+    top: 48px;
+    content: "";
+    display: block;
+    left: 36px;
+    position: absolute;
+}
+
+.ID_bubble01 {
+		position: relative;
+		padding: 2px;
+		margin: 2em 0 3em;
+		background-color: #CCE9E7;
+		-webkit-box-shadow: 2px 2px 4px #888;
+		-moz-box-shadow: 2px 2px 4px #888;
+		box-shadow: 2px 2px 4px #888;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border: 3px solid #67BDBC;
+		width:151px;		
+		color:#393536;
+}
+
+.ID_bubble01:after {
+border-color: #67BDBC transparent;
+    border-style: solid;
+    border-width: 0px 16px 22px 0px;/* right side for the arrow to be left here in this case it is 
+18px,10px is for the arrow to be left side */ 
+    top:-24px;
+    content: "";
+    display: block;
+    left: 7px;
+    position: absolute;
+}
+#ID_txt03,#ID_txt01,#ID_txt02,#ID_txt04 {border-radius:5px;padding:4px;border:2px solid #D3D1D2}
+
+#ID_txt05 b { font-size:12px;}
+#ID_txt05 b font { font-size:12px;}
+
+#ID_bubble01,#ID_bubble02 {border: 2px solid #F68026;
+    border-radius: 5px 5px 5px 5px;
+    padding: 4px; background-color:#FDE6D4; text-align:left;}
+#ID_bubble02 { height:54px;}
+
+#ID_txt04 u { font-weight:bold !important;font-size: 11px;}
+
+table {
+    border-collapse: collapse;
+    width: 100% !important;
+}
+table tbody tr {
+    border-color: #98D3D1;
+}
+table tbody tr td {
+    border: 3px solid #98D3D1;
+    border-collapse: collapse;
+    font-size: 11px !important;
+    line-height: 11px !important;
+}
+table tbody tr td b {
+    border-collapse: collapse;
+    font-size: 11px !important;
+    font-weight: bold !important;
+}
+table tbody tr td font {
+    border-collapse: collapse;
+    font-size: 11px !important;
+}
+.table_font {
+    border-color: #A2AA23;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    width: 33% !important;
+}
+.liner_top {
+    height: 0 !important;
+    line-height: 0 !important;
+    margin: 0;
+    padding: 1.5px 0;
+}
+li {
+    margin-left: 1em !important;
+}
+#ID_table {
+    border-radius: 5px 5px 5px 5px !important;
+    box-shadow: 0 0 2px 2px #999999 !important;
+    height: 75.15px !important;
+    width: 219.7px !important;
+}
+
+#cross { background-image:url(cross.png); background-repeat:no-repeat; width:19px !important; height:24px; z-index:1;}
+.wider { width:50%;}
+@media only screen and (device-width: 768px) {
+#imgId1{margin-top:1px;}
+}

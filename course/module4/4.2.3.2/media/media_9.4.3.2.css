@@ -1,0 +1,15 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_PopTitle01, #ID_PopTitle02, #ID_PopTitle03, #ID_PopTitle04, #ID_PopTitle05 {color:#442557 !important;}

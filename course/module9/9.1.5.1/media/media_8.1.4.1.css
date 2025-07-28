@@ -1,0 +1,53 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:100%;
+	height:100%;
+}
+#staticTxtBox1,#staticTxtBox2{  font-family: Courier New; letter-spacing:-0.4px;line-height:14.5px;}
+#staticTxtBox2{letter-spacing:-0.5px}
+
+
+
+div.ipAddress{ font-family: Courier New;color:#000; }
+div.rows{padding:0;margin:0;}
+div.rows span.cols,div.rows span.col1,div.rows span.col2, div.rows span.col3, div.rows span.col4{float:left;padding:2px 1.5px;}
+div.rows span.col1{background-color:#DBECDA;color:#5FBC21;font-weight:bold;margin-right:1px}
+div.rows span.col2{background-color:#E0D5E6;color:#652C8A;font-weight:bold;margin-right:1px}
+div.rows span.col3{background-color:#FDE6D4;color:#F68026;font-weight:bold;}
+div.rows span.col4{background-color:#fff; width:121px;}
+div.rows span.cols{background-color:#fff;}
+
+
+
+
+@media only screen and (device-width: 768px) {
+#staticTxtaddress1{width:373px ! important;margin:0 0 0 18px;}div.rows span.col4{background-color:#fff; width:120px;}
+#staticTxtaddress{width:380px ! important;margin:0 0 0 22px}
+#staticTxtPC1{margin:-2px 0 0 2px}
+#staticTxtPC2{margin:-1px 0 0 2px}
+#staticTxtPC3{margin:-1px 0 0 2px}
+#staticTxtPC4{margin:-1px 0 0 2px}
+#borderTop{width:172px ! important;margin-left:17px}
+#borderTop1{width:64px ! important;margin-left:6px}
+#ID_s2_txt01{margin-left:14px}
+#ID_s2_txt02{margin-left:6px}
+}
+
+
+#ID_s2_txt06{background-color:#E0D5E6;border:2px solid #652C8A;padding:5px;border-radius:5px}
+
+#ID_s2_txt07{background-color:#FDE6D4;border:2px solid #F68026;padding:5px;border-radius:5px}
+
+#ID_s3_txt01{background-color:#FDE6D4;border:2px solid #F68026;padding:5px;border-radius:5px}
+
+#borderTop,#borderTop1{border-bottom:none ! important;color:#393536}
+#borderRight1,#borderRight2,#borderRight3{border-left:none ! important;color:#393536}

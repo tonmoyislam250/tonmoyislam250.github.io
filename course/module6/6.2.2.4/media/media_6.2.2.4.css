@@ -1,0 +1,52 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	
+}	
+table { width:100% !important;border-collapse:collapse;}
+table tbody tr { border-color:#DAE17A;}
+table tbody tr td { border-color:#918f90; font-size:11px !important; border:2px solid #918f90; border-collapse:collapse;}
+table tbody tr td b { font-size:11px !important; font-weight:bold !important; border-collapse:collapse;}
+table tbody tr td font { font-size:11px !important; border-collapse:collapse;}
+.table_font { border-color:#918f90; font-size:11px !important; font-weight:bold !important; width:33% !important;overflow:hidden;}
+#ID_table {width:445px !important; height:173.5px !important;}
+.tdHeight{ border-bottom: 0 none;border-right: 0 none;display: inline-block;height: 15px;margin-top:-1px;width: 40px;margin-right:-1px;}
+.tdHeight1{border-right: 0 none;display: inline-block;height: 15px;margin-top: -2px;width: 40px;margin-right:-1px;margin-bottom:-1px;}
+.text{margin-top:0px;}
+
+@media only screen and (device-width: 768px) {
+ .tdHeight{ border-bottom: 0 none;border-right: 0 none;display: inline-block;height: 15px;margin-top: -1px;width: 40px;margin-right:0px;border-left:0 none;margin-left:-1px;}
+.tdHeight1{border-bottom:0 none;border-right: 0 none;display: inline-block;height: 15px;margin-top: -4px;width: 40px;margin-right:0px;margin-bottom:-1px;border-left:0 none;margin-left:-1px;}
+.height{border-top:0px;}
+}
+
+
+#staticTxt{
+	font-size:11px;
+}
+#staticTxt1{
+	font-size:11px;
+	font-weight:bold;
+}
+
+#pc1,#pc2{font-weight:bold;}
+#r1,#r2{font-weight:bold;}
+
+@media only screen and (device-width: 768px) {
+#pc1{margin-left:1.5px;margin-top:-1.5px;}
+#pc2{margin-top:0px;margin-left:1px;}
+#r2{margin-left:0px;margin-top:-2px;}
+#r1{margin-top:-2px;margin-left:1px;}
+}
+
+

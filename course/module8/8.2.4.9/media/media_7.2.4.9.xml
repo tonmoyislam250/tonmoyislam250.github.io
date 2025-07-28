@@ -1,0 +1,57 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Verifying IPv6 Address Configuration</b>]]></text>
+	</component>
+	<component id="ID_SC" fontFace='Courier New' fontSize="10">
+		<text></text>		
+		<feedback id="fb"><![CDATA[<b><font size = '10' face="Arial" color="#0000FF">***You must enter the exact and full command. Commands that include a name or password are case-sensitive.***</font></b> 
+		]]></feedback>		
+		<existingcommands><![CDATA[<font size = '10' face="Arial"><b>Enter the show command that will display a brief summary of the IPv6 interface status.</b></font>]]></existingcommands>
+		<command prompt="Router#"  id="cmd1" node="start">
+		    <correctresponse id="cr1" ignoreCase = 'true'><![CDATA[show ipv6 interface brief]]></correctresponse>
+		    <deviceresponse id="dr1"><![CDATA[<font size='10'>GigabitEthernet0/0     [up/up]<br>    FE80::FE99:47FF:FE75:C3E0<br>    2001:DB8:ACAD:1::1<br>GigabitEthernet0/1     [up/up]<br>    FE80::FE99:47FF:FE75:C3E1<br>    2001:DB8:ACAD:2::1<br>Serial0/0/0            [up/up]<br>    FE80::FE99:47FF:FE75:C3E0<br>    2001:DB8:ACAD:3::1<br>Serial0/0/1            [administratively down/down]<br>    unassigned<br><br></font>]]></deviceresponse>			
+		    <instruction id="ins1"><![CDATA[<font size = '10' face="Arial"><b>Enter the show command that will display the IPv6 routing table.</b></font>]]></instruction>	
+		</command>
+		<command prompt="Router#" id="cmd2">
+		    <correctresponse id="cr2" ignoreCase = 'true'><![CDATA[show ipv6 route]]></correctresponse>
+		    <deviceresponse id="dr2"><![CDATA[<font size='10'>IPv6 Routing Table - default - 7 entries<br>Codes: C - Connected, L - Local, S - Static, U - Per-user Static<br><br>&lt;output omitted&gt;<br><br>C   2001:DB8:ACAD:1::/64 [0/0]<br>     via GigabitEthernet0/0, directly connected<br>L   2001:DB8:ACAD:1::1/128 [0/0]<br>     via GigabitEthernet0/0, receive<br>C   2001:DB8:ACAD:2::/64 [0/0]<br>     via GigabitEthernet0/1, directly connected<br>L   2001:DB8:ACAD:2::1/128 [0/0]<br>     via GigabitEthernet0/1, receive<br>C   2001:DB8:ACAD:3::/64 [0/0]<br>     via Serial0/0/0, directly connected<br>L   2001:DB8:ACAD:3::1/128 [0/0]<br>     via Serial0/0/0, receive<br>L   FF00::/8 [0/0]<br>     via Null0, receive<br><br></font>]]></deviceresponse>			
+		    <instruction id="ins2"><![CDATA[<font size = '10' face="Arial"><b>Verify connectivity to PC2 at 2001:db8:acad:1::10.</b></font>]]></instruction>	
+		</command>
+		<command prompt="Router#" id="cmd3" node="end">
+		    <correctresponse id="cr3" ignoreCase = 'true'><![CDATA[ping 2001:db8:acad:1::10]]></correctresponse>
+		    <deviceresponse id="dr3"><![CDATA[<font size='10'>Type escape sequence to abort.<br>Sending 5, 100-byte ICMP Echos to 2001:DB8:ACAD:1::10, timeout is 2 seconds:<br>!!!!!<br>Success rate is 100 percent (5/5)<br>R1#<br><br></font>]]></deviceresponse>			
+		    <instruction id="last"><![CDATA[<font size = '10' face="Arial"><b>You successfully verified the IPv6 addresss configuration.</b></font>]]></instruction>	
+		</command>
+		<!--
+		<command prompt="Router(config-if)#">
+		    <correctresponse><![CDATA[ipv6 address 2001:db8:acad:1::1/64]]></correctresponse>
+		</command>
+		<command prompt="Router(config-if)#">
+		    <correctresponse><![CDATA[no shutdown]]></correctresponse>
+		    <deviceresponse><![CDATA[<font size='10'>%LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to up<br>%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up<br></font>]]></deviceresponse>
+		</command>
+		<command prompt="Router(config-if)#">
+		    <correctresponse><![CDATA[interface gigabitethernet 0/1]]></correctresponse>
+		</command>
+		<command prompt="Router(config-if)#">
+		    <correctresponse><![CDATA[ipv6 address 2001:db8:acad:2::1/64]]></correctresponse>
+		</command>
+		<command prompt="Router(config-if)#">
+		    <correctresponse><![CDATA[no shutdown]]></correctresponse>
+		    <deviceresponse><![CDATA[<font size='10'>%LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to up<br>%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up<br></font>]]></deviceresponse>
+		</command>		
+		<command prompt="Router(config-if)#">
+		    <correctresponse><![CDATA[interface serial 0/0/0]]></correctresponse>
+		</command>
+		<command prompt="Router(config-if)#">
+		    <correctresponse><![CDATA[ipv6 address 2001:db8:acad:3::1/64]]></correctresponse>
+		</command>
+		<command prompt="Router(config-if)#">
+		    <correctresponse><![CDATA[no shutdown]]></correctresponse>
+		    <deviceresponse><![CDATA[<font size='10'>%LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to up<br>%LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/0, changed state to up<br></font>]]></deviceresponse>
+		    <instruction><![CDATA[<font size = '10' face="Arial"><b>You successfully configured the R1 interfaces with IPv6 addresses.</b></font>]]></instruction>	
+		</command>			
+		<command prompt=""/>
+		-->
+		</component>
+</textcomponents> 

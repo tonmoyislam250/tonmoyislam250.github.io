@@ -1,0 +1,20 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_titleTxt01 {color:#442557 !important;}
+#ID_txt09{line-height:11px;}
+li{margin-left:13px;}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+ li{margin-left:2px;}
+
+ }

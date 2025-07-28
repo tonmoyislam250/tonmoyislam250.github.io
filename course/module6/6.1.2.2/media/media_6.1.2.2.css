@@ -1,0 +1,21 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_s1_title_01,#ID_s1_title_02{color:#393536 ! important}
+li{margin-left:5em;}
+
+@media only screen and (device-width: 768px) {
+ li{margin-left:4em;}
+ #ID_s2_txt03{margin-left:1px;}
+}

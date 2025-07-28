@@ -1,0 +1,27 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	
+}	
+
+
+#staticTxt,#pc1,#pc2,#r1,#r2{font-family:Arial, Helvetica, sans-serif;}
+
+@media only screen and (device-width: 768px) {
+#pc1{margin-left:1.5px;margin-top:1px;}
+#pc2{margin-top:-1.9px;margin-left:1px;}
+#r2{margin-left:0px;margin-top:0px;}
+#r1{margin-top:0px;margin-left:1px;}
+}
+
+

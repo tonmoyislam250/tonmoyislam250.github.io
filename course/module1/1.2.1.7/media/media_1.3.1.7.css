@@ -1,0 +1,79 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+    margin:0;
+    height:100%;
+
+}
+#flashContent {
+    width:98%;
+    height:98%;
+	z-index:1 !important;
+	position:absolute !important;
+}
+
+#mainDiv {
+    height:395px;
+    width: 780px;
+    position:absolute;
+    top:5px;
+}
+#textID_s1_drag03{
+	
+	padding: 0 0 0 7px;
+	 width: 153px !important;
+	 margin-top:15px!important;
+	 text-align:left !important;
+	
+	}
+	
+#textID_s1_drag01
+{
+  padding: 0 0 0 7px;
+  width: 141px !important;
+  margin-top:10px!important;
+   text-align:left !important;	
+}
+#textID_s1_drag02{padding: 0 0 0 7px;
+width: 155px !important;
+margin-top:10px!important;
+ text-align:left !important;
+}
+
+#button0 div {/*padding-top:1px !important;*/ padding:0px !important;margin-top: -24px !important;}
+#button1 div {/*padding-top:1px !important;*/ padding:0px !important;margin-top: -24px !important;}
+#button0 { left:12px !important;}
+#button1 { left:106px !important;}
+
+#text_body0,#text_body1,#text_body2,#text_body3,#text_body4,#text_body5{color:#FFFFFF !important;}
+
+#text_body6 font {font-size:11px;}
+
+#text_body9 font {font-size:11px;line-height:9px;}
+
+#textID_s1_drag03, #textID_s1_drag01, #textID_s1_drag02{color:#393536 !important; font-weight:normal !important;top: -4px !important;}
+#ID_s1BodyText{text-align:left !important;}
+#ID_s3Title font, #ID_s2Title font, #ID_s1Title font{color:#472e55 !important;text-align:left !important;font-size:12px !important;padding:0 0 0 0px;line-height:16px;font-family:Arial  !important;}
+#ID_s1BodyText font {text-align:left !important;font-size:12px !important;padding:0 0 0 0px;line-height:16px;font-family:Arial  !important; position: relative;left:3px;}
+
+#contentDiv_s2 #tick0,#contentDiv_s2 #tick1,#contentDiv_s2 #tick2{left:43px !important;top:49.5px !important;}
+#contentDiv_s2 #tick3,#contentDiv_s2 #tick4,#contentDiv_s2 #tick5{left:43px !important;top:49.5px !important;}
+#contentDiv_s2 #tick6,#contentDiv_s2 #tick7,#contentDiv_s2 #tick8,#contentDiv_s2 #tick9,#contentDiv_s2 #tick10,#contentDiv_s2 #tick11,#contentDiv_s2 #tick12,#contentDiv_s2 #tick13,#contentDiv_s2 #tick14{left:43px !important;top:49.5px !important;}
+
+#contentDiv_s3 #tick0,#contentDiv_s3 #tick1,#contentDiv_s3 #tick2{left:43px !important;top:-15.5px !important;}
+#contentDiv_s3 #tick3,#contentDiv_s3 #tick4,#contentDiv_s3 #tick5{left:43px !important;top:-15.5px !important;}
+#contentDiv_s3 #tick6,#contentDiv_s3 #tick7,#contentDiv_s3 #tick8,#contentDiv_s3 #tick9,#contentDiv_s3 #tick10,#contentDiv_s3 #tick11,#contentDiv_s3 #tick12,#contentDiv_s3 #tick13,#contentDiv_s3 #tick14{left:43px !important;top:-20.5px !important;}
+
+
+#ID_s2BodyText,#ID_s2BodyText font{width:209px!important;;padding:0 0 0 0px;font-size:12px;text-align:left !important;font-family:Arial !important;position:relative;left:3px;}
+#ID_s2Title font {width:200px;padding:0px;font-size:12px;padding:13px 0 0 3px;font-family:Arial  !important;}
+
+
+#ID_s3Title font {width:200px;padding:0px;font-size:12px;padding:12px 0 0 3px;font-family:Arial !important;}
+
+#ID_s3BodyText,#ID_s3BodyText font{width:195px!important;;padding:0 0 0 0px;font-size:12px;text-align:left !important;font-family:Arial !important;position:relative;left:3px;}
+#textID_s3_drag14, #textID_s3_drag13, #textID_s3_drag12, #textID_s3_drag11, #textID_s3_drag10, #textID_s3_drag06, #textID_s3_drag07, #textID_s3_drag08, #textID_s3_drag09, #textID_s3_drag02, #textID_s3_drag03, #textID_s3_drag04, #textID_s3_drag05, #textID_s3_drag01{color:#393536 !important;}
+#textID_s3_drag06{line-height:9px;}

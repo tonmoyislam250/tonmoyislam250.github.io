@@ -1,0 +1,31 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	position:absolute !important;
+   z-index:1 !important;
+}
+
+#mainDiv {
+    height: 400px;
+    width: 747px;
+    position:absolute;
+    top:0px;
+	
+    
+}
+#ID_RESET{margin-top:2px;}
+#button1 div{ padding-left:0px !important;}
+#text_com2,#text_com3,#text_com4,#text_com5{text-align:center !important;}
+#ID_s1Title{color:#50385f !important;text-align:left !important;padding:0 0 0 3px; font-weight:bold;}
+#ID_s1BodyText{color:#000000 !important;text-align:left !important;padding:0 0 0 3px;}
+#textID_a01_DS {width:304px !important;}

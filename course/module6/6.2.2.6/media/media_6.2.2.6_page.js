@@ -1,0 +1,301 @@
+loadScript("../../../common/scripts/swfobject.js", registerSWF);
+//loadScript("../../../common/scripts/templates/slide/MultiBarSlide.js");
+function registerSWF(){
+    swfobject.registerObject("flashobject", "9.0.0", "../../../common/libs/expressInstall.swf");
+}
+
+
+var STAGE_WIDTH = 470;
+var STAGE_HEIGHT = 400;
+
+function getData()
+{
+    var template_type = "MULTI_BAR";
+    var commonImage = [{name:"6.2.2.6.png",
+						x:1.55,
+						y:2.3,
+						width:440.5,
+						height:124.15,
+						type:""}];
+
+var commonTexts = [{compId:"staticTxt5",
+					bodyText:'PC1',
+							x:19.5,
+							y:25.78, 
+							width:23,
+							height:17,
+							size:11,
+							color:"#ffffff",
+							textAlign:"left"},
+					{compId:"staticTxt6",
+					 bodyText:'PC2',
+							x:18.5,
+							y:99-1, 
+							width:24.15,
+							height:17,
+							size:10,
+						    color:"#ffffff",
+							textAlign:"left"},
+					{compId:"staticTxt7",
+					 bodyText:'.10',
+							x:47.55,
+							y:22.1, 
+							width:29.4,
+							height:17,
+							size:11,
+							textAlign:"left"},
+					{compId:"staticTxt8",
+					 bodyText:'.10',
+							x:47.55,
+							y:94.6, 
+							width:28.5,
+							height:17,
+							size:11,
+							textAlign:"left"},
+					 {compId:"staticTxt9",
+					 bodyText:'<b>192.168.10.0/24</b>',
+							x:70.45,
+							y:16.9, 
+							width:104,
+							height:17,
+							size:11,
+							textAlign:"left"},
+					 {compId:"staticTxt10",
+					 bodyText:'<b>192.168.11.0/24</b>',
+							x:70.45,
+							y:126.1, 
+							width:104,
+							height:17,
+							size:11,
+							textAlign:"left"},
+					{compId:"staticTxt11",
+					 bodyText:'G0/0<br/>.1',
+							x:97.1,
+							y:29.8, 
+							width:51.25,
+							height:17,
+							size:11,
+							textAlign:"right"},
+					{compId:"staticTxt12",
+					 bodyText:'.1<br/>G0/1',
+							x:103.1,
+							y:91.9, 
+							width:41.8,
+							height:17,
+							size:11,
+							textAlign:"right"},
+	{compId:"staticTxt13",
+					 bodyText:'R1',
+							x:155.35,
+							y:76.15+1, 
+							width:26.4,
+							height:17,
+							size:10,
+							color:"#fff",
+							textAlign:"left"},
+					{compId:"staticTxt14",
+					 bodyText:'R2',
+							x:285.05,
+							y:76.15+1, 
+							width:26.75,
+							height:17,
+							size:10,
+							color:"#fff",
+							textAlign:"left"},
+					{compId:"staticTxt15",
+					 bodyText:'.225<br/>S0/0/0',
+							x:181,
+							y:77.65, 
+							width:48.3,
+							height:17,
+							size:11,
+							textAlign:"left"},
+					{compId:"staticTxt16",
+					 bodyText:'.226',
+							x:252.3,
+							y:68.2, 
+							width:34.3,
+							height:17,
+							size:11,
+							textAlign:"left"},
+	{compId:"staticTxt17",
+					 bodyText:'<b>209.165.200.224 /30</b>',
+							x:178,
+							y:51, 
+							width:134.3,
+							height:17,
+							size:11,
+							textAlign:"left"},
+	{compId:"staticTxt18",
+					 bodyText:'.1',
+							x:308.3,
+							y:59.2, 
+							width:34.3,
+							height:17,
+							size:11,
+							textAlign:"left"},
+{compId:"staticTxt19",
+					 bodyText:'.1',
+							x:308.3,
+							y:90.2, 
+							width:34.3,
+							height:17,
+							size:11,
+							textAlign:"left"},
+	{compId:"staticTxt20",
+					 bodyText:'<b>10.1.1.0/24</b>',
+							x:335.3,
+							y:15.2, 
+							width:100.3,
+							height:17,
+							size:11,
+							textAlign:"left"},
+{compId:"staticTxt21",
+					 bodyText:'<b>10.1.2.0/24</b>',
+							x:335.3-13,
+							y:127.2, 
+							width:100.3,
+							height:17,
+							size:11,
+							textAlign:"left"},
+{compId:"staticTxt22",
+					 bodyText:'.10',
+							x:392.3,
+							y:92.2, 
+							width:34.3,
+							height:17,
+							size:11,
+							textAlign:"left"},
+
+{compId:"staticTxt23",
+					 bodyText:'.10',
+							x:392.3,
+							y:25.2, 
+							width:34.3,
+							height:17,
+							size:11,
+							textAlign:"left"},
+{compId:"staticTxt24",
+					 bodyText:'64.100.0.1',
+							x:267.3,
+							y:34.2, 
+							width:114.3,
+							height:17,
+							size:11,
+							textAlign:"left"}];
+
+    var slide_1_type = "IMAGE";
+    var slide_1_images = [{name:"6.2.2.6A.png",
+						x:1.55,
+						y:150,
+						width:435.25,
+						scrollable:"YES",
+						height:244.35,					
+						divId:"commonImageText",
+						type:""}];
+
+    var slide_1_texts = [{compId:"staticTxt1",/* Static text1 */
+			bodyText:'<table align="left" border="0" width="398" cellpadding="0" cellspacing="0"><tr><td colspan="2" valign="top">R1#<span style="font-weight:bold">show ip route</span></td></tr><tr><td colspan="2"><table align="left" border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td width="5%" align="left">Codes:</td><td width="95%">&nbsp;L - local, C - connected, S - static, R - RIP,M - mobile,</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;B - BGP</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;D - EIGRP, EX - EIGRP external, O - OSPF,IA - OSPF inter area</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;N1 - OSPF NSSA external type 1,N2 - OSPF NSSA external type 2</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia -</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;IS-IS inter area</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;* - candidate default, U - per-user static route, o - ODR</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;P - periodic downloaded static route</td></tr></table></td></tr><tr><td colspan="2" height="15"></td></tr><tr><td colspan="2">Gateway of last resort is 209.165.200.226 to network 0.0.0.0</td></tr><tr><td colspan="2" height="10"></td></tr><tr><td colspan="2"><table align="left" border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td width="5%" align="left"></td><td width="95%">10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks</td></tr><tr><td width="5%" align="left">D</td><td width="95%">&nbsp;10.1.1.0/24 [90/2170112] via 209.165.200.226, 01:13:55,</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;Serial0/0/0</td></tr><tr><td width="5%" align="left">D</td><td width="95%">&nbsp;10.1.1.0/24 [90/2170112] via 209.165.200.226, 01:13:55,</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;Serial0/0/0</td></tr><tr><td width="5%" align="left"></td><td width="95%">192.168.10.0/24 is variably subnetted, 2 subnets, 3 masks</td></tr><tr><td width="5%" align="left">C</td><td width="95%">&nbsp;192.168.10.0/24 is directly connected, GigabitEthernet0/0</td></tr><tr><td width="5%" align="left"><span style="color:#F26200;font-weight:bold;">L</span></td><td width="95%">&nbsp;<span style="color:#F26200;font-weight:bold;">192.168.10.1/32 is directly connected, GigabitEthernet0/0</span></td></tr><tr><td width="5%" align="left"></td><td width="95%">192.168.11.0/24 is variably subnetted, 2 subnets, 3 masks</td></tr><tr><td width="5%" align="left">C</td><td width="95%">&nbsp;192.168.11.0/24 is directly connected, GigabitEthernet0/1</td></tr><tr><td width="5%" align="left">L</td><td width="95%">&nbsp;192.168.10.1/32 is directly connected, GigabitEthernet0/1</td></tr><tr><td width="5%" align="left"></td><td width="95%"> 209.165.200.0/24 is variably subnetted, 2 subnets, 3 masks</td></tr><tr><td width="5%" align="left">C</td><td width="95%">&nbsp;209.165.200.224/30 is directly connected, Serial0/0/0</td></tr><tr><td width="5%" align="left">L</td><td width="95%">&nbsp;209.165.200.225/32 is directly connected, Serial0/0/0</span></td></tr><tr><td width="5%" align="left">S*</td><td width="95%">0.0.0.0/0 [1/0] via 209.165.200.226</td></tr></table></td></tr></table>',
+			x:20-3,
+			y:160-2, 
+			width:410,						
+			height:244.35,	
+			size:10,
+			color:"#000000",
+			textAlign:"left"}];	
+	
+    var slide_1_object = {templateType:slide_1_type,
+        x:0,
+        y:0,
+        images:slide_1_images,				
+        texts:slide_1_texts};
+	/*SLIDE 2*/
+
+ var slide_2_type = "IMAGE";
+    var slide_2_images = [{name:"6.2.2.6A.png",
+						x:1.55,
+						y:150,
+						width:435.25,						
+						height:244.35,					
+						divId:"commonImageText",
+						type:""}];
+
+    var slide_2_texts = [{compId:"staticTxt2",/* Static text1 */
+		bodyText:'<table align="left" border="0" width="398" cellpadding="0" cellspacing="0"><tr><td colspan="2">R1#<span style="font-weight:bold">show ip route</span></td></tr><tr><td colspan="2"><table align="left" border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td width="5%" align="left">Codes:</td><td width="95%">&nbsp;L - local, C - connected, S - static, R - RIP,M - mobile,</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;B - BGP</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;D - EIGRP, EX - EIGRP external, O - OSPF,IA - OSPF inter area</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;N1 - OSPF NSSA external type 1,N2 - OSPF NSSA external type 2</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia -</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;IS-IS inter area</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;* - candidate default, U - per-user static route, o - ODR</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;P - periodic downloaded static route</td></tr></table></td></tr><tr><td colspan="2" height="15"></td></tr><tr><td colspan="2">Gateway of last resort is 209.165.200.226 to network 0.0.0.0</td></tr><tr><td colspan="2" height="10"></td></tr><tr><td colspan="2"><table align="left" border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td width="5%" align="left"></td><td width="95%">10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks</td></tr><tr><td width="5%" align="left">D</td><td width="95%">&nbsp;10.1.1.0/24 [90/2170112] via 209.165.200.226, 01:13:55,</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;Serial0/0/0</td></tr><tr><td width="5%" align="left">D</td><td width="95%">&nbsp;10.1.1.0/24 [90/2170112] via 209.165.200.226, 01:13:55,</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;Serial0/0/0</td></tr><tr><td width="5%" align="left"></td><td width="95%">192.168.10.0/24 is variably subnetted, 2 subnets, 3 masks</td></tr><tr><td width="5%" align="left">C</td><td width="95%">&nbsp;192.168.10.0/24 is directly connected, GigabitEthernet0/0</td></tr><tr><td width="5%" align="left">L</td><td width="95%">&nbsp;192.168.10.1/32 is directly connected, GigabitEthernet0/0</td></tr><tr><td width="5%" align="left"></td><td width="95%">192.168.11.0/24 is variably subnetted, 2 subnets, 3 masks</td></tr><tr><td width="5%" align="left"><span style="color:#F26200;font-weight:bold;">C</span></td><td width="95%">&nbsp;<span style="color:#F26200;font-weight:bold;">192.168.11.0/24 is directly connected, GigabitEthernet0/1</span></td></tr><tr><td width="5%" align="left">L</td><td width="95%">&nbsp;192.168.10.1/32 is directly connected, GigabitEthernet0/1</td></tr><tr><td width="5%" align="left"></td><td width="95%"> 209.165.200.0/24 is variably subnetted, 2 subnets, 3 masks</td></tr><tr><td width="5%" align="left">C</td><td width="95%">&nbsp;209.165.200.224/30 is directly connected, Serial0/0/0</td></tr><tr><td width="5%" align="left">L</td><td width="95%">&nbsp;209.165.200.225/32 is directly connected, Serial0/0/0</span></td></tr><tr><td width="5%" align="left">S*</td><td width="95%">0.0.0.0/0 [1/0] via 209.165.200.226</td></tr></table></td></tr></table>',
+			x:20-3,
+			y:160-2, 
+			width:415.25,						
+			height:244.35,	
+			size:10,
+			color:"#000000",
+			textAlign:"left"}];	
+	
+    var slide_2_object = {templateType:slide_2_type,
+        x:0,
+        y:0,
+        images:slide_2_images,				
+        texts:slide_2_texts};
+
+/* SLIDE 3*/
+ var slide_3_type = "IMAGE";
+    var slide_3_images = [{name:"6.2.2.6A.png",
+						x:1.55,
+						y:150,
+						width:435.25,
+						scrollable:"YES",
+						height:244.35,					
+						divId:"commonImageText",
+						type:""}];
+
+    var slide_3_texts = [{compId:"staticTxt3",/* Static text1 */
+			bodyText:'<table align="left" border="0" width="398" cellpadding="0" cellspacing="0"><tr><td colspan="2">R1#<span style="font-weight:bold">show ip route</span></td></tr><tr><td colspan="2"><table align="left" border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td width="5%" align="left">Codes:</td><td width="95%">&nbsp;L - local, C - connected, S - static, R - RIP,M - mobile,</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;B - BGP</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;D - EIGRP, EX - EIGRP external, O - OSPF,IA - OSPF inter area</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;N1 - OSPF NSSA external type 1,N2 - OSPF NSSA external type 2</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia -</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;IS-IS inter area</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;* - candidate default, U - per-user static route, o - ODR</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;P - periodic downloaded static route</td></tr></table></td></tr><tr><td colspan="2" height="15"></td></tr><tr><td colspan="2">Gateway of last resort is 209.165.200.226 to network 0.0.0.0</td></tr><tr><td colspan="2" height="10"></td></tr><tr><td colspan="2"><table align="left" border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td width="5%" align="left"></td><td width="95%">10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks</td></tr><tr><td width="5%" align="left">D</td><td width="95%">&nbsp;10.1.1.0/24 [90/2170112] via 209.165.200.226, 01:13:55,</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;Serial0/0/0</td></tr><tr><td width="5%" align="left">D</td><td width="95%">&nbsp;10.1.1.0/24 [90/2170112] via 209.165.200.226, 01:13:55,</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;Serial0/0/0</td></tr><tr><td width="5%" align="left"></td><td width="95%">192.168.10.0/24 is variably subnetted, 2 subnets, 3 masks</td></tr><tr><td width="5%" align="left">C</td><td width="95%">&nbsp;192.168.10.0/24 is directly connected, GigabitEthernet0/0</td></tr><tr><td width="5%" align="left">L</td><td width="95%">&nbsp;192.168.10.1/32 is directly connected, GigabitEthernet0/0</td></tr><tr><td width="5%" align="left"></td><td width="95%">192.168.11.0/24 is variably subnetted, 2 subnets, 3 masks</td></tr><tr><td width="5%" align="left">C</td><td width="95%">&nbsp;192.168.11.0/24 is directly connected, GigabitEthernet0/1</td></tr><tr><td width="5%" align="left">L</td><td width="95%">&nbsp;192.168.10.1/32 is directly connected, GigabitEthernet0/1</td></tr><tr><td width="5%" align="left"></td><td width="95%"> 209.165.200.0/24 is variably subnetted, 2 subnets, 3 masks</td></tr><tr><td width="5%" align="left"><span style="color:#F26200;font-weight:bold;">C</span></td><td width="95%">&nbsp;<span style="color:#F26200;font-weight:bold;">209.165.200.224/30 is directly connected, Serial0/0/0</span></td></tr><tr><td width="5%" align="left">L</td><td width="95%">&nbsp;209.165.200.225/32 is directly connected, Serial0/0/0</span></td></tr><tr><td width="5%" align="left">S*</td><td width="95%">0.0.0.0/0 [1/0] via 209.165.200.226</td></tr></table></td></tr></table>',
+			x:20-3,
+			y:160-2, 
+			width:415.25,						
+			height:244.35,	
+			size:10,
+			color:"#000000",
+			textAlign:"left"}];	
+	
+    var slide_3_object = {templateType:slide_3_type,
+        x:0,
+        y:0,
+        images:slide_3_images,				
+        texts:slide_3_texts};
+
+/*SLIDE 4*/
+
+ var slide_4_type = "IMAGE";
+    var slide_4_images = [{name:"6.2.2.6A.png",
+						x:1.55,
+						y:150,
+						width:435.25,
+						scrollable:"YES",
+						height:244.35,					
+						divId:"commonImageText",
+						type:""}];
+
+    var slide_4_texts = [{compId:"staticTxt4",/* Static text1 */
+			bodyText:'<table align="left" border="0" width="398" cellpadding="0" cellspacing="0"><tr><td colspan="2">R1#<span style="font-weight:bold">show ip route</span></td></tr><tr><td colspan="2"><table align="left" border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td width="5%" align="left">Codes:</td><td width="95%">&nbsp;L - local, C - connected, S - static, R - RIP,M - mobile,</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;B - BGP</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;D - EIGRP, EX - EIGRP external, O - OSPF,IA - OSPF inter area</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;N1 - OSPF NSSA external type 1,N2 - OSPF NSSA external type 2</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia -</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;IS-IS inter area</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;* - candidate default, U - per-user static route, o - ODR</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;P - periodic downloaded static route</td></tr></table></td></tr><tr><td colspan="2" height="15"></td></tr><tr><td colspan="2">Gateway of last resort is 209.165.200.226 to network 0.0.0.0</td></tr><tr><td colspan="2" height="10"></td></tr><tr><td colspan="2"><table align="left" border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td width="5%" align="left"></td><td width="95%">10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks</td></tr><tr><td width="5%" align="left"><span style="color:#F26200;font-weight:bold;">D</span></td><td width="95%">&nbsp;<span style="color:#F26200;font-weight:bold;">10.1.1.0/24 [90/2170112] via 209.165.200.226, 01:13:55,</span></td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;<span style="color:#F26200;font-weight:bold;">Serial0/0/0</span></td></tr><tr><td width="5%" align="left">D</td><td width="95%">&nbsp;10.1.1.0/24 [90/2170112] via 209.165.200.226, 01:13:55,</td></tr><tr><td width="5%" align="left"></td><td width="95%">&nbsp;Serial0/0/0</td></tr><tr><td width="5%" align="left"></td><td width="95%">192.168.10.0/24 is variably subnetted, 2 subnets, 3 masks</td></tr><tr><td width="5%" align="left">C</td><td width="95%">&nbsp;192.168.10.0/24 is directly connected, GigabitEthernet0/0</td></tr><tr><td width="5%" align="left">L</td><td width="95%">&nbsp;192.168.10.1/32 is directly connected, GigabitEthernet0/0</td></tr><tr><td width="5%" align="left"></td><td width="95%">192.168.11.0/24 is variably subnetted, 2 subnets, 3 masks</td></tr><tr><td width="5%" align="left">C</td><td width="95%">&nbsp;192.168.11.0/24 is directly connected, GigabitEthernet0/1</td></tr><tr><td width="5%" align="left">L</td><td width="95%">&nbsp;192.168.10.1/32 is directly connected, GigabitEthernet0/1</td></tr><tr><td width="5%" align="left"></td><td width="95%"> 209.165.200.0/24 is variably subnetted, 2 subnets, 3 masks</td></tr><tr><td width="5%" align="left"><span style="color:#60bd22;font-weight:bold;">C</span></td><td width="95%">&nbsp;<span style="color:#60bd22;font-weight:bold;">209.165.200.224/30 is directly connected, Serial0/0/0</span></td></tr><tr><td width="5%" align="left">L</td><td width="95%">&nbsp;209.165.200.225/32 is directly connected, Serial0/0/0</td></tr><tr><td width="5%" align="left">S*</td><td width="95%">0.0.0.0/0 [1/0] via 209.165.200.226</td></tr></table></td></tr></table>',
+			x:20-3,
+			y:160-2, 
+			width:415.25,						
+			height:244.35,	
+			size:10,
+			color:"#000000",
+			textAlign:"left"}];	
+	
+    var slide_4_object = {templateType:slide_4_type,
+        x:0,
+        y:0,
+        images:slide_4_images,				
+        texts:slide_4_texts};
+
+    var slides = [slide_1_object,slide_2_object,slide_3_object,slide_4_object];
+
+    return {templateType:template_type,
+       textObject:commonTexts,
+		images:commonImage,
+        slideObject:slides};
+
+}

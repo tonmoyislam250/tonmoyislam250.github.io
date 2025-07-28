@@ -1,0 +1,47 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	min-height: 390px;
+	min-width:470px;
+}
+#flashContent {
+	width:100%;
+	height:100%;
+}
+
+#ID_txt02{
+border:2px solid #F68026;
+border-radius:5px;
+-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+padding:3px 3px 3px 3px;
+background:#FDE6D4;
+
+}
+
+#mainDiv {
+    height: 380px;
+    width: 416px;
+    position:absolute;
+    top:0px;
+}
+
+#deresp1 {
+    float: left;
+    font: 10px/15px Courier New !important;
+    width: 100%;
+}
+/*#val_2:first-child,.txtLeft:first-child,.txtRight:first-child { color:black !important;}*/
+#val_2,.trans {
+   color: transparent !important;
+}
+#fb font{font-family:arial !important;}
+#ec{padding-bottom:3px !important;width: 370px !important;}
+#val_2{display:none;}
+#ans_2{display:none;}

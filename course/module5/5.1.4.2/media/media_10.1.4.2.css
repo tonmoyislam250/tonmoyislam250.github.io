@@ -1,0 +1,219 @@
+
+
+
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden !important;
+}
+#mainDiv
+{
+width:416px;
+height:400px;
+position:absolute;
+top:0px;
+
+}
+
+#maincontainer
+{
+width:400px;
+height:390px;
+position:absolute;
+top:0;
+
+}
+#imagecontainer
+{
+width:397px;
+height:259px; 
+position:absolute;
+left:-5px;
+top:85px;
+
+background:url(10.1.4.2.jpg) top center no-repeat;	
+}
+#text1
+{
+font-size: 10px;
+height: 40px;
+left: 5px;
+position: absolute;
+text-align: left;
+top: 35px;
+width: 149.25px;
+line-height:11px;
+}
+#text2
+{
+font-size: 10px;
+height: 40px;
+left:244px;
+position: absolute;
+text-align: left;
+top: 35px;
+width: 149.25px;
+line-height:11px;
+}
+#text3
+{
+font-size: 10px;
+height: 60px;
+left: 48px;
+position: absolute;
+text-align: left;
+top: 204px;
+width: 294px;
+z-index: 2;
+line-height:11px;
+}
+#text4
+{
+font-size: 10px;
+height: 13px;
+left: 3px;
+position: absolute;
+text-align: center;
+top: 178px;
+width: 29px;
+}
+#text5
+{
+font-size: 10px;
+height: 13px;
+left: 343px;
+position: absolute;
+text-align: center;
+top: 178px;
+width: 40px;
+}
+#frame
+{
+width:39px;
+height:22px;
+position:absolute;
+top:140px;
+left:0px;
+background:url(envelope.png) top center no-repeat;
+font-size:10px;
+text-align:center;
+padding-top: 3px;	
+}
+#frame1
+{
+width:39px;
+height:22px;
+position:absolute;
+top:72px;
+left:0px;
+background:url(envelope-green.png) top center no-repeat;
+font-size:10px;
+text-align:center;
+padding-top: 3px;	
+z-index:2
+}
+#frame2
+{
+width:39px;
+height:22px;
+position:absolute;
+top:71px;
+left:354px;
+background:url(envelope2.png) top center no-repeat;
+font-size:10px;
+text-align:center;
+padding-top: 3px;	
+z-index:2
+}
+#wless1
+{
+height: 58px;
+left: 135px;
+position: absolute;
+top: 37px;
+width: 80.15px;
+z-index: 1;	
+}
+#wless2
+{
+height: 58px;
+left: 201px;
+position: absolute;
+top: 37px;
+width: 80.15px;
+z-index: 1;	
+}
+#gradient
+{
+height: 9px;
+left: 37px;
+position: absolute;
+top: 73px;
+width: 80.15px;
+z-index: 1;
+clip:rect(0px 0px 15px 0px)
+}
+#gradient1
+{
+height: 9px;
+left:274px;
+position: absolute;
+top: 73px;
+width: 83.15px;
+z-index: 1;
+clip:rect(0px 0px 15px 0px);
+}
+#spring
+{
+width:10px;
+height:51px;
+position:absolute;
+top:93px;
+left:370px;
+clip:rect(0px 10px 0px 0px);
+}
+
+
+/* First slide begins here */
+#tableWrapper{
+width:410px;
+border:2px solid #393536;
+height:64px;
+position:absolute;
+left:-12px;
+top:100px;
+}
+
+#texts1{width:108px;background-color:#DBECDA;position:absolute;left:0;top:0;font-size:10px;padding:3px 4px 0;height:61px;}
+#texts2{width:116px;background-color:#DBECDA;position:absolute;left:106px;top:0;border-left:2px solid #393536;font-size:10px;padding:3px 4px 0;height:61px;}
+#texts4{width:47px;background-color:#FFFADD;position:absolute;left:214px;top:0;border-left:2px solid #393536;font-size:10px;padding:3px 4px 0;height:61px;}
+#texts3{width:60px;background-color:#FFFADD;position:absolute;left:270px;top:0;border-left:2px solid #393536;font-size:10px;padding:3px 4px 0;height:61px;}
+#texts5{width:30px;background-color:#FFFADD;position:absolute;left:335px;top:0;border-left:2px solid #393536;font-size:10px;padding:3px 4px 0;height:61px;}
+#texts6{width:27px;background-color:#DBECDA;position:absolute;left:373px;top:0;border-left:2px solid #393536;font-size:10px;padding:3px 4px 0 5px;height:61px;}
+#texts7{width:171px;position:absolute;left:1px;top:69px;font-size:10px;opacity:0;}
+#texts8{width:141px;position:absolute;left:216px;top:69px;font-size:10px;opacity:0;}
+#outerbox1{position:absolute;top:-8px;left:-5px;opacity:0;}
+#outerbox2{position:absolute;top:-7.5px;left:209.5px;opacity:0;}
+
+@media only screen and (device-width: 768px) {
+#texts6{width:27px;background-color:#DBECDA;position:absolute;left:373px;top:0;border-left:2px solid #393536;font-size:10px;padding:3px 4px 0;height:61px;}
+
+}
+
+
+
+
+
+
+
+
+

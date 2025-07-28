@@ -1,0 +1,45 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	font-size:11px;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+/*#ID_txt01{background:url(popup.png) no-repeat left center;padding:8px 8px 31px 11px; background-size:cover;}*/
+#staticTxt5, #staticTxt7, #staticTxt6, #staticTxt8 {color:#FFFFFF !important; font-weight:bold; font-family:Arial !important;}
+
+ 
+.ID_txt01 {
+		position: relative;
+		padding: 5px;
+		margin: 1em 0 3em;
+		background-color: #cce9e7;
+		-webkit-box-shadow: 2px 2px 4px #888;
+		-moz-box-shadow: 2px 2px 4px #888;
+		box-shadow: 2px 2px 4px #888;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border: 3px solid #67bdbc;
+		width:230px;
+		height:42px;
+		color:#393536;
+}
+
+.ID_txt01::after {
+    border-color: #67BDBC transparent;
+    border-style: solid;
+    border-width: 23px 17px 0 0;
+    bottom: -25px;
+    content: "";
+    display: block;
+    left: 17px;
+    position: absolute; 
+}

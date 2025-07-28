@@ -1,0 +1,43 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#staticTxt{
+	font-size:11px;
+}
+#staticTxt1{
+	font-size:11px;
+	font-weight:bold;
+}
+#pc1{font-weight:bold;font-size:11px;}
+#pc2{font-weight:bold;font-size:11px;}
+
+#ID_txt20{
+	font-family: "Courier New" !important;
+    height: 218px !important;
+    margin: 0px 0 0;
+    padding: 0 0 0 0px;
+    width: 430px !important;}
+
+#ID_txt20 table {
+    letter-spacing: 0px;
+    line-height: 18px;
+	}
+.textCodes{margin-left:-48px;}
+.textUp{margin-left:-48px;padding-right:53px;}
+.textMove{margin-left:12px;}
+@media only screen and (device-width: 768px) {
+#pc1{margin-left:2px;margin-top:-2px;}
+#pc2{margin-top:-1px;margin-left:1px;}
+}

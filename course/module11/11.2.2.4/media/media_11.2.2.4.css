@@ -1,0 +1,142 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+	
+/*#flashContent div {border:1px solid #F00;}*/
+
+#mainDiv
+{
+width: 414px;
+height:400px;
+position:absolute;
+top:2px;	
+left: 31px;
+/*left: 190px !important;*/}
+
+/*#ID_s1_table { border:1px solid red;}*/
+
+table {
+    border-collapse: collapse;
+    width: 100% !important;
+}
+table tbody tr {
+    border-color: #98D3D1;
+}
+table tbody tr td {
+    border: 3px solid #98D3D1;
+    border-collapse: collapse;
+    font-size: 11px !important;
+    line-height: 11px !important;
+}
+table tbody tr td b {
+    border-collapse: collapse;
+    font-size: 11px !important;
+    font-weight: bold !important;
+}
+table tbody tr td font {
+    border-collapse: collapse;
+    font-size: 11px !important;
+}
+.table_font {
+    border-color: #A2AA23;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    width: 33% !important;
+}
+.liner_top {
+    height: 0 !important;
+    line-height: 0 !important;
+    margin: 0;
+    padding: 1.5px 0;
+}
+li {
+    margin-left: 1em !important;
+}
+.liner {
+    line-height: 0 !important;
+    padding: 2px;
+}
+#ID_s1_table {
+    border-radius: 5px 5px 5px 5px !important;
+    box-shadow: 0 0 2px 2px #999999 !important;
+    height: 107.15px !important;
+    width: 430px !important;
+}
+li {
+    margin-left: 0.2em !important;
+}
+
+/*Animation CSS Started*/
+#main_bg { position:absolute; top:29px; left:-13px;}
+#man {left: -13px;
+    position: absolute;
+    top: 28px;}
+	
+#com_1 {left: 26px;
+    position: absolute;
+    top: 19px;}
+#com_2 {left: 339px;
+    position: absolute;
+    top: 142px;}
+#com_3 {left: 172px;
+    position: absolute;
+    top: 284px;}
+#blk_box {left: 349px;
+    position: absolute;
+    top: 147px;
+	width:32px; height:23px;}
+#cloud {left: 157px;
+    position: absolute;
+    top: 53px;}
+#brown {left: 21px;
+    position: absolute;
+    top: 22px;}
+#yellow {left: 188px;
+    position: absolute;
+    top: 258px;}
+#yellow2 {left: 188px;
+    position: absolute;
+    top: 258px;}
+#yellow3 {left: 188px;
+    position: absolute;
+    top: 258px;}
+#main { z-index:-1;}
+#router {left: 172px;
+    position: absolute;
+    top: 151px;}
+	
+#static_txt02,#static_txt03,#static_txt04,#static_txt05,#static_txt06,#static_txt07 { letter-spacing:-0.3px;}
+#attcomp {font-size: 11px;
+    left: -174px;
+    position: absolute;
+    top: -52px;}
+#internet {font-size: 11px;
+    left: 10px;
+    position: absolute;
+    top: -77px;}
+	
+#textnew
+{
+	width:163px;
+	height:auto;
+	padding:5px;
+	background:#FDE6D4;
+	border:2px solid #F68026;
+	border-radius:5px;
+	font-size:11px;
+	text-align:left;
+	position:absolute;
+	top:130px;
+	left:-20px;
+}

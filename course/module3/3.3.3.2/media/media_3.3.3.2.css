@@ -1,0 +1,27 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+    margin:0;
+    height:100%;
+	 overflow:hidden !important;
+}
+#flashContent {
+    width:98%;
+    height:98%;
+    overflow:hidden !important;
+}
+
+
+#ID_title font b{
+    font-size:16px !important;
+    width:460px !important;
+    font-weight:bold;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    vertical-align:top !important;
+}
+

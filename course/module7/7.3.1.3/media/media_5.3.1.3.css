@@ -1,0 +1,18 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden;
+	position:relative;
+}
+
+#ID_txt11 b { color:#F68026;}
+#ID_txt12 b { color:#5fbc21;}

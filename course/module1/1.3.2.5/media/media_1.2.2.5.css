@@ -1,0 +1,47 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden;
+}
+#ID_s1_txt01{background:#f4f5d3;border:2px solid #f7f7de;border-radius: 5px 5px 5px 5px;padding: 5px;}
+#ID_s1_txt01 ul { margin:0px; padding:0px;}
+#ID_s1_txt01 ul li {border:0px;padding:0 0 0 8px;line-height:12px;margin: 0 0 0 13px;font-family:12px;}	
+
+#ID_s1_txt02{background:#f9d1d2;border:2px solid #fadcdd;border-radius: 5px 5px 5px 5px;padding: 5px;}
+#ID_s1_txt02 ul { margin:0px; padding:0px;}
+#ID_s1_txt02 ul li {border:0px;padding:0 0 0 8px;line-height:12px;margin: 0 0 0 13px;font-family:12px;}	
+
+#ID_s1_txt03{background:#fde6d4;border:2px solid #fdecdf;border-radius: 5px 5px 5px 5px;padding: 5px;}
+#ID_s1_txt03 ul { margin:0px; padding:0px;}
+#ID_s1_txt03 ul li {border:0px;padding:0 0 0 8px;line-height:12px;margin: 0 0 0 13px;font-family:12px;}	
+
+#ID_s1_txt04{background:#dbecda;border:2px solid #e1efe1;border-radius: 5px 5px 5px 5px;padding: 5px;}
+#ID_s1_txt04 ul { margin:0px; padding:0px;}
+#ID_s1_txt04 ul li {border:0px;padding:0 0 0 8px;line-height:12px;margin: 0 0 0 13px;font-family:12px;}	
+
+#ID_s1_txt05{background:#dbecda;border:2px solid #e1efe1;border-radius: 5px 5px 5px 5px;padding: 5px;}
+#ID_s1_txt05 ul { margin:0px; padding:0px;}
+#ID_s1_txt05 ul li {border:0px;padding:0 0 0 8px;line-height:12px;margin: 0 0 0 13px;font-family:12px;}	
+
+#ID_s1_txt06 font{font-size:11px !important;font-weight:bold!important;}
+
+#ID_s1_txt07{background:#F68026;padding: 5px;box-shadow: 1px 6px 5px #888888;}
+#ID_s1_txt07 font{font-size:12px !important;}
+
+#ID_s2_txt05{line-height:12px;height:25px !important;}
+
+#ID_s2_txt07{background:#FDE6D4;border:2px solid #F68026;border-radius: 5px 5px 5px 5px;padding: 5px;}
+
+#ID_s3_title font {font-size:14px !important;}
+#ID_s3_header1 font{font-size:14px !important;font-weight:bold;}
+#ID_s3_header2 font{font-size:14px !important;font-weight:bold;}
+#ID_s3_header3 font{font-size:14px !important;font-weight:bold;}

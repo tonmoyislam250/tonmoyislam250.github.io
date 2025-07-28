@@ -1,0 +1,130 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_txt05{
+   
+    padding:2px 0 3px 3px;
+    background:#e0d5e6 !important;
+	border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+}
+
+
+/*
+
+.first {
+    float: left;
+    margin-left: 2.1em !important;
+}
+.second {
+    float: left;
+    margin-left: -1.1em !important;
+    width: 68%;
+}
+*/
+
+li {list-style-type: disc !important;
+    margin-left: 11%;
+    text-align: left;
+    width: 86%;}
+	
+	
+.ID_txt12{
+   position: relative;
+		padding:2px;
+		margin: 1em 0 3em;
+		background-color: #cce9e7;
+		-webkit-box-shadow: 2px 2px 4px #888;
+		-moz-box-shadow: 2px 2px 4px #888;
+		box-shadow: 2px 2px 4px #888;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border: 3px solid #67bdbc;
+		width:80px;
+		height:14px;
+		color:#393536;
+}
+
+.ID_txt12:after {
+content: "";
+position: absolute;
+bottom: -22px;
+left:5px;
+border-width: 19px 14px 0 0;
+border-style: solid;
+border-color: #67bdbc transparent;
+display: block;
+
+}
+
+
+.ID_txt13{
+   position: relative;
+		padding:2px;
+		margin: 1em 0 3em;
+		background-color: #F4F5D3;
+		-webkit-box-shadow: 2px 2px 4px #888;
+		-moz-box-shadow: 2px 2px 4px #888;
+		box-shadow: 2px 2px 4px #888;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border: 3px solid #CDD750;
+		width:57.75px;
+		height:14px;
+		color:#393536;
+}
+
+.ID_txt13:after {
+content: "";
+position: absolute;
+bottom: -22px;
+left:45px;
+border-width: 19px 14px 0 0;
+border-style: solid;
+border-color: #CDD750 transparent;
+display: block;
+
+}
+
+.ID_txt16{
+   position: relative;
+		padding:2px;
+		margin: 1em 0 3em;
+		background-color: #cce9e7;
+		-webkit-box-shadow: 2px 2px 4px #888;
+		-moz-box-shadow: 2px 2px 4px #888;
+		box-shadow: 2px 2px 4px #888;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border: 3px solid #67bdbc;
+		width:51.7px;
+		height:14px;
+		color:#393536;
+}
+
+.ID_txt16:after {
+content: "";
+position: absolute;
+bottom: -22px;
+left:5px;
+border-width: 19px 14px 0 0;
+border-style: solid;
+border-color: #67bdbc transparent;
+display: block;
+
+}
+

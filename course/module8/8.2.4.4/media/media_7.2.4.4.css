@@ -1,0 +1,38 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:98%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#staticTxt{font-family:Courier New;line-height:13.4px}
+#ID_txt02,#ID_txt03,#ID_txt04 {
+    border:2px solid #F68026;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:5px;
+    background:#FDE6D4;
+}
+#ID_txt05 {border:2px solid #652C8A;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:5px;
+    background:#E0D5E6;}
+#txt1,#txt2,#txt3 { font-weight:bold;}
+#ID_txt05 {top:-30px !important;}
+
+@media only screen and (device-width: 768px) {
+#txt1 { left:1px !important; top:-1px !important;}
+#txt2 { left:1px !important; top:-1px !important;}
+#txt3 { left:1px !important; top:-1px !important;}
+}

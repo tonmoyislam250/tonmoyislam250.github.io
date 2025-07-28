@@ -1,0 +1,16 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#static_txt { /*border:1px solid red; width:411.95px;*/ height:187px;}
+table { line-height:11.6px; font-family:Courier New !important;}

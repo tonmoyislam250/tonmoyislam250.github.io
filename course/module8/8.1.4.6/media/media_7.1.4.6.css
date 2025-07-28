@@ -1,0 +1,72 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden !important;
+}
+#ID_s1_txt07
+{
+background:#fde6d4;
+border:2px solid #f68026;
+border-radius:5px 5px 5px 5px;
+padding:5px;
+width:120px;
+height:42.15px;	
+}
+#ID_s1_txt08
+{
+background: none repeat scroll 0 0 #FDE6D4;
+border: 2px solid #F68026;
+border-radius: 5px 5px 5px 5px;
+height: 71.15px;
+padding: 5px;
+width: 88px;
+}
+
+#ID_s2_txt07
+{
+background: none repeat scroll 0 0 #FDE6D4;
+border: 2px solid #F68026;
+border-radius: 5px 5px 5px 5px;
+height: 41.15px;
+padding: 5px;
+width: 105px;	
+}
+
+#ID_s2_txt08
+{
+background: none repeat scroll 0 0 #FDE6D4;
+border: 2px solid #F68026;
+border-radius: 5px 5px 5px 5px;
+height: 41.15px;
+padding: 5px;
+width: 88px;
+}
+
+#ID_s3_txt07
+{
+background: none repeat scroll 0 0 #FDE6D4;
+border: 2px solid #F68026;
+border-radius: 5px 5px 5px 5px;
+height: 56.15px;
+padding: 5px;
+width: 105px;	
+}
+
+#ID_s3_txt08
+{
+background: none repeat scroll 0 0 #FDE6D4;
+border: 2px solid #F68026;
+border-radius: 5px 5px 5px 5px;
+height: 41.15px;
+padding: 5px;
+width: 88px;
+}

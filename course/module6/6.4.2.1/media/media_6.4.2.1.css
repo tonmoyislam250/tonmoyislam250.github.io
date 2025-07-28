@@ -1,0 +1,28 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#mainDiv {
+    height: 380px;
+    width: 416px;
+    position:absolute;
+    top:0px;
+}
+#deresp2,#deresp3,#deresp4,#deresp6 {font:normal 105px/15px Courier New !important;}
+span.space_10{padding-left:10px; height:auto !important;  float:none !important;}
+span.space_15{padding-left:30px; height:auto !important;  float:none !important;}
+#ID_txt20 { /*background-image:url(6_4_2_1.png); background-repeat:no-repeat; */width:435.15px; height:199.05px; background-attachment:scroll !important;}
+body #ID_txt20 table { font-family:"Courier New", Courier, monospace; font-size:11px; line-height:18px;}
+#ID_txt01, #ID_txt02 { font-weight:bold;}
+#fb font{font-family:arial !important;}
+input[type="text"]#ans_3{width:275px !important;}
+input[type="text"]#ans_7{width:275px !important;}

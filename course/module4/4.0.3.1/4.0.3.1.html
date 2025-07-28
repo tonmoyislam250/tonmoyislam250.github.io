@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>4.0.3.1 Physical Layer Fundamental Principles</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+    	myLayout = $('body').layout({
+          west__size:300,
+          stateManagement__enabled: true,
+          maskContents: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane"
+        });
+
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+    	var date = new Date();
+     	var minutes = 10;
+     	date.setTime(date.getTime() + (minutes * 60 * 1000));
+     	$.cookie("ui_pane", "foo", { expires: date });
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Physical Layer Protocols</h1>
+        <h2>Fundamental Principles of Layer 1</h2>
+      </div>
+      <div id="content">
+          <p>The physical layer standards address three functional areas:</p>
+          <p></p>
+          <p>
+            <b>Physical Components</b>
+          </p>
+          <p>The physical components are the electronic hardware devices, media and other connectors that transmit and carry the signals to represent the bits. Hardware components such as network adapters (NICs), interfaces and connectors, cable materials, and cable designs are all specified in standards associated with the physical layer. The various ports and interfaces on a Cisco 1941 router are also examples of physical components with specific connectors and pinouts resulting from standards.</p>
+          <p></p>
+          <p>
+            <b>Encoding </b>
+          </p>
+          <p>Encoding or line encoding is a method of converting a stream of data bits into a predefined "code”. Codes are groupings of bits used to provide a predictable pattern that can be recognized by both the sender and the received. In the case of networking, encoding is a pattern of voltage or current used to represent bits; the 0’s and 1’s.</p>
+          <p></p>
+          <p>In addition to creating codes for data, encoding methods at the Physical layer may also provide codes for control purposes such as identifying the beginning and end of a frame. </p>
+          <p></p>
+          <p>
+            <b>Signaling</b>
+          </p>
+          <p>The physical layer must generate the electrical, optical, or wireless signals that represent the "1" and "0" on the media. The method of representing the bits is called the signaling method. The physical layer standards must define what type of signal represents a "1" and what type of signal represents a "0". This can be as simple as a change in the level of an electrical signal or optical pulse. For example, a long pulse might represent a 1, whereas a short pulse represents a 0.</p>
+          <p></p>
+          <p>This is similar to how Morse code is used for communication. Morse code is another signaling method that uses a series of on-off tones, lights, or clicks to send text over telephone wires or between ships at sea.</p>
+          <p></p>
+          <p>Signals can be transmitted in one of two ways:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Asynchronous</b>: Data signals are transmitted without an associated clock signal. The time spacing between data blocks may be of uninformed in duration therefore frames require start and stop indicator flags.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Synchronous</b>: Data signals are sent along with a clock signal which occurs at evenly spaced time durations referred to as the bit time.</li>
+            </ul>
+          </p>
+          <p>There are many ways to transmit signals, such as through the use of light or electrical pulses. The nature of the actual signals representing the bits on the media will depend on the signaling method in use.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic" longdesc="media_4.0.3.1_longdesc.txt"></iframe>
+  </body>
+</html>

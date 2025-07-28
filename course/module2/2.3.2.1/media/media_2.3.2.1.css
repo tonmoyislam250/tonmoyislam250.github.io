@@ -1,0 +1,28 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+    width:98%;
+    height:98%;
+    overflow:hidden;
+}
+
+#mainDiv {
+    height: 380px;
+    width: 450px;
+    position:absolute;
+    top:0px;
+ }
+#deresp3,.DR {float:left; color:#000; font: 10px/15px Courier New !important;}
+.txtareaLeft {width:425px !important;}
+.txtRight {width:310px !important;}
+#inst2{float:left;width:100%;}
+#ans_2{width:240px;}
+#fb font{font-family:arial !important;}

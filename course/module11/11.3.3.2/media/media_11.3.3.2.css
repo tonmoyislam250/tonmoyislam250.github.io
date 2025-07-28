@@ -1,0 +1,278 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden !important;
+}
+#mainDiv
+{
+width:460px;
+height:400px;
+position:absolute;
+top:0px;
+left:0px;
+}
+#maincontainer
+{
+width:460px;
+height:380px;
+position:absolute;
+top:0px;
+left:0px;	
+}
+#imagecontainer
+{
+background: url("11.3.3.2.png") no-repeat scroll center top transparent;
+height:369px;
+left:115px;
+position: absolute;
+top: 0px;
+width:284px;	
+}
+
+#imagecontainer {
+    background: url("11.3.3.2.png") no-repeat scroll center top transparent;
+    height: 369px;
+    left: 123px;
+    position: absolute;
+    top: 0;
+    width: 284px;
+}
+body {
+    color: #393536;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12pt;
+    text-align: left;
+}
+#moreinfo {
+height: 47px;
+left: 277px;
+position: absolute;
+top: 312px;
+width: 48px;
+}
+#moreinfotip
+{
+background: none repeat scroll 0 0 #CDEAF8;
+border-radius: 5px 5px 5px 5px;
+box-shadow: 0 0 3px #656565;
+font-size: 10px;
+height: 15px;
+left:225px;
+padding: 5px;
+position: absolute;
+top:292px;
+width: 85px;
+z-index: 3;	
+display:none;
+}
+
+#feedback
+{
+background: url("mask.gif") no-repeat scroll center top transparent;
+display: none;
+font-size: 10px;
+height: 171px;
+left: -110px;
+position: absolute;
+text-align: left;
+top: 63px;
+width: 450px;
+z-index: 3;
+}
+#feedbacktit {
+color: #000000;
+font-size: 11px;
+height: 15px;
+left: 7px;
+position: absolute;
+top: 4px;
+width: 415px;
+}
+#feedbacktext
+{
+font-size:11px;
+height: 132px;
+left: 12px;
+position: absolute;
+text-align: left;
+top: 35px;
+width: 430px;
+line-height:14px;
+}
+
+#tabledata
+{
+height: auto;
+left: 14px;
+position: absolute;
+top: 13px;
+width: 270px;
+}
+
+#highlight
+{
+background: url("highlight_1.png") no-repeat scroll center top transparent;
+height: 22px;
+left: -25px;
+position: absolute;
+top: 47.2px;
+width: 290px;	
+}
+#highlight span
+{
+font-size: 11px;
+height: 17px;
+left: -65px;
+position: absolute;
+text-align: right;
+top: 4px;
+width: 61px;
+}
+
+#highlight2
+{
+background: url("highlight_2.png") no-repeat scroll center top transparent;
+height: 53px;
+left: -25px;
+position: absolute;
+top: 113px;
+width: 290px;
+}
+
+#highlight2 span {
+font-size: 11px;
+height: 17px;
+left: -99px;
+position: absolute;
+text-align: right;
+top: 4px;
+width: 95px;
+}
+
+#highlight3
+{
+background: url("highlight_1.png") no-repeat scroll center top transparent;
+height: 22px;
+left: -25px;
+position: absolute;
+top: 168.5px;
+width: 290px;	
+}
+#highlight3 span
+{
+font-size: 11px;
+height: 17px;
+left: -74px;
+position: absolute;
+text-align: right;
+top: 4px;
+width:70px;
+}
+#highlight4 {
+background: url("highlight_4.png") no-repeat scroll center top transparent;
+height: 13px;
+left: -25px;
+position: absolute;
+top: 189.5px;
+width: 290px;
+}
+#highlight4 span
+{
+font-size: 11px;
+height: 17px;
+left: -83px;
+position: absolute;
+text-align: right;
+top:4px;
+width:80px;
+}
+#highlight5 {
+background: url("highlight_5.png") no-repeat scroll center top transparent;
+height: 33px;
+left: -25px;
+position: absolute;
+top: 200px;
+width: 290px;
+}
+#highlight5 span
+{
+font-size: 11px;
+height: 17px;
+left: -82px;
+position: absolute;
+text-align: right;
+top: 22px;
+width: 80px;
+}
+
+#highlight6 {
+background: url("highlight_1.png") no-repeat scroll center top transparent;
+height: 22px;
+left: -25px;
+position: absolute;
+top: 255.6px;
+width: 290px;
+}
+#highlight6 span
+{
+font-size: 11px;
+height: 17px;
+left: -101px;
+line-height: 11px;
+position: absolute;
+text-align: right;
+top: 2px;
+width: 99px;
+}
+
+#highlight7 {
+background: url("highlight_1.png") no-repeat scroll center top transparent;
+height: 22px;
+left: -25px;
+position: absolute;
+top: 281.2px;
+width: 290px;
+}
+#highlight7 span
+{
+font-size: 11px;
+height: 17px;
+left: -101px;
+line-height: 11px;
+position: absolute;
+text-align: right;
+top:7px;
+width: 99px;
+}
+
+#highlight8 {
+background: url("highlight_1.png") no-repeat scroll center top transparent;
+height: 22px;
+left: -25px;
+position: absolute;
+top: 305.7px;
+width: 290px;
+}
+#highlight8 span
+{
+font-size: 11px;
+height: 17px;
+left: -101px;
+line-height: 11px;
+position: absolute;
+text-align: right;
+top:6px;
+width: 99px;
+}
+
+#tabledata table tr td {font-family:"Courier New" !important;font-size:10px !important;text-align:left !important;line-height:11px !important;}
+#dvSliderContainer {bottom:0px !important;}

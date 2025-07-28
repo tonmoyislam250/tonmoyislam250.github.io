@@ -1,0 +1,50 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#mainDiv {
+    height:400px;
+    width: 780px;
+    position:absolute;
+    top:5px;
+
+
+}
+#drop0 img#tick0,#drop1 img#tick1,#drop2 img#tick2,#drop3 img#tick3,#drop4 img#tick4,#drop5 img#tick5,#drop6 img#tick6,#drop7 img#tick7,#drop8 img#tick8,#drop9 img#tick9,#drop10 img#tick10,#drop11 img#tick11,#drop12 img#tick12 {position:absolute;left:-20px!important;width:14px;height:14px;border:0 !important;}
+
+#button1 div{font-size: 12px !important;height: auto;margin-top: -24px !important;padding-left: 2px !important;}
+#button0 div{font-size: 12px !important;height: auto;margin-top: -24px !important;padding-left: 2px !important;}
+
+#ID_FEEDBACK div {
+    font-size: 12px !important;
+    left:4px !important;
+    line-height: 16px;
+    padding: 0 20px 0 3px;
+    text-align: left !important;
+	}
+#ID_s1Title {
+    color: #442557 !important;
+    font-size: 12px;
+    height: 15px;
+    left: 7px;
+    position: absolute;
+    top: 4px;
+    width: 345px;
+}
+#ID_s1BodyText{
+	color: #000 !important;
+}
+#ID_FEEDBACK { z-index:999 !important;}
+
+#textID_drag02 b font {display: block;left: -1px;position: absolute;top: -16px;width: 112px;}
+#textID_drag01 font,#textID_drag02 font,#textID_drag03 font,#textID_drag04 font,#textID_drag05 font,#textID_drag06 font { font-size:11px; font-weight:normal;}

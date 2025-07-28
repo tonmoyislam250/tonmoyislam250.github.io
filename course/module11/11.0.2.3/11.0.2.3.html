@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>11.0.2.3 Real-Time Applications for a Small Network</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+    	myLayout = $('body').layout({
+          west__size:300,
+          stateManagement__enabled: true,
+          maskContents: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+	  stateManagement__cookie__expires: 1,
+	  stateManagement__cookie__path: "/"
+        });
+
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Create and Grow</h1>
+        <h2>Protocols in a Small Network</h2>
+      </div>
+      <div id="content">
+          <p>In addition to the common network protocols described previously, modern businesses typically utilize real-time applications for communicating with customers and business partners. While a small company may not be able to justify the cost of an enterprise Cisco Telepresence solution, there are other real-time applications, as shown in Figure 1, that are affordable and justifiable for small business organizations. Real-time applications require more planning and dedicated services (relative to other types of data) to ensure priority delivery of voice and video traffic. This means that the network administrator must ensure the proper equipment is installed in the network and that the network devices are configured to ensure priority delivery. Figure 2 shows elements of a small network that support real-time applications. </p>
+          <p></p>
+          <p>
+            <b>Infrastructure</b>
+          </p>
+          <p></p>
+          <p>To support the existing and proposed real-time applications, the infrastructure must accommodate the characteristics of each type of traffic. The network designer must determine whether the existing switches and cabling can support the traffic that will be added to the network. Cabling that can support gigabit transmissions should be able to carry the traffic generated and not require any changes to the infrastructure. Older switches may not support Power over Ethernet (PoE). Obsolete cabling may not support the bandwidth requirements. The switches and cabling would need to be upgraded to support these applications.</p>
+          <p></p>
+          <p>
+            <b>Voice over Internet Protocol (VoIP)</b>
+          </p>
+          <p></p>
+          <p>VoIP is a Layer 3 protocol that defines how voice travels over an IP network. The VoIP phone itself is really a specialized computer with an IP address, network interface, and operating system.  It performs voice-to-IP conversion within the phone.  </p>
+          <p></p>
+          <p>VoIP may also use voice-enabled routers. Voice-enabled routers can prioritize voice traffic ahead of other network traffic to ensure reliable delivery. These routers can also include special ports to convert analog voice from traditional telephone signals into IP packets. After the signals are converted into IP packets, the router sends those packets between corresponding locations, just like any other data on the network. Voice and video over IP solutions for small businesses can include contracted, online services, such as Skype or Cisco webex.</p>
+          <p></p>
+          <p>VoIP is a component of an IP Telephony solution. IP telephony solutions are implemented as a replacement for the traditional telephone networks, using Internet technologies and data networking, rather than traditional analog lines. </p>
+          <p></p>
+          <p></p>
+          <p>
+            <b>Real-time Video Protocols</b>
+          </p>
+          <p></p>
+          <p>To support video effectively, the network must be able to support video application protocols that require rapid delivery of streaming media. Real-Time Transport Protocol (RTP) is one example of a popular protocol that supports the rapid delivery of streaming media. RTP works in conjunction with the layer 4 UDP protocol. It uses quality of service (QoS) mechanisms to prioritize video traffic and minimize latency issues that will negatively affect video services. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic" longdesc="media_11.0.2.3_longdesc.txt"></iframe>
+  </body>
+</html>

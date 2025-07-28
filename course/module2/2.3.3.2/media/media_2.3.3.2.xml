@@ -1,0 +1,28 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Verifying the VLAN Interface Assignment</b>]]></text>
+	</component>
+	<component id="ID_SC5" fontFace='Courier New' fontSize="10">
+		<text></text>		
+		<feedback id="fb"><![CDATA[<span><font size = '10' face="Arial"><span><b>***</b></span>You must enter the exact and full command. Commands that include a name or password are case-sensitive.<span><b>***</b></span></font></span>
+		]]></feedback>		
+		<existingcommands><![CDATA[<font size = '10' face="Arial"><b>Enter the command to verify the interface configuration on S1.</b></font>]]></existingcommands>
+		
+	<command prompt="S1#" id="cmd1" node="start">
+		    <correctresponse id="cr1" ignoreCase = 'true'><![CDATA[show ip interface brief]]></correctresponse>
+			
+			<deviceresponse id="dr1"><![CDATA[Interface<div style="padding-left:41px;display:inline;">         IP-Address </div>    <div style="padding-left:18px;display:inline">OK?</div>  Method  Status     Protocol<br>FastEthernet0/1   unassigned     <div style="padding-left:17px;display:inline;">YES</div>  manual  up         <div style="padding-left:28px;display:inline;">up</div><br>FastEthernet0/2   unassigned     <div style="padding-left:17px;display:inline;">YES</div>  manual  up         <div style="padding-left:28px;display:inline;">up</div> <br>&lt;output omitted&gt;<br>Vlan1             <div style="padding-left:70px;display:inline;">192.168.10.2</div>   <div style="padding-left:3px;display:inline;">YES</div>  manual  up         <div style="padding-left:28px;display:inline;">up</div><br>]]></deviceresponse>	
+			
+		    <instruction id="ins1"><![CDATA[<font size = '10' face="Arial"><b>You are now on S2. Enter the command to verify the interface configuration on S2.</b></font>]]></instruction> 	
+					
+		</command>
+	<command prompt="S2#" id="cmd2" node="end">
+		    <correctresponse id="cr2" ignoreCase = 'true'><![CDATA[show ip interface brief]]></correctresponse>
+			
+			<deviceresponse id="dr2"><![CDATA[Interface<div style="padding-left:41px;display:inline;">         IP-Address </div>    <div style="padding-left:18px;display:inline">OK?</div>  Method  Status     Protocol<br>FastEthernet0/1   unassigned     <div style="padding-left:17px;display:inline;">YES</div>  manual  up         <div style="padding-left:28px;display:inline;">up</div><br>FastEthernet0/2   unassigned     <div style="padding-left:17px;display:inline;">YES</div>  manual  up         <div style="padding-left:28px;display:inline;">up</div> <br>&lt;output omitted&gt;<br>Vlan1             <div style="padding-left:70px;display:inline;">192.168.10.3</div>   <div style="padding-left:3px;display:inline;">YES</div>  manual  up         <div style="padding-left:28px;display:inline;">up</div><br>]]></deviceresponse>	
+			
+		    <instruction id="last"><![CDATA[<font size = '10' face="Arial"><b>You successfully verified the interface assignment on S1 and S2.</b></font>]]></instruction> 			
+		</command>
+		<command prompt=""/>
+	</component>
+</textcomponents> 

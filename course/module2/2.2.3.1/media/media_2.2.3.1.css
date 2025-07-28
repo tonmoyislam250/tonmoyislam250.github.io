@@ -1,0 +1,56 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+    margin:0;
+    height:100%;
+}
+#flashContent {
+    width:98%;
+    height:98%;
+    overflow: hidden !important;
+}
+
+#ID_txt01{
+    border:2px solid #F68026;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:5px;
+    background:#FDE6D4;
+    height:40px;
+	
+}
+#ID_txt02{
+    border:2px solid #F68026;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:5px;
+    background:#FDE6D4;
+    height:40px;
+	
+}
+
+
+/* static text1 starts here  */
+#staticTxt1,#staticTxt3 ,#staticTxt2{font-family:"Courier New",Georgia,Serif;}
+#staticTxt2{ height: 180px;
+    letter-spacing: -0.8px;
+    line-height: 11px;}
+	
+	
+#mainDiv {
+    height: 380px;
+    width: 416px;
+    position:absolute;
+    top:0px;
+}
+
+#deresp2,#deresp3,#deresp4,#deresp6 {font:normal 10px/15px Courier New; float:left;width:95%}
+#inst1 font{width:360px !important;}
+#fb font{font-family:arial !important;}

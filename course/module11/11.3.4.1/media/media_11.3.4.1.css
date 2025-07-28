@@ -1,0 +1,29 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	min-height: 390px;
+	min-width:470px;
+}
+#flashContent {
+	width:100%;
+	height:100%;
+}
+
+#ID_s1_sub1_txt01,#ID_s1_sub2_txt01,#ID_s1_sub3_txt01{text-align:center ! important ;font-size:12px ! important;background-color:#F3F3F3;border-radius:5px;padding:7px}
+div.ipconfig{font-family:Courier New;line-height:20px}
+div.tab ul{padding:0 0 0 20px;margin:0;}
+div.tab ul li{margin-left:-5px;line-height:17px;list-style:none;margin-top:4px}
+div.tab ul li.first{WIDTH:95%;background-color:#FEED95;padding-left:6px}
+div.tab ul li.second{WIDTH:95%;background-color:#B5D9B3;padding-left:6px}
+div.tab ul li.third{WIDTH:95%;background-color:#E0D5E6;padding-left:6px}
+#border1{color:#F26200}
+div.ipconfigall{font-family:Courier New;}
+div.tab2 ul{padding:0 0 0 33px;margin:0;}
+div.tab2 ul li{margin-left:-14px;line-height:15px;list-style:none}
+#staticTxt2 ul li.physcialAddress{background-color:#E49C6B;margin-left:-17px;padding-left: 3px;}
+.new{font-family:"Courier New", Courier, monospace !important;}

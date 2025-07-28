@@ -1,0 +1,77 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:98%;
+	padding:0;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#ID_txt01 {
+	padding:50px 0;
+	background-color:#DBECDA;
+	border-right:1px solid #000000;	
+	float:left;z-index:1
+	
+	}
+
+#ID_txt02 {
+	padding:36px 0;
+	background-color:#DBECDA;
+	border-right:1px solid #000000;
+float:left;z-index:1
+	
+	}
+	
+#ID_txt03 {
+	padding:57px 0;
+	background-color:#DBECDA;
+	border-right:1px solid #000000;
+	float:left;z-index:1
+	}
+	
+#ID_txt04 {
+	padding:57px 0;
+	background-color:#DBECDA;
+	border-right:1px solid #000000;
+	float:left;z-index:1
+	}
+#ID_txt05 {	
+	padding:25px 0;
+	border-right:1px solid #000000;
+	color:#FFFFFF;
+float:left;z-index:1
+	}
+	
+#ID_txt06 {
+	padding:25px 0 25px 3.5px;
+	float:left;
+	z-index:1;background-color:#33ABDF;
+	}
+
+#ID_txt07 {
+	padding:24px 0 23px;
+	background-color:#DBECDA;
+	height:16px;float:left;
+	border-bottom:1px solid #393536;
+	z-index:1
+	
+	}
+
+#ID_txt09{border:2px solid #393536;height:129px;float:left;background-color:#DBECDA;z-index:0}
+#ID_txt10{height:65px;float:left;background-color:#33ABDF;}
+#ID_titleTxt01,#ID_titleTxt02{color:#442557 ! important}
+@media only screen and (device-width: 768px) {
+#ID_txt04{width:75px ! important}
+#ID_txt01{width:73px ! important}
+#ID_txt02{width:75px ! important}
+#ID_txt05{width:75px ! important}
+#ID_txt10{height:64.9px;width:151px ! important;}
+#ID_txt09{border:2px solid #393536;height:128px;float:left;background-color:#DBECDA;z-index:0}
+}

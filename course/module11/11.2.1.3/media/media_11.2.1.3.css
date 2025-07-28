@@ -1,0 +1,36 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden !important;
+}
+
+table { width:100% !important;border-collapse:collapse;}
+table tbody tr { border-color:#98D3D1;}
+table tbody tr td { border-color:#a2aa23; font-size:11px !important; border:3px solid #98D3D1; border-collapse:collapse;line-height:11px !important;}
+table tbody tr td b { font-size:11px !important; font-weight:bold !important; border-collapse:collapse;/* padding-left: 4px;*/}
+table tbody tr td font { font-size:11px !important; border-collapse:collapse; padding-left: 4px; display:block;}
+table tbody tr td li a{display:inline-block;}
+table tbody tr td a font {margin-left:-4px;}
+.table_font { border-color:#a2aa23; font-size:11px !important; font-weight:bold !important; width:33% !important;}
+.liner_top {line-height:0 !important;height: 0px !important; margin:0px; padding:1.5px 0 1.5px 0;}
+li{margin-left:1.3em !important;}
+#ID_s1_table {box-shadow: 0 0 2px 2px #999999 !important; height: 251.15px !important;width: 430.7px !important; border-radius:5px !important;}
+#ID_s2_table {box-shadow: 0 0 2px 2px #999999 !important; height: 284.15px !important;width: 430.7px !important; border-radius:5px !important;}
+#ID_s3_table {box-shadow: 0 0 2px 2px #999999 !important; height: 328.15px !important;width: 430.7px !important; border-radius:5px !important;}
+
+@media only screen and (device-width: 768px) {
+  /* rules that only apply for canvases narrower than 1000px */
+#ID_s1_table {box-shadow: 0 0 2px 2px #999999 !important; height: 283.15px !important;width: 430.7px !important; border-radius:5px !important;}
+#ID_s2_table {box-shadow: 0 0 2px 2px #999999 !important; height: 283.15px !important;width: 430.7px !important; border-radius:5px !important;}
+#ID_s3_table {box-shadow: 0 0 2px 2px #999999 !important; height: 327.15px !important;width: 430.7px !important; border-radius:5px !important;}
+table tbody tr td font { font-size:11px !important; border-collapse:collapse; padding-left: 4px; display:block;}
+}

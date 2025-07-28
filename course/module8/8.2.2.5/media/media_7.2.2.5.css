@@ -1,0 +1,234 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#mainDiv {position:absolute;top:0;width:550px;height:400px;left:0px; z-index:-20px}
+#ID_inst{position:absolute;left:1px;top:0px;width:200px;height:17px;text-align:left;font-size:11px;}
+/* Reset button */
+.button_add {
+	background:url(text_button_gradient.png) top center repeat-x;
+    border: none;          
+    cursor: pointer;      
+    height: 22px;          
+    color:#ffffff;
+	margin-top:20px;
+	vertical-align:top;
+	font-weight:bold;
+	border-radius:3px;
+	font-size:11px;
+	width:114px;
+	margin-left:19px;
+	padding:0 2px 2px 0px;
+	text-align:center;
+}
+.button_add:hover {
+    background-image: url(text_button_gradient_selected.png); 
+    background-color: transparent; 
+   background-position: 0px 0px;  
+    border: 1px solid #e9e7e8;          
+    cursor: pointer;      
+    height: 22px;          
+    color:#006699;
+	margin-top:20px;
+	vertical-align:top;
+	font-weight:bold;
+	border-radius:3px;
+	font-size:11px;
+	width:114px;
+	margin-left:19px;
+	padding:0 2px 2px 0px;
+	text-align:center;
+}
+#reset{position:absolute;left:398px;top:305px;text-transform:capitalize;}
+#check{position:absolute;left:277px;top:305px;text-transform:capitalize;}
+#reset2{position:absolute;right:13px;top:305px;text-transform:capitalize;}
+
+/* Tick and Wroong */
+#Deci1tick,#Deci2tick,#Deci3tick,#Deci4tick,#Deci5tick,#Deci6tick,#Deci7tick,#Deci8tick,#Deci9tick{background:url(tick.png) left top no-repeat;top:244px;left:167px;position:absolute;width:19px;height:17px;}
+#Deci1wrong,#Deci2wrong,#Deci3wrong,#Deci4wrong,#Deci5wrong,#Deci6wrong,#Deci7wrong,#Deci8wrong,#Deci9wrong{background:url(wrong.png) left top no-repeat;top:244px;left:167px;position:absolute;width:19px;height:17px;}
+#Deci2tick{left:219px;}
+#Deci2wrong{left:219px;}
+#Deci3tick{left:266px;}
+#Deci3wrong{left:266px;}
+#Deci4tick{left:314px;}
+#Deci4wrong{left:314px;}
+#Deci5tick{left:364px;}
+#Deci5wrong{left:364px;}
+#Deci6tick{left:416px;}
+#Deci6wrong{left:416px;}
+#Deci7tick{left:462px;}
+#Deci7wrong{left:462px;}
+#Deci8tick{left:512px;}
+#Deci8wrong{left:512px;}
+#Deci9tick{left:324px;top:292px;}
+#Deci9wrong{left:324px;top:292px;}
+
+/*reset button ends here */
+
+/* Mainwrapper starts Here */
+
+#mainwrapper{
+    background-color: #D3D1D2;    
+    height: 149px;
+    left: 39px;
+    position: absolute;
+    top: 160px;
+    width: 505px;}
+#subtitle{
+background-color: #666263;    
+    height: 40px;
+    left: 39px;
+    position: absolute;
+	color:#fff;
+	text-align:center;
+	line-height:38px;
+	border-radius:5px 5px 0 0;
+    top: 120px;
+	font-size:13px;
+	font-weight:bold;
+    width: 505px;}
+
+/* slide 1 */
+
+#ID_txt02,#ID_txt03,#ID_txt04{float:left;font-size:11px;color:#393536;width:110px;height:50px;text-align:right;padding-right:5px;line-height:50px;}
+#colRight{float:left;width:386px;height:50px;border-left:2px solid #fff;padding-left:2px;}
+#slide1_col1,#slide1_col2,#slide1_col3,#slide1_col4,#slide1_col5,#slide1_col6,#slide1_col7,#slide1_col8,#slide1_col9{padding-right:3px;line-height:50px;color:#f16404;font-weight:bold;font-size:11px;float:left;width:35px;text-align:right;}
+#semicolon,#semicolon1{color:#393536;float:left;width:9px;font-weight:bold;line-height:50px;font-size:11px;padding-left:2px;}
+#clearfix{clear:both;}
+
+
+#Deci1, #Deci2, #Deci3, #Deci4,#Deci5,#Deci6,#Deci7,#Deci8{
+    background-color: #cdeaf8;
+    border: 2px solid #00a1e3;
+    font-family: "Courier New" !important;
+    font-size: 11px !important;
+    font-weight: bold;
+    text-align: center;
+	color:#393536;
+	width:34px;
+	float:left;
+	border-radius:0;
+	margin:14px 0 0 0
+	}
+
+#Deci9{
+    background-color: #cdeaf8;
+    border: 2px solid #00a1e3;
+    font-family: "Courier New" !important;
+    font-size: 11px !important;
+    font-weight: bold;
+    text-align: left;
+	color:#393536;
+	width:380px;
+	float:left;
+	border-radius:0;
+	margin:12px 0 0 0
+	}
+
+
+input{text-transform:uppercase;}
+/* feedback */
+#pannel {
+background-color:#C1ABD1;
+border-radius:5px 5px 5px 5px;
+box-shadow:3px 3px 6px #3F3F3F;
+float:left;
+left:50px;
+position:absolute;
+top:314px;
+width:254px;
+height:82px;
+}
+.cross {
+width:96%;
+border-bottom:3px solid #3d244c;
+float:left;
+margin-left:2%;
+height:20px;
+}
+
+.cross a {
+border:1px solid #3D244C;
+float:right;
+height:12px;
+margin-bottom:1px;
+margin-right:4px;
+margin-top:4px;
+width:12px;
+}
+
+.cross img {
+float:right;
+margin-right:1px;
+margin-top:1px;
+
+}
+
+.cross span {
+color:#FFF;
+}
+
+.result{
+background-color:#FFF;
+width:96%;
+float:left;
+margin:2%;
+height:47px;
+}
+
+#pannel a {
+display:block!important;
+}
+
+#ID_correctTitle{position:absolute;top:3px;left:7px;font-size:12px}
+#ID_correctBody{position:absolute;top:32px;left:11px;font-size:11px}
+
+/* feedback */
+
+
+
+
+	/* This is for ipad hack*/
+@media only screen and (device-width: 768px) {
+#Deci1, #Deci2, #Deci3, #Deci4,#Deci5,#Deci6,#Deci7,#Deci8{
+    background-color: #cdeaf8;
+    border: 2px solid #00a1e3;
+    font-family: "Courier New" !important;
+    font-size: 11px !important;
+    font-weight: bold;
+    text-align: center;
+	color:#393536;
+	width:28px;
+	float:left;
+	border-radius:0;
+	margin:11px 0 0 0
+	}
+
+#semicolon{color:#393536;float:left;width:6px;font-weight:bold;line-height:40px;font-size:11px;padding-left:5px;}
+
+#Deci9{
+    background-color: #cdeaf8;
+    border: 2px solid #00a1e3;
+    font-family: "Courier New" !important;
+    font-size: 11px !important;
+    font-weight: bold;
+    text-align: left;
+	color:#393536;
+	width:370px;
+	float:left;
+	border-radius:0;
+	margin:9px 0 0 0
+	}
+
+
+}

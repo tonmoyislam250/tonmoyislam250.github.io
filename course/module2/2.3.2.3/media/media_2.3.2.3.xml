@@ -1,0 +1,36 @@
+﻿<textcomponents> 
+<!-- Slide 1-->
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Assigning Dynamic Addresses</b>]]></text>
+	</component>
+
+	<component id="ID_txt01">
+		<text><![CDATA[Assigning Dynamic Addresses]]></text>
+	</component> 
+
+	<component id="ID_txt02">
+		<text><![CDATA[This property will set the device to obtain an IP address automatically.]]></text>
+	</component> 
+<!-- Slide 2-->
+	<component id="ID_title">
+		<text><![CDATA[<b>Verifying Windows PC IP Configuration</b>]]></text>
+	</component>
+	<component id="ID_SC5" fontFace='Courier New' fontSize="10">
+		<text></text>		
+		<feedback id="fb"><![CDATA[<span><font size = '10' face="Arial"><span><b>***</b></span>You must enter the exact and full command. Commands that include a name or password are case-sensitive.<span><b>***</b></span></font></span>
+		]]></feedback>	
+		<existingcommands><![CDATA[<font size = '10' face="Arial"><b>Enter the command to display the IP configuration on a Windows PC.</b></font>
+	<span style="float:left;padding:10px 0 0 35px;width:98%;;">Microsoft Windows [Version 6.1.7601]</span><br>Copyright (c) 2009 Microsoft Corporation.  All rights reserved.<br>]]></existingcommands>
+		<command prompt="C:\>" id="cmd1" node="start">
+			<correctresponse id="cr1"><![CDATA[ipconfig]]></correctresponse>
+			<deviceresponse id="dr1"><![CDATA[<br>Windows IP Configuration<br><br>Ethernet adapter Local Area Connection:<br><br>   Connection-specific DNS Suffix  . : cisco.com<br>   Link-local IPv6 Address . . . . . : fe80::b0ef:ca42:af2c:c6c7%16<br>   IPv4 Address. . . . . . . . . . . : 10.82.240.197<br>   Subnet Mask . . . . . . . . . . . : 255.255.255.0<br>   Default Gateway . . . . . . . . . : 10.82.240.198<br><br>-------------------------------------<br>]]></deviceresponse>
+			<instruction id="ins1"><![CDATA[<font size = '10' face="Arial"><b>You successfully displayed the IP configuration on a Windows PC.</b></font>]]></instruction> 
+		</command>
+		<command prompt="" id="cmd2" node="end">
+			<correctresponse id="cr2"><![CDATA[]]></correctresponse>
+			<deviceresponse id="dr2"><![CDATA[]]></deviceresponse>
+			<instruction id="last"><![CDATA[]]></instruction> 
+		</command>
+		<command prompt=""/>
+	</component>
+</textcomponents>

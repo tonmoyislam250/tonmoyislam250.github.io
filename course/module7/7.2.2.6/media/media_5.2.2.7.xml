@@ -1,0 +1,62 @@
+﻿<textcomponents>
+	<component id="ID_txt01">
+	<text><![CDATA[<b>Client</b>]]></text>
+	</component>
+	<component id="ID_txt02">
+	  <text><![CDATA[<b>Server</b>]]></text> 
+	  </component>
+	<component id="ID_txt03">
+	  <text><![CDATA[Segment 1]]></text> 
+	</component>
+	<component id="ID_txt04">
+	  <text><![CDATA[Segment 2]]></text> 
+	</component>
+	<component id="ID_txt05">
+	  <text><![CDATA[Segment 3]]></text> 
+	</component>
+	<component id="ID_txt06">
+	  <text><![CDATA[Segment 4]]></text> 
+	</component>
+	<component id="ID_txt07">
+	  <text><![CDATA[Segment 5]]></text> 
+	</component>
+	<component id="ID_txt08">
+	  <text><![CDATA[ACK=2]]></text> 
+	</component>
+	<component id="ID_txt09">
+	  <text><![CDATA[ACK=2 (Duplicate)]]></text> 
+	</component>	
+	<component id="ID_txt10">
+	  <text><![CDATA[ACK=2 (Duplicate)]]></text> 
+	</component>
+	<component id="ID_txt11">
+	  <text><![CDATA[ACK=2 (Duplicate)]]></text> 
+	</component>
+	<component id="ID_txt12">
+	  <text><![CDATA[Segment 2]]></text> 
+	</component>
+	<component id="ID_txt13">
+	  <text><![CDATA[Segment 3]]></text> 
+	</component>
+	<component id="ID_txt14">
+	  <text><![CDATA[Segment 4]]></text> 
+	</component>
+	<component id="ID_txt15">
+	  <text><![CDATA[Segment 5]]></text> 
+	</component>	
+	<component id="ID_txt16">
+	  <text><![CDATA[ACK=3]]></text> 
+	</component>
+	<component id="ID_txt17">
+	  <text><![CDATA[ACK=4]]></text> 
+	</component>
+	<component id="ID_txt18">
+	  <text><![CDATA[ACK=5]]></text> 
+	</component>
+	<component id="ID_txt19">
+	  <text><![CDATA[ACK=6]]></text> 
+	</component>
+	<component id="ID_txt20">
+	  <text><![CDATA[Segment 6]]></text> 
+	</component>
+</textcomponents>

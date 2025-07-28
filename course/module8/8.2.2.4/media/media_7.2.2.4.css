@@ -1,0 +1,72 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#static_txt01 span {color:#F90;	font-family:"Courier New", Courier, monospace; font-weight:bold;}
+#static_txt02 span {color:#FF9900 !important; font-weight:bold;}
+#static_txt02 span.green {color:#46A040 !important; font-weight:bold;}
+#ID_s2_txt06{ background-color:#FDE6D4; border:2px solid #F68026; padding:4px; border-radius:4px;	font-family:"Courier New", Courier, monospace;}
+#static_txt01 { letter-spacing:-1px;	font-family:"Courier New", Courier, monospace;}
+#static_txt02 { font-family: "Courier New",Courier,monospace;
+    letter-spacing: -1.8px;
+    line-height: 39px;}
+#static_txt03 { letter-spacing:-1px;	font-family:"Courier New", Courier, monospace;}
+#static_txt04 {letter-spacing: -0.4px;	font-family:"Courier New", Courier, monospace;}
+#static_txt03_3 { letter-spacing:-0.4px;	font-family:"Courier New", Courier, monospace;}
+.txt02 {
+    color: #393536 !important;
+    margin-left: 3px;font-weight: normal !important;
+}
+.txt_2_02 {color: #46A040 !important;
+    margin-left: -3px;font-weight: normal !important;}
+.txt_3_02 {
+    color: #393536 !important;
+    display: block;
+    float: right;
+    font-weight: normal !important;
+    letter-spacing: -1px;
+    margin-left: -16px;
+    width: 52%;
+}
+.txt_4_02 {color: #46A040 !important;
+    margin-left: -3px;font-weight: normal !important;}
+
+.txt06_1 {color: #393536 !important;margin-left:-1px;font-weight: normal !important;}
+.txt06_2 {color: #393536 !important;margin-left:-2px;font-weight: normal !important;}
+.txt06_3 {color: #393536 !important;margin-left:-2px;font-weight: normal !important;}
+.txt07_0 {color: #393536 !important;margin-left:2px;font-weight: normal !important;}
+.txt07_1 {color: #393536 !important;margin-left:-2px;font-weight: normal !important;}
+.txt07_2 {color: #393536 !important;margin-left:-2px;font-weight: normal !important;}
+.txt07_3 {color: #393536 !important;margin-left:-2px;font-weight: normal !important;}
+.txt07_4 {color: #393536 !important;margin-left:-1px;font-weight: normal !important;}
+
+
+/*Starts New CSS for new Table rules*/
+/*#static_txt02>span {color: #FF9900 !important;font-family: "Courier New",Courier,monospace;font-weight: bold;}*/
+#static_txt02 span.spacer {margin-left:8px; color:#393536 !important;}
+#static_txt02 span.spacer_2 {margin-left:8px; color:#393536 !important; letter-spacing: -0.4px;}
+
+
+@media only screen and (device-width: 768px){
+#static_txt04 {letter-spacing:-0px;}
+#static_txt03_3 { letter-spacing:-0px;} /* your css rules for ipad portrait */
+.txt_3_02 {
+    color: #393536 !important;
+    display: block;
+    float: right;
+    font-weight: normal !important;
+    letter-spacing: -1px;
+    margin-left: -16px;
+    width: 55%;
+}
+}

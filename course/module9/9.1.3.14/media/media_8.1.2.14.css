@@ -1,0 +1,230 @@
+@import url(../../../common/styles/media.css);
+
+html,body {
+height:100%;
+margin:0;
+}
+
+#flashContent {
+width:98%;
+height:98%;
+overflow:hidden!important;
+}
+
+#mainDiv {
+position:absolute;
+top:0;
+width:675px; height:400px;
+left:0px ;
+
+}
+#subtable{margin-left: 0px;
+margin-top: 0px;
+width:678px;
+border-color:#fff;
+font-size:11px;
+height:100px;
+}
+#title{position:absolute;left:0px;top:0px;width:160px;height:17px;text-align:left;font-size:11px;}
+
+#title_sub {
+font-size:11px;
+}
+
+#netaddbin1,#netaddbin2,#netaddbin3,#netaddbin4,#netadddeci1,#netadddeci2,#netadddeci3,#netadddeci4 {
+border:1px solid #E9E7E8;
+font-weight:bold;
+text-align:center;
+background-color:#66c0e5;
+font-size:11px !important;
+font-family:"Courier New" !important;
+}
+
+
+#title_bg {
+margin-left:-2px;
+background-image:url(orange_bg.png);
+background-repeat:repeat;
+text-align:center;
+border-radius:5px 5px 0 0;
+}
+
+
+.position_bg {
+background-color:#d3d1d2;
+text-align:left;
+font-size:11px;
+padding:3px;
+}
+
+.exponent_bg {
+background-color:#e9e7e8;
+text-align:left;
+font-size:11px;
+padding:3px;
+}
+
+/*#new_nub {
+background-image: url("button_bg.jpg");
+border: medium none;
+border-radius: 4px 4px 4px 4px;
+color: #FFFFFF;
+font-size: 11px;
+font-weight: bold;
+height: 22px;
+margin: 2px 0 2px 30px;
+padding-bottom: 3px;
+width: 150px;
+}
+
+#check {
+background-image:url(button_bg.jpg);
+border:medium none;
+border-radius:4px 4px 4px 4px;
+color:#FFF;
+font-size:11px;
+font-weight:bold;
+height:21px;
+padding-bottom:3px;
+width:125px;
+margin:0 0 0 -7px;
+}
+
+#reset {
+background-image:url(button_bg.jpg);
+border:medium none;
+border-radius:4px 4px 4px 4px;
+color:#FFF;
+font-size:11px;
+font-weight:bold;
+height:21px;
+padding-bottom:3px;
+width:125px;
+margin:0 0 0 35px;
+}*/
+
+.align_right {
+text-align:right;
+padding-right:5px;
+}
+
+.align_center {
+text-align:center;
+height:15px;
+}
+
+.top_gap {
+padding-top:11px;
+}
+
+.shift_right {
+padding-right:0;
+padding-left:9px;
+}
+
+.result p {
+margin:0;
+padding:2px;
+height:30px;
+}
+
+.result_2 p {
+margin:0 0 20px;
+padding:2px;
+}
+
+#title_bg input {
+text-align:center!important;
+width:15%;
+}
+
+#pannel,#pannel_2 {
+background-color: #C1ABD1;
+border-radius: 5px 5px 5px 5px;
+box-shadow: 3px 3px 6px #3F3F3F;
+float: left;
+left:175px;
+position: absolute;
+top: 308px;
+width:488px;
+height: 78px;
+}
+
+.cross,.cross_2 {
+width:96%;
+border-bottom:3px solid #3d244c;
+float:left;
+margin-left:2%;
+}
+
+.cross a,.cross_2 a {
+border:1px solid #3D244C;
+float:right;
+height:12px;
+margin-bottom:1px;
+margin-right:4px;
+margin-top:4px;
+width:12px;
+}
+
+.cross img,.cross_2 img {
+float:right;
+margin-right:1px;
+margin-top:1px;
+}
+
+.cross span,.cross_2 span {
+color:#3D244C;
+font-size:11px;
+font-weight:bold;
+}
+
+.result,.result_2 {
+background-color:#FFF;
+width:96%;
+float:left;
+margin:2%;
+font-size:11px;
+}
+
+#pannel a,#pannel_2 a {
+display:block!important;
+}
+
+#host1,#host2,#host3,#host4,#hostbin1,#hostbin2,#hostbin3,#hostbin4,#subnet1,#subnet2,#subnet3,#subnet4,#subnetbin1,#subnetbin2,#subnetbin3,#subnetbin4{text-align:center;font-family:"Courier New" !important;}
+
+.numberHostVal{width:300px;height:14px;text-align:center;font-size:11px;font-weight:bold;}
+
+.button_add {
+	background:url(text_button_gradient.png) top center repeat-x;
+    border: none;          
+    cursor: pointer;      
+    height: 22px;          
+    color:#ffffff;
+	margin-top:20px;
+	vertical-align:top;
+	font-weight:bold;
+	border-radius:3px;
+	font-size:11px;
+	width:114px;
+	margin-left:30px;
+	padding:0 2px 2px 0px;
+}
+.button_add:hover {
+    background-image: url(text_button_gradient_selected.png); 
+    background-color: transparent; 
+   background-position: 0px 0px;  
+    border: 1px solid #e9e7e8;          
+    cursor: pointer;      
+    height: 22px;          
+    color:#006699;
+	margin-top:20px;
+	vertical-align:top;
+	font-weight:bold;
+	border-radius:3px;
+	font-size:11px;
+	width:114px;
+	margin-left:30px;
+	padding:0 2px 2px 0px;
+}
+#numberHostVal {border:1px solid #FFF;}

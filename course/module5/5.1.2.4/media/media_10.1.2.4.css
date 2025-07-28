@@ -1,0 +1,32 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#mainDiv {height: 400px; width: 736.05px;position:absolute;}
+#ID_s2Title, #ID_s1Title { color:#482F56 !important;}
+#textID_s1_drag01,#textID_s1_drag02,#textID_s1_drag03,#textID_s1_drag04,#textID_s1_drag05,#textID_s1_drag06,#textID_s1_drag07,#textID_s1_drag08,#textID_s1_drag09,#textID_s1_drag10{color:#393536 ! important}
+#textID_s2_drag01,#textID_s2_drag02,#textID_s2_drag03,#textID_s2_drag04,#textID_s2_drag05{color:#393536 ! important}
+#drop0 img#tick0,#drop1 img#tick1,#drop2 img#tick2{position:absolute;left:-15px!important;width:14px;height:14px;border:0 !important;}
+#drop3 img#tick3,#drop4 img#tick4,#drop5 img#tick5,#drop6 img#tick6{position:absolute;left:-15px!important;width:14px;height:14px;border:0 !important;}
+#drop7 img#tick7,#drop8 img#tick8,#drop9 img#tick9{position:absolute;left:-15px!important;width:14px;height:14px;border:0 !important;}
+#textID_s2_traget05{width:67px ! important;padding-left:6px ! important}
+#ID_FEEDBACK{cursor: pointer !important; z-index: 11120 !important;}
+#ID_FEEDBACK div {font-size: 11px !important;left:2px !important;line-height: 16px; padding: 0 0 0 3px;color:#000; text-align: left !important;width: 164px !important; cursor: pointer !important; z-index: 11120 !important;}
+#ID_s1BodyText,#ID_s2BodyText{top:31px ! important}
+#textID_s2_traget01{width:75px !important;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#button1 div{font-size: 12px !important;height: auto;margin-top: -26px !important;padding-left: 2px !important;}
+	#button0 div{font-size: 12px !important;height: auto;margin-top: -26px !important;padding-left: 2px !important;}
+	#mainDiv {zoom: 96%;}
+	#text_body6 {word-spacing:-1.5px;}
+}

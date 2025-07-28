@@ -1,0 +1,16 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:98%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_bodyTxt textformat, #ID_bodyTxt font {font-size:11px !important;}
+
+.new{font-family:"Courier New", Courier, monospace !important;}

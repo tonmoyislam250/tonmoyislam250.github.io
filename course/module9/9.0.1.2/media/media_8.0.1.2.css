@@ -1,0 +1,80 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:100%;
+	height:100%;
+}
+
+
+#ID_s1_txt03{
+
+border:1px solid #918F90;
+background-color:#E9E7E8;
+padding:5px 2px;
+border-right:0px solid #918F90;
+}
+
+#ID_s1_txt04{
+	border:1px solid #918F90;
+/*border-left:1px solid #918F90;
+border-top:1px solid #918F90;
+border-bottom:1px solid #918F90;*/
+background-color:#FDE6D4;
+padding:5px 2px;
+}
+
+#ID_s1_txt05{
+width:142px;
+border:1px solid #918F90;
+background-color:#E9E7E8;
+padding:5px 2px;
+}
+#staticTxt{height:121px;}
+
+#staticTxt	.classname{
+	height:53px;
+	width: 170.05px; 
+   -webkit-transform:rotate(-90deg);
+   -moz-transform:rotate(-90deg);
+   -o-transform:rotate(-90deg);
+	writing-mode: lr-tb;
+
+	}
+
+
+@media only screen and (device-width: 768px) {
+#staticTxt{height:107px;}
+
+#staticTxt	.classname{
+	height:45px;
+	width: 170.05px; 
+   -webkit-transform:rotate(-90deg);
+   -moz-transform:rotate(-90deg);
+   -o-transform:rotate(-90deg);
+	writing-mode: lr-tb;
+
+	}
+}
+
+#ID_s2_txt01{
+
+    border:2px solid #F68026;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:7px;
+    background-color:#FDE6D4;
+	height:43px;
+}
+
+
+.orange{padding:0;margin:0;display:inline;color:#F26200}

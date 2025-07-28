@@ -1,0 +1,17 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#ID_bodyTxt07,#ID_bodyTxt06,#ID_bodyTxt05,#ID_bodyTxt04,#ID_bodyTxt03,#ID_bodyTxt02,#ID_bodyTxt01{margin-top:18px;}
+#ID_titleTxt07,#ID_titleTxt06,#ID_titleTxt05,#ID_titleTxt04,#ID_titleTxt03,#ID_titleTxt02,#ID_titleTxt01{margin-left:2px; color:#493157 !important;}

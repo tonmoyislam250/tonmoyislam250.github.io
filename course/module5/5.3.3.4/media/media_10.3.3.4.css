@@ -1,0 +1,18 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:98%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+table {font-family:"Courier New" !important; color:#000000; line-height:12.8px !important;}
+tr.highlights td{color:#F26200; font-weight:bold;}
+ @media only screen and (device-width: 768px) {
+  table {line-height:13px !important;}
+}

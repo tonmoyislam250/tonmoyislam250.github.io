@@ -1,0 +1,44 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#ID_txt01{
+    border:2px solid #F68026;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:5px;
+    background-color:#FDE6D4;
+	height:40px;
+}
+#ID_txt02{
+    border:2px solid #F68026;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:7px 25px 3px 5px;
+    background-color:#FDE6D4;
+	height:32px;
+};
+
+.textColor{color:#865ca5;}
+
+#staticTxt{font-family:Courier New; letter-spacing: -.55px;}
+#staticTxt1{font-family:Courier New;line-height:24px;}
+
+@media only screen and (device-width: 768px) {
+ #staticTxt{margin-left:0px;}
+}

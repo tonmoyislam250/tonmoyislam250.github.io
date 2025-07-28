@@ -1,0 +1,122 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:98%;
+	
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+.ID_txt02 {
+	background-color: #CCE9E7;
+    border: 3px solid #67BDBC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 4px #888888;
+	 -moz-box-shadow: 2px 2px 4px #888888;
+	 -webkit-box-shadow: 2px 2px 4px #888888;
+    color: #393536;
+    height: 41px;
+    margin: 2em 0 3em;
+    padding: 3px;
+    position: relative;
+    width: 112.1px;
+}
+
+.ID_txt02::after {
+content: "";
+position: absolute;
+bottom: -25px;
+left: 12px;
+border-width: 23px 17px 0 0px;
+border-style: solid;
+border-color: #67bdbc transparent;
+display: block;
+
+}
+
+.ID_txt03 {
+	background-color: #CCE9E7;
+    border: 3px solid #67BDBC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 4px #888888;
+	 -moz-box-shadow: 2px 2px 4px #888888;
+	 -webkit-box-shadow: 2px 2px 4px #888888;
+    color: #393536;
+    height: 26px;
+    margin: 2em 0 3em;
+    padding: 3px;
+	left:25px;
+    position: relative;
+    width: 75.1px;
+}
+
+.ID_txt03::after {
+ border-color: #67BDBC transparent;
+    border-style: solid;
+    border-width: 0 0 17px 27px;
+    content: "";
+    display: block;
+    left: -27px;
+    position: absolute;
+    top: 5px;
+}
+
+.ID_txt04{
+	background-color: #CCE9E7;
+    border: 3px solid #67BDBC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 4px #888888;
+	 -moz-box-shadow: 2px 2px 4px #888888;
+	 -webkit-box-shadow: 2px 2px 4px #888888;
+    color: #393536;
+    height: 26px;
+    margin: 2em 0 3em;
+    padding: 3px;
+    position: relative;
+    width: 112.1px;
+}
+
+.ID_txt04::after {
+content: "";
+position: absolute;
+bottom: -25px;
+left: 95px;
+border-width: 23px 0px 0 17px;
+border-style: solid;
+border-color: #67bdbc transparent;
+display: block;
+
+}
+
+
+#ID_table01 table{ width:100% !important;border-collapse:collapse;}
+#ID_table01 table tbody tr { border-color:#98D3D1;}
+#ID_table01 table tbody tr td { border-color:#077A77; font-size:11px !important; border:3px solid #98D3D1; border-collapse:collapse;line-height:8px !important;}
+#ID_table01 table tbody tr td b { font-size:11px !important; font-weight:bold !important; border-collapse:collapse;}
+#ID_table01 table tbody tr td font { font-size:11px !important; border-collapse:collapse;}
+.table_font { border-color:#a2aa23; font-size:11px !important; font-weight:bold !important; width:23% !important;}
+
+.col_1 {line-height: 0; /*display:block;*/ margin-top:-11px; padding-bottom:5px;}
+
+.liner {line-height:1 !important;height: 0px !important; margin:0px; padding:0px;}
+.liner_top {line-height:0 !important;height: 0px !important; margin:0px; padding:1.5px 0 1.5px 0;}
+#ID_table01 table tbody tr td ul{padding:0;margin:0 0 0 35px}
+li{margin-left:-2em !important;line-height:13px}
+
+.title{line-height:0px;padding:1px 0 1px 0px;margin:0px;height:0px;}
+.title b{font-size:14px !important; font-weight:bold !important; border-collapse:collapse;line-height:0px;padding:0px;margin:0px;height:0px;}
+
+#ID_table01 {box-shadow: 0 0 2px 2px #999999 !important; width:455px !important; height:104px !important; border-radius:5px !important;}
+
+@media only screen and (device-width: 768px) {
+  #ID_table01 {box-shadow: 0 0 2px 2px #999999 !important; width:450px !important; height:103px !important; border-radius:5px !important;}
+}
+
+
+#ID_txt05,#ID_txt07{padding:2px;background-color:#CB6B21}

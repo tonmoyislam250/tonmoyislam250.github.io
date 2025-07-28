@@ -1,0 +1,100 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+
+}
+#ID_txt06{
+    border:2px solid #F68026;;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:5px;
+    background:#FDE6D4;
+}
+#ID_txt11{
+    border:2px solid #F68026;;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+     padding:5px;
+    background:#FDE6D4;
+}
+
+#ID_bubble.arrow
+{
+	position: relative;
+	width: 184px;
+	height:31px;
+	text-align: left;
+	background-color: #cce9e7;
+	border: 3px solid #67bdbc;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+	overflow:hidden;
+	padding:5px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}
+#ID_bubble.arrow:before
+{
+	content: ' ';
+	position: fixed;
+	width: 0;
+	height: 0;
+	left: 175px;
+	top: -13px;
+	border-color: #67bdbc transparent transparent #67bdbc;
+	border-left:15px solid #67bdbc;
+	border-top:26px solid transparent;
+	
+}
+
+#ID_bubble1.arrow
+{
+	position: relative;
+	width: 129px;
+	height:13px;
+	text-align: left;
+	background-color: #cce9e7;
+	border: 3px solid #67bdbc;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+	overflow:hidden;
+	padding:5px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}
+#ID_bubble1.arrow:before
+{
+	content: ' ';
+	position: fixed;
+	width: 0;
+	height: 0;
+	left: 10px;
+	top: -13px;
+	border-color: #67bdbc transparent transparent #67bdbc;
+	border-right:15px solid #67bdbc;
+	border-top:26px solid transparent;
+	
+}
+
+@media only screen and (device-width: 768px) {
+ #ID_bubble1.arrow:before{ top: -23px;}
+  #ID_bubble.arrow:before{ top: -23px;}
+}

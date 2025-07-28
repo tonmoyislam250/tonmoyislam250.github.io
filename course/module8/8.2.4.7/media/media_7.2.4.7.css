@@ -1,0 +1,18 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#routertext02 {line-height:12.6px;font-family:"Courier New" !important;}
+#ID_s2_txt01 {border:2px solid #F68026; border-radius:5px; background-color:#FDE6D4;}
+.routerbox {font-family:"Courier New" !important;}
+.routerbox span { margin-left:12px;}

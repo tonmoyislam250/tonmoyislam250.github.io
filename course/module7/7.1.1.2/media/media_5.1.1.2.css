@@ -1,0 +1,45 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_s1_txt01{
+    padding:2px 0 3px 3px;
+    background:#ffffff;
+	height:43px;
+	padding:5px;
+	border:2px solid #D3D1D2;
+	border-radius:5px;
+}
+
+
+
+#ID_s2_txt01{
+    padding:2px 0 3px 3px;
+    background:#ffffff;
+	height:43px;
+	padding:5px;
+	border:2px solid #D3D1D2;
+	border-radius:5px;
+}
+
+
+
+#ID_s3_txt01{
+    padding:2px 0 3px 3px;
+    background:#ffffff;
+	height:43px;
+	padding:5px;
+	border:2px solid #D3D1D2;
+	border-radius:5px;
+}
+

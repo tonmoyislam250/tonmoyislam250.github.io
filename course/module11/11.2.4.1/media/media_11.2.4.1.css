@@ -1,0 +1,50 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+.ID_txt02{
+		position: relative;
+		padding: 5px;
+		margin: 1em 0 3em;
+		background-color: #cce9e7;
+		-webkit-box-shadow: 2px 2px 4px #888;
+		-moz-box-shadow: 2px 2px 4px #888;
+		box-shadow: 2px 2px 4px #888;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border: 3px solid #67bdbc;
+		width:180px;
+		height:auto;
+		color:#393536;	
+	
+	}
+.ID_txt02.top:after {
+    border-color: transparent #67bdbc;
+    border-width: 24px 0 0 14px;
+    bottom: auto;
+    left: 2px;
+    right: auto;
+    top: -26px;
+}
+.ID_txt02:after {
+ 	border-style: solid;
+    content: "";
+    display: inline-block;
+    position: absolute;
+
+}
+.ID_txt02.top {
+    background-color: #cce9e7;
+	 margin-top: 22px;
+}

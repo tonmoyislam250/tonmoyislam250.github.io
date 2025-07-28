@@ -1,0 +1,48 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+li{margin-left:1.5em;}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ li{margin-left:0em;}
+}
+#ID_txt13{
+    border:2px solid #F68026;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:4px;
+    background:#FDE6D4;
+}
+#ID_txt14{
+    border:2px solid #F68026;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:5px;
+    background:#FDE6D4;
+}
+ 
+ #ID_txt12,#ID_txt10,#ID_txt12a,#ID_txt10a,#ID_txt12b,#ID_txt12c{
+    /*border: 1px solid red;*/
+    width: 97.6px;
+    height: 21px; 
+    padding: 5px 0 ;
+ }
+ #ID_txt10, #ID_txt12, #ID_txt12a, #ID_txt10a, #ID_txt12b, #ID_txt12c {cursor:default !important;}
+ 
+ 

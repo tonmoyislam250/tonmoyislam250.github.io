@@ -1,0 +1,51 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+    margin:0;
+    height:100%;
+
+}
+#flashContent {
+    width:98%;
+    height:98%;
+	z-index:1 !important;
+	position:absolute !important;
+}
+
+#mainDiv {
+    height: 388px;
+    width:778px;
+    position:absolute;
+    top:5px;
+
+
+
+}
+#textID_drag01,#textID_drag02,#textID_drag03,#textID_drag04,#textID_drag05,#textID_drag06,#textID_drag07,#textID_drag08,#textID_drag09,#textID_drag10{color:#393536 ! important}
+#textID_s2_drag01,#textID_s2_drag02,#textID_s2_drag03,#textID_s2_drag04,#textID_s2_drag05{color:#393536 ! important}
+#drop0 img#tick0,#drop1 img#tick1,#drop2 img#tick2,#drop3 img#tick3,#drop4 img#tick4,
+#drop5 img#tick5,#drop6 img#tick6,#drop7 img#tick7,#drop8 img#tick8,#drop9 img#tick9{position:absolute;left:-18px!important;width:14px;height:14px;border:0 !important;}
+
+#button1 div{font-size: 12px !important;height: auto;margin-top: -24px !important;padding-left: 2px !important;}
+#button0 div{font-size: 12px !important#drop0 img#tick0,#drop1 img#tick1,#drop2 img#tick2,#drop3 img#tick3,#drop4 img#tick4;height: auto;margin-top: -24px !important;padding-left: 2px !important;}
+#ID_FEEDBACK{cursor: pointer !important; z-index: 11120 !important;}
+#ID_FEEDBACK div {
+    font-size: 12px !important;
+    left:4px !important;
+    line-height: 16px;
+    padding: 0 0 0 3px;
+	color:#000 !important;
+    text-align: left !important;
+	cursor: pointer !important;
+    z-index: 11120 !important;
+	width:220px ! important;
+	}
+
+/* This is for ipad hack*/
+@media only screen and (device-width: 768px) {
+#button1 div{font-size: 12px !important;height: auto;margin-top: -26px !important;padding-left: 2px !important;}
+#button0 div{font-size: 12px !important;height: auto;margin-top: -26px !important;padding-left: 2px !important;}
+}

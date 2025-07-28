@@ -1,0 +1,19 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#space26{margin-left:2px;}
+.textalign{text-align:center;}
+.tdalign{text-align:center}
+.bitvalue{color:#F26200;text-align:center;width:39px;font-weight:bold;}
+#ID_txt7,#ID_txt6,#ID_txt{font-family:Arial, Helvetica, sans-serif;}

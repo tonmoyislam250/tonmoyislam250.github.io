@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>11.5.2.4 Packet Tracer - Configuring a Linksys Router</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+    	myLayout = $('body').layout({
+          west__size:300,
+          stateManagement__enabled: true,
+          maskContents: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Integrated Routing Services</h1>
+        <h2>Configuring the Integrated Router</h2>
+      </div>
+      <div id="content">
+          <p>In this activity, you will configure a Linksys wireless router, allowing remote access to wireless clients as well as connectivity with WPA security.</p>
+          <p></p>
+          <p>
+            <a href="../../files/11.5.2.4%20Packet%20Tracer%20-%20Configuring%20a%20Linksys%20Router.pdf" target="_blank">Packet Tracer - Configuring a Linksys Router</a> Instructions</p>
+          <p></p>
+          <p>
+            <a href="../../files/11.5.2.4%20Packet%20Tracer%20-%20Configuring%20a%20Linksys%20Router.pka" target="_blank">Packet Tracer - Configuring a Linksys Router - PKA</a>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic" longdesc="media_11.5.2.4_longdesc.txt"></iframe>
+  </body>
+</html>

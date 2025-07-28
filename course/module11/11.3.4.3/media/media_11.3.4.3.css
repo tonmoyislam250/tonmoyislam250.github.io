@@ -1,0 +1,17 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#static_txt01 { overflow-y:scroll !important; height:257px !important;}
+table { font-family:Courier New !important;}
+.wide { width:24%;}

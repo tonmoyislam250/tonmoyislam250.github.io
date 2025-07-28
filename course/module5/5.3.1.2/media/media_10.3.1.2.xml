@@ -1,0 +1,97 @@
+<textcomponents>
+
+<!-- topology -->
+ <component id="ID_title">
+<text><![CDATA[<b>MAC Addressing and Switch MAC Tables</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+  <text><![CDATA[Port 1]]></text> 
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[Port 2]]></text> 
+</component>
+
+<component id="ID_txt03">
+  <text><![CDATA[Port 3]]></text> 
+</component>
+
+
+<!-- slide 1 -->
+<component id="ID_s1_txt01">
+  <text><![CDATA[<b>Step 1:</b> The switch receives a broadcast frame from PC1 on Port 1.]]></text> 
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[<b>Frame</b>]]></text> 
+</component>
+
+<!-- slide 2 -->
+<component id="ID_s2_txt01">
+  <text><![CDATA[<b>Step 2:</b> The switch enters the source MAC address and the switch port that received the frame into the MAC table.]]></text> 
+</component>
+
+<component id="ID_s2_txt02">
+  <text><![CDATA[<b>Frame</b>]]></text> 
+</component>
+
+<component id="ID_s2_txt03">
+  <text><![CDATA[MAC Table:<br>Port 1: MAC PC1<br>Port 2: Empty<br>Port 3: Empty]]></text> 
+</component>
+
+<!-- slide 3 -->
+<component id="ID_s3_txt01">
+  <text><![CDATA[<b>Step 3:</b> Because the destination address is a broadcast, the switch floods the frame to all ports, except the port on which it received the frame.]]></text>
+</component>
+
+  <component id="ID_s3_txt02">
+  <text><![CDATA[<b>Frame</b>]]></text> 
+</component>
+
+<component id="ID_s3_txt03">
+  <text><![CDATA[<b>Frame</b>]]></text> 
+</component>
+
+<component id="ID_s3_txt04">
+<text><![CDATA[MAC Table:<br/>Port 1: MAC PC1<br/>Port 2: Empty<br/>Port 3: Empty]]></text>
+</component>
+
+<!-- slide 4 -->
+<component id="ID_s4_txt01">
+  <text><![CDATA[<b>Step 4:</b> The destination device replies to the broadcast with a unicast frame addressed to PC1.]]></text> 
+</component>
+
+<component id="ID_s4_txt02">
+  <text><![CDATA[<b>Frame</b>]]></text> 
+</component>
+
+<!-- slide 5 -->
+<component id="ID_s5_txt01">
+  <text><![CDATA[<b>Step 5:</b> The switch enters the source MAC address of PC2 and port number of the switch port that received the frame into the MAC table. The destination address of the frame and its associated port is found in the MAC table.]]></text> 
+</component>
+
+<component id="ID_s5_txt02">
+  <text><![CDATA[<b>Frame</b>]]></text> 
+</component>
+
+<component id="ID_s5_txt03">
+  <text><![CDATA[MAC Table:<br>Port 1: MAC PC1<br>Port 2: Empty<br>Port 3: MAC PC2]]></text> 
+</component>
+
+<!-- slide 6 -->
+<component id="ID_s6_txt01">
+  <text><![CDATA[<b>Step 6:</b> The switch can now forward frames between source and destination devices without flooding, because it has entries in the MAC table that identify the associated ports.]]></text> 
+</component>
+
+<component id="ID_s6_txt02">
+  <text><![CDATA[<b>Frame</b>]]></text> 
+</component>
+
+<component id="ID_s6_txt03">
+  <text><![CDATA[MAC Table:<br>Port 1: MAC PC1<br>Port 2: Empty<br>Port 3: MAC PC2]]></text> 
+</component>
+
+</textcomponents>
+
+

@@ -1,0 +1,20 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_s1_txt06,#ID_s1_txt07{font-family:Arial;}
+#ID_s3_txt10{font-family:Arial;letter-spacing:2px;}
+
+ @media only screen and (device-width: 768px) {
+ #ID_s1_txt07{margin-left:5px;}
+}

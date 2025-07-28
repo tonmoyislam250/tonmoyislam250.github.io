@@ -1,0 +1,60 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#staticTxt{
+	font-size:11px;
+	}
+#staticTable{
+	font-family: "Courier New" !important;
+    height: 111px !important;
+    margin: 0px 0 0;
+    padding: 0 0 0 0px;
+    width: 344px !important;
+	}
+
+#staticTable table {
+    letter-spacing: 0px;
+    line-height: 9px;
+	}
+	
+#pc1, #pc2{
+	font-weight:bold;
+	font-size:11px;
+	}
+
+#R1,#R2{
+	font-weight:bold;
+	}
+#statictext1{font-family:Courier New;font-weight:bold;letter-spacing:1px;}
+#statictext2{font-family:Courier New;font-weight:bold;}
+#statictext4{font-family:Courier New;letter-spacing:1px;}
+#statictext3{font-family:Courier New;font-weight:bold;letter-spacing:.5px;}
+#statictextval{font-family:Courier New;font-weight:bold;letter-spacing:1px;}
+#ID_s2_txt02{
+    border:2px solid #F68026;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:2px 0 3px 3px;
+    background:#FDE6D4;
+}
+
+@media only screen and (device-width: 768px) {
+  #pc1{margin-top:0px; margin-left:1.3px;}
+#pc2{margin-top:0px; margin-left:1.3px;}
+#R1{margin-top:0px;margin-left:1px}
+#R2{margin-top:0px}
+#statictextval{margin-left:4px;}
+}

@@ -1,0 +1,26 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	
+}
+#txt1{font-family:Courier New;font-weight:bold}
+#txt2{font-family:Courier New;font-weight:bold}
+#txt3{font-family:Courier New;font-weight:bold}
+#txt4{font-family:Courier New;font-weight:bold}
+#txt5{font-family:Courier New;font-weight:bold}
+#txt6{font-family:Courier New;font-weight:bold}
+#txt7{font-family:Courier New;font-weight:bold}
+#txt8{font-family:Courier New;font-weight:bold}
+#txt9{font-family:Courier New;font-weight:bold}
+#txt10{font-family:Courier New;font-weight:bold}
+

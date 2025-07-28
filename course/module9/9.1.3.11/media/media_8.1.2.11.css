@@ -1,0 +1,28 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	overflow:hidden !important;
+}
+#ID_s1_txt02
+{
+width:130px;
+height:auto;
+padding:6px;
+border:2px solid #F68026;
+background:#FDE6D4;
+border-radius:5px 5px 5px 5px;
+line-height:11px;
+}
+
+#ID_s1_txt03{
+	background-color: #FFF;
+}

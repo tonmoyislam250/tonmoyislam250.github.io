@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>7.2.2.6 TCP Reliability - Acknowledgements</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+    	myLayout = $('body').layout({
+          west__size:300,
+          stateManagement__enabled: true,
+          maskContents: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>TCP and UDP</h1>
+        <h2>Reliability and Flow Control</h2>
+      </div>
+      <div id="content">
+          <p>Reliability is one of the key features of TCP. TCP uses a combination of sequence numbers and acknowledgements to ensure all requested data has been received. However, the process of retransmitting segments that do not arrive at their destination can lead to certain inefficiencies. This is illustrated in the figure where a client receives data from a server. Again, for simplicity, segment numbers are used instead of bytes.</p>
+          <p></p>
+          <p>
+            <b>TCP Reliability using Acknowledgments </b>
+          </p>
+          <p></p>
+          <p>
+            <b>Step 1.</b> As part of a larger data stream, the server sends the first five TCP segments to the client. However, Segment 2 is lost and never arrives at the client.</p>
+          <p></p>
+          <p>
+            <b>Step 2.</b> The client receives Segment 1, but has not yet received Segment 2. The client sends Acknowledgement 2 to the server, indicating Segment 1 was received and Segment 2 is still expected.</p>
+          <p></p>
+          <p>
+            <b>Step 3.</b> The next segments received by the client are Segment 3, Segment 4, and Segment 5. Because the client is still expecting Segment 2, it sends duplicate Acknowledgement 2s back to the server, one for each successive segment it received. </p>
+          <p></p>
+          <p>
+            <b>Step 4.</b> The server receives the multiple Acknowledgement 2s from the client. The server must resend Segment 2. This is where the inefficiency happens. The server has no indication whether Segments 3 through 5 arrived at the client. The server must not only resend the lost segment, Segment 2, but also Segments 3 to 5.</p>
+          <p></p>
+          <p>
+            <b>Step 5.</b> The client receives the missing segment, Segment 2 along with duplicate segments, Segments 3 to 5. The client sends an acknowledgement for each of the segments.</p>
+          <p></p>
+          <p>
+            <b>Step 6.</b> The server receives the acknowledgments from the client and sends the next segment in its transmission queue, Segment 6. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic" longdesc="media_7.2.2.6_longdesc.txt"></iframe>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:98%;
+	height:98%;
+	}
+
+#staticTxt{font-family:"Courier New";line-height:10.7px;height:320px;width:407px !important;background-color:#fafafa; }
+#staticTxt1{font-family:"Courier New";line-height:10.7px;height:321px;width:411px !important;background-color:#fafafa; }
+
+#ID_s1_txt01,#ID_s2_txt01{ 
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:6px 7px;
+    background-color:#E0D5E6;
+	height:15px;}
